@@ -1,0 +1,76 @@
+---
+title: "Remote Data"
+subtitle: "⚔<br/>with xaringan"
+author: "Han jiang"
+institute: "RStudio, PBC"
+date: "2024/16/1 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader: # output format
+    lib_dir: libs #used for dependent libraries 
+    nature:
+      highlightStyle:  # how the code displays
+      highlightLines: true 
+      countIncrementalSlides: false
+      #ratio "16:9" # or 4:3
+---
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+#remotes::install_github("yihui/xaringan")
+library(xaringanExtra)
+library(tidyverse) #where the mpg data is stored
+
+```
+class: inverse,left, middle
+
+## Four Resolution
+
+Remotely sensed data and applications will vary based on the four resolutions:
+
+1. Spatial = the size of the raster grid per pixel (e.g. 20cm or 30m)
+1. Spectral = the number of bands it records data in...more soon
+1. Temporal = the time it revisits (e.g. daily, every 7 days, on demand ✈️)
+1. Radiometric = identify differences in light or reflectance, in practice this is the range of possible values.
+  * an 8 bit sensor has values between 0 and 255 (256 possibilities)
+  * an 11 bit sensor has values between 0 and 2047(2048 possibilities)
+---
+## Spatial resolution
+
+
+
+---
+## Imagery example
+.pull-left[
+The aftermath of a tsunami in Banda Aceh, Indonesia, June 2013 (DigitalGlobe)
+![Figure2](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/indonesia.jpeg)
+]
+.pull-right[
+Nisyros Island, a volcanic island in Greece, April 2000 (DigitalGlobe, National and Kapodistrian University of Athens)
+![Figure3](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/ikonos3.jpg)
+]
+---
+.pull-left[
+to have things on the left
+]
+.pull-right[
+
+]
+
+[make a link](https://www.rawpixel.com/image/440230/free-photo-image-nasa-russia-earth)
+
+
+---
+![Figure1](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/s1.png)
+---
+```{r echo=FALSE, out.width='60%', fig.align='center'}
+
+#[Figure1](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/s1.png)
+knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/s1.png')
+```
+
+
+```{r}
+
+```
+
+
+knitr::kable(head(mpg), format = 'html')
