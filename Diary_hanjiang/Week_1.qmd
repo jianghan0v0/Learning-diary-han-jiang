@@ -1,0 +1,9 @@
+---
+title: "Week_1"
+---
+
+# Week 1 - Introduction to Remote Sensing
+
+## 1.1 Summary
+
+The summary of lecture 1 will be provided in a hand drawn mind map as shown below, as I find mind maps really useful for over viewing topics! The week 1 lecture covered the basics of remote sensing and what it is used for.
