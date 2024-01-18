@@ -3,3 +3,5 @@ title: "Week_2"
 ---
 
 # Week 2 - Slides
+
+The content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides.

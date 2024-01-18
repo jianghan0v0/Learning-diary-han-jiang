@@ -7,3 +7,17 @@ title: "Week_1"
 ## 1.1 Summary
 
 The summary of lecture 1 will be provided in a hand drawn mind map as shown below, as I find mind maps really useful for over viewing topics! The week 1 lecture covered the basics of remote sensing and what it is used for.
+
+![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1scan.jpg)
+
+## 1.2 Remotely sensed data-Four solutions
+
+1.  Spatial = the size of the raster grid per pixel (e.g. 20cm or 30m)
+
+2.  Spectral = the number of bands it records data in...more soon
+
+3.  Temporal = the time it revisits (e.g. daily, every 7 days, on demand ✈️)
+
+4.  Radiometric = identify differences in light or reflectance, in practice this is the range of possible values.
+
+    an 8 bit sensor has values between 0 and 255 (256 possibilities) an 11 bit sensor has values between 0 and 2047(2048 possibilities)
