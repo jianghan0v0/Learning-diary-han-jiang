@@ -47,5 +47,12 @@
     "title": "References",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "Week_3.html",
+    "href": "Week_3.html",
+    "title": "4  Week_3",
+    "section": "",
+    "text": "Geometric Correction\n\nSOLUTION 1 Ground Control Points (GPS) match by known points in severval dataset:\n\nlocal map\nanother image\nGPS data from handheld device\n\n\niε + iy2b + ix1b + 0b = y iε + iy2a + ix1a + 0a = x\n\nSOLUTION 2 RMSE\n(observed - predicted (the residual))^2\nsum them and divide by number of data points\nsquare root that total\n\nAtmospheric correction\nRemote sensing jargon - Digital number(DN):\n-Radiance - Reflectance - Reflectance 2 - If/But All of the light leaving the surface goes straight to the sensor (nothing is intercepted or at an angle) = hemispherical refectance We need to account for atmospheric and illumination effects to create re"
   }
 ]
