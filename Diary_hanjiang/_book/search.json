@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "Week_2.html",
+    "href": "Week_2.html",
+    "title": "3  Week_2",
+    "section": "",
+    "text": "4 Week 2 - Slides\nThe content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "Week_1.html",
+    "href": "Week_1.html",
+    "title": "2  Week_1",
+    "section": "",
+    "text": "3 Week 1 - Introduction to Remote Sensing"
+  },
+  {
+    "objectID": "Week_1.html#summary",
+    "href": "Week_1.html#summary",
+    "title": "2  Week_1",
+    "section": "3.1 1.1 Summary",
+    "text": "3.1 1.1 Summary\nThe summary of lecture 1 will be provided in a hand drawn mind map as shown below, as I find mind maps really useful for over viewing topics! The week 1 lecture covered the basics of remote sensing and what it is used for."
+  },
+  {
+    "objectID": "Week_1.html#remotely-sensed-data-four-solutions",
+    "href": "Week_1.html#remotely-sensed-data-four-solutions",
+    "title": "2  Week_1",
+    "section": "3.2 1.2 Remotely sensed data-Four solutions",
+    "text": "3.2 1.2 Remotely sensed data-Four solutions\n\nSpatial = the size of the raster grid per pixel (e.g. 20cm or 30m)\nSpectral = the number of bands it records data in…more soon\nTemporal = the time it revisits (e.g. daily, every 7 days, on demand ✈️)\nRadiometric = identify differences in light or reflectance, in practice this is the range of possible values.\nan 8 bit sensor has values between 0 and 255 (256 possibilities) an 11 bit sensor has values between 0 and 2047(2048 possibilities)"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "4  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  }
+]

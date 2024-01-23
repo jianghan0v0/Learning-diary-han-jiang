@@ -10,6 +10,7 @@ book:
     - intro.qmd
     - Week_1.qmd
     - Week_2.qmd
+    - Week_3.qmd
     - summary.qmd
     - references.qmd
 
