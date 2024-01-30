@@ -1,6 +1,7 @@
 ---
 title: "Week_3 - Corrections"
 ---
+
 ---
 title: "Week 3 - Corrections"
 ---
@@ -43,29 +44,17 @@ Vanhellemont, Q. (2019) 'Adaptation of the dark spectrum fitting atmospheric cor
 
 Geometric Correction
 
-* SOLUTION 1
-Ground Control Points (GPS) match by known points in severval dataset:
-  - local map
-  - another image
-  - GPS data from handheld device
-
-
-* SOLUTION 2
-RMSE
-- (observed - predicted (the residual))^2
-- sum them and divide by number of data points 
-- square root that total
-
+-   SOLUTION 1 Ground Control Points (GPS) match by known points in severval dataset:
+    -   local map
+    -   another image
+    -   GPS data from handheld device
+-   SOLUTION 2 RMSE
+-   (observed - predicted (the residual))\^2
+-   sum them and divide by number of data points
+-   square root that total
 
 Atmospheric correction
 
+Remote sensing jargon - Digital number(DN):
 
-Remote sensing jargon
-- Digital number(DN): 
-
--Radiance
-- Reflectance
-- Reflectance 2
-- If/But
-All of the light leaving the surface goes straight to the sensor (nothing is intercepted or at an angle) = hemispherical refectance
-We need to account for atmospheric and illumination effects to create re
+-Radiance - Reflectance - Reflectance 2 - If/But All of the light leaving the surface goes straight to the sensor (nothing is intercepted or at an angle) = hemispherical refectance We need to account for atmospheric and illumination effects to create re

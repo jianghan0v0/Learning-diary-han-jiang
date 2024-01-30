@@ -82,5 +82,12 @@
     "title": "Week 3 - Corrections",
     "section": "4.4 References",
     "text": "4.4 References\nIlori, C., Pahlevan, N. and Knudby, A. (2019) ‘Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing’, Remote Sensing, 11, 4\nVanhellemont, Q. (2019) ‘Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives’, Remote Sensing of Environment, 225, pp. 175-192\nGeometric Correction\n\nSOLUTION 1 Ground Control Points (GPS) match by known points in severval dataset:\n\nlocal map\nanother image\nGPS data from handheld device\n\nSOLUTION 2 RMSE\n(observed - predicted (the residual))^2\nsum them and divide by number of data points\nsquare root that total\n\nAtmospheric correction\nRemote sensing jargon - Digital number(DN):\n-Radiance - Reflectance - Reflectance 2 - If/But All of the light leaving the surface goes straight to the sensor (nothing is intercepted or at an angle) = hemispherical refectance We need to account for atmospheric and illumination effects to create re"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Diary_hanjiang",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
   }
 ]

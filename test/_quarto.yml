@@ -2,16 +2,12 @@ project:
   type: book
 
 book:
-  title: "Diary_hanjiang"
+  title: "test"
   author: "Norah Jones"
-  date: "1/18/2024"
+  date: "1/25/2024"
   chapters:
     - index.qmd
     - intro.qmd
-    - Week_1.qmd
-    - Week_2.qmd
-    - Week_3.qmd
-    - Week_4.qmd
     - summary.qmd
     - references.qmd
 
