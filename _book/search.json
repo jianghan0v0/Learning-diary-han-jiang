@@ -74,7 +74,7 @@
     "href": "Week_4.html#sarsynthetic-aperture-radar",
     "title": "5  Week_4",
     "section": "5.2 SAR(Synthetic Aperture Radar)",
-    "text": "5.2 SAR(Synthetic Aperture Radar)\n\nHigh-resolution radar system.\nMounted on aircraft or satellites.\nUses microwave signals, receives reflections.\nFunctions in all weather, day and night.\nApplications: terrain mapping, environmental monitoring, agriculture, forestry, urban planning, disaster assessment.\nPenetrates vegetation, some surface materials.\nProvides in-depth ground information, complementing optical satellites.\n\n\n\n5.2.1 SAR polarization\n\nSingle = 1 horizontal (or vertical)\nDual = transmits and receives both horizontal and vertical垂直\nHH = emitted in horizontal (H) and received in horizontal (H)"
+    "text": "5.2 SAR(Synthetic Aperture Radar)\n\nHigh-resolution radar system.\nMounted on aircraft or satellites.\nUses microwave signals, receives reflections.\nFunctions in all weather, day and night.\nApplications: terrain mapping, environmental monitoring, agriculture, forestry, urban planning, disaster assessment.\nPenetrates vegetation, some surface materials.\nProvides in-depth ground information, complementing optical satellites.\n\n\n5.2.1 SAR polarization\n\nSingle = 1 horizontal (or vertical)\nDual = transmits and receives both horizontal and vertical\nHH = emitted in horizontal (H) and received in horizontal (H)"
   },
   {
     "objectID": "summary.html",

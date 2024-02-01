@@ -22,12 +22,10 @@ LULC stands for Land Use and Land Cover. It refers to the classification of the 
 
 -   Provides in-depth ground information, complementing optical satellites.
 
--   
-
 ### SAR polarization
 
 -   Single = 1 horizontal (or vertical)
 
--   Dual = transmits and receives both horizontal and vertical垂直
+-   Dual = transmits and receives both horizontal and vertical
 
 -   HH = emitted in horizontal (H) and received in horizontal (H)
