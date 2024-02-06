@@ -2,11 +2,177 @@
 title: "Week_4"
 ---
 
-## LULC
+# **Project Proposal - River Witham Ecological Enhancement Works Tender**
+
+## **Introduction**
+
+We are pleased to submit our proposal for the River Witham Ecological Enhancement Works Tender. Our company is eager to take part in this important project and contribute to the ecological improvement of the River Witham in Grantham.
+
+## **Company Overview**
+
+### **Background**
+
+Oreooo is a reputable environmental services provider with a proven track record of successfully delivering similar projects. We are committed to sustainable practices and environmental conservation.
+
+### **Expertise**
+
+Our team consists of highly skilled professionals with expertise in habitat restoration, river channel improvements, and ecological enhancements. We have successfully completed projects that align with the objectives outlined in the tender.
+
+## **Proposed Approach**
+
+### **Lot 1: River Witham Ecological Enhancement**
+
+**Objective:** To enhance the ecological value along the River Witham at Stonebridge Close and Sedgwick Meadows, Grantham.
+
+**Proposed Works:**
+
+-   Creation of berms
+
+-   Installation of coir rolls
+
+-   Installation of woody deflectors
+
+-   Introduction of gravel
+
+-   Berm repair and planting
+
+-   Volunteer engagement
+
+### **Lot 2: Environmental Improvements and Increased Accessibility**
+
+**Objective:** To enhance the ecological value along the River Witham through floodplain reconnection at Belton Parkland, Grantham.
+
+**Proposed Works:**
+
+-   Tree hinging
+
+-   Bank lowering
+
+-   Installation of in-channel woody materials
+
+-   Placement of floodplain woody materials
+
+-   Creation of beaver dam analogues using posts and faggots
+
+-   Scrape creation
+
+## Project Process
+
+### **Step 1: Project Initiation (6 weeks)**
+
+#### Week 1-2: Project Inception and Team Formation
+
+-   Define project requirements and objectives
+
+-   Appoint a project manager and team members
+
+-   Identify key success factors for the project
+
+#### Week 3-4: Preparation of Project Documents and Contract Agreements
+
+-   Develop project plan and Work Breakdown Structure (WBS)
+
+-   Prepare tender documents and contract drafts
+
+-   Review contract details, including schedules and milestones
+
+#### Week 5-6: Tender Announcement and Supplier Registration
+
+-   Publish tender announcement
+
+-   Accept registration applications from potential suppliers
+
+-   Prepare supplier information packages
+
+### **Step 2: Supplier Evaluation and Selection (8 weeks)**
+
+#### Week 7-8: Tender Submission and Evaluation
+
+-   Collect supplier bids
+
+-   Evaluate bids, including technical and financial assessments
+
+-   Identify qualified suppliers who meet the criteria
+
+### **Step 3: Project Execution (12 months)**
+
+#### Month 1-2: Contractor Preparation and Material Procurement
+
+-   Finalize the selection of the supplier
+
+-   Contractor prepares a work plan and allocates resources
+
+-   Commence material procurement and equipment setup
+
+#### Month 3-6: Engineering Construction
+
+-   Contractor carries out River Witham habitat improvement works
+
+-   Monitor progress of the construction and ensure quality control
+
+#### Month 7-9: Volunteer Engagement (if applicable)
+
+-   Conduct volunteer training and recruitment
+
+-   Assist volunteers in participating in ecological improvement projects
+
+#### Month 10-12: Project Completion and Acceptance
+
+-   Complete the construction work
+
+-   Conduct final acceptance and quality review
+
+-   Prepare project reports and documentation
+
+### **Step 4: Project Delivery and Acceptance (4 weeks)**
+
+#### Week 1-2: Final Acceptance and Document Submission
+
+-   Conduct final acceptance of the project results
+
+-   Submit project reports and documentation
+
+-   Organize project documents to meet audit requirements
+
+#### Week 3-4: Project Acceptance and Settlement
+
+-   Complete project acceptance procedures
+
+-   Final settlement and payment to the supplier
+
+-   Complete project closure and archive documentation
+
+## **Budget and Timeline**
+
+### **Budget**
+
+The total budget is £500,000.
+
+### **Timeline**
+
+-   Project Initiation: Q2 2024
+
+-   Supplier Evaluation and Selection: Q3 2024
+
+-   Project Execution: Q4 2024 to Q4 2025
+
+-   Project Delivery and Acceptance: Q1 2026
+
+## **Project Management**
+
+We will employ a dedicated project manager to oversee all project activities, coordinate with subcontractors, ensure quality control, and adhere to the project schedule. We will use Gantt charts to monitor and manage project progress effectively.
+
+## **Value Proposition**
+
+Our proposal aligns with the objectives of enhancing the ecological value of the River Witham in Grantham, as outlined in the tender. We are committed to delivering high-quality work that meets the European Structural Investment Fund's funding requirements, contributes to sustainable development goals, and addresses the environmental improvement needs of the region.
+
+## Notebook
+
+### LULC
 
 LULC stands for Land Use and Land Cover. It refers to the classification of the Earth's surface into different categories based on how the land is used by humans (such as residential, agricultural, industrial) and the natural cover present on the land (like forests, water bodies, deserts).
 
-## SAR(Synthetic Aperture Radar)
+### SAR(Synthetic Aperture Radar)
 
 -   High-resolution radar system.
 
@@ -29,3 +195,5 @@ LULC stands for Land Use and Land Cover. It refers to the classification of the 
 -   Dual = transmits and receives both horizontal and vertical
 
 -   HH = emitted in horizontal (H) and received in horizontal (H)
+
+## 
