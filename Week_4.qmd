@@ -58,6 +58,11 @@ Our team consists of highly skilled professionals with expertise in habitat rest
 
 ## Project Process
 
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+
+knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/blob/main/images/gantt-test.jpg')
+```
+
 ### **Step 1: Project Initiation (6 weeks)**
 
 #### Week 1-2: Project Inception and Team Formation
