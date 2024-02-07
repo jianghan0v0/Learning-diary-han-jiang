@@ -4,20 +4,34 @@ title: "Week_1"
 
 # Week 1 - Introduction to Remote Sensing
 
-## 1.1 Summary
+## Lecture Content
 
-The summary of lecture 1 will be provided in a hand drawn mind map as shown below, as I find mind maps really useful for over viewing topics! The week 1 lecture covered the basics of remote sensing and what it is used for.
+-   **Remote Sensing Definition**: NASA defines it as acquiring information from a distance, using sensors mounted on platforms like satellites, planes, drones, and phones.
 
-![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1scan.jpg)
+    ![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1scan.jpg)
 
-## 1.2 Remotely sensed data-Four solutions
+-   **Types of Sensors**: Passive sensors detect reflected energy from the sun, while active sensors emit electromagnetic waves and wait for the reflection.
 
-1.  Spatial = the size of the raster grid per pixel (e.g. 20cm or 30m)
+-   **Data Interaction and Scattering**: Interaction with Earth's surface and atmospheric scattering (Rayleigh, Mie, Non-selective) affects the data.
 
-2.  Spectral = the number of bands it records data in...more soon
+-   **Spatial Junk Issue**: The volume of spacecraft and sensors has led to concerns about space debris tracked by NASA.
 
-3.  Temporal = the time it revisits (e.g. daily, every 7 days, on demand ✈️)
+## Four Resolutions
 
-4.  Radiometric = identify differences in light or reflectance, in practice this is the range of possible values.
+-   **Spatial**: Size of raster cells varies from 10cm to several kilometers.
 
-    an 8 bit sensor has values between 0 and 255 (256 possibilities) an 11 bit sensor has values between 0 and 2047(2048 possibilities)
+-   **Spectral**: Number of bands recorded, influenced by atmospheric windows.
+
+-   **Temporal**: Frequency of sensor revisits, affecting data freshness.
+
+-   **Radiometric**: Sensor's ability to differentiate small energy differences, measured in bit depth (e.g., 8-bit, 256 values).
+
+## Practical Applications
+
+-   **Introduction to Practical Tools**: Loading Landsat and Sentinel data, exploring SNAP and R, selecting regions of interest, and plotting spectral signatures.
+
+-   **Applications of Remote Sensing**: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis.
+
+## Summary
+
+The field of remote sensing is essential for understanding and managing environmental hazards, especially in the context of urban sustainability and climate change. The module provides comprehensive training in using remote sensing data and tools for environmental analysis and decision-making.

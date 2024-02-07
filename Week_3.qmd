@@ -2,55 +2,79 @@
 title: "Week_3"
 ---
 
-## Summary
+## Notebook
 
-The summary of this week's content is presented below in the mind map (I realised in the middle it says week 2 instead of 3 - my mistake!).
+### Overview
 
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
-knitr::include_graphics('https://github.com/YNVY7/diary/raw/main/week3scan.jpg')
+Week 3 focuses on the critical aspects of remote sensing data, including corrections, data joining, and enhancement techniques, providing insights into practical applications and methodologies for processing and improving remote sensing imagery.
 
-```
+### Key Concepts and Techniques
 
-Something I wanted to add onto this mind map for the summary is the difference between radiance and reflectance. Reflectance is the property of a material, and the proportion of radiation hitting a surface to the radiation reflecting off of it. Radiance is how much light the instrument measures and depends on illumination, the orientation and position of what is being observed and the light's path.
+-   **Remote Sensing Corrections**: Essential for removing flaws due to sensor errors, atmospheric conditions, and terrain effects. Key correction types include:
 
-## Applications
+    -   **Geometric Correction**: Adjusts for distortions due to the satellite's view angle, Earth's rotation, and topography.
 
-The practical content addressed corrections using raw satellite imagery, merging images together and enhancements. This application section will focus on studies which have made use of atmospheric corrections, as I found this type of correction really fascinating! I noticed that many papers mentioning atmospheric correction in their titles focused on ocean or water imagery. For example, Vanhellemont developed a dark spectrum fitting (DSF) correction model to estimate path reflectance in order to remove the effects of sun glinting (2019). This paper contributed to correction models to improve the quality of water imagery.
+    -   **Atmospheric Correction**: Removes atmospheric effects to improve image clarity and accuracy, crucial for applications requiring precise biophysical parameters.
 
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Houston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)"}
-knitr::include_graphics('https://github.com/YNVY7/diary/raw/main/atcor.png')
+    -   **Radiometric Calibration**: Converts digital numbers (DN) to meaningful spectral radiance values, enabling comparison across different sensors and times.
 
-```
+-   **Data Joining and Enhancement**: Techniques to merge and enhance remote sensing data for clearer, more accurate representations.
 
-Atmospheric correction is of particular importance in the ocean colour (OC) area of remote sensing, which is used to provide information on factors such as the abundance of chlorophyll as an indicator for plankton, seawater depth and seafloor reflectance (Ilori, *et al.,* 2019).
+    -   **Mosaicking and Feathering**: Combining multiple images seamlessly, often used to create comprehensive maps from satellite data.
 
-From understanding more about applications of atmospheric corrections in remote sensing, it is clear that a big challenge is to be able to make the corrections applicable to a time series and across different sensors and geographies -- the same could be assumed for the other types of correction as well.
+    -   **Contrast Enhancement**: Adjusting image contrast to highlight features more distinctly.
 
-## Reflection
+    -   **Image Enhancement Techniques**: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.
 
-I have to admit -- this lecture was quite difficult for me to get my head around! Remote sensing imagery is more complex than I realised, however it is interesting to understand more about how the images can be manipulated to demonstrate particular things and how they can be improved to maximise their accuracy and potential. It is clear however, that there are so many ways the images can be enhanced, corrected or adjusted, that these changes must be carried out with a specific goal in mind. From the lecture and practical content found DOS correction particularly interesting - I think it is a clever and straightforward way to account for atmospheric corrections.
+### Practical Insights
 
-I think understanding the theory behind correction is useful, however I am uncertain if it is important to understand the specific details and science behind each type as a lot of the data comes already corrected. That being said, I think it is valuable in data science and research to not accept data as it comes and just analyse it -- it is important to think about how the data was created or adjusted before it is used. It's definitely something I will consider more in the future, whether using remotely sensed data or other types of data.
+-   **Virginia Norwood's Contribution**: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.
 
-## References
+-   **Sensor Technologies**: Discussion on "push broom" and "whisk broom" sensors, illustrating the evolution and capabilities of satellite imaging technology.
 
-Ilori, C., Pahlevan, N. and Knudby, A. (2019) 'Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing', *Remote Sensing*, 11, 4
+    ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+    knitr::include_graphics('https://github.com/YNVY7/diary/raw/main/week3scan.jpg')
 
-Vanhellemont, Q. (2019) 'Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives', *Remote Sensing of Environment*, 225, pp. 175-192
+    ```
 
-Geometric Correction
+-   **Correcting Image Distortions**: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.
 
--   SOLUTION 1 Ground Control Points (GPS) match by known points in severval dataset:
-    -   local map
-    -   another image
-    -   GPS data from handheld device
--   SOLUTION 2 RMSE
--   (observed - predicted (the residual))\^2
--   sum them and divide by number of data points
--   square root that total
+-   **Atmospheric Correction Methods**: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.
 
-Atmospheric correction
+-   **Enhancing Image Quality**: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.
 
-Remote sensing jargon - Digital number(DN):
+### Applications and Implications
 
--Radiance - Reflectance - Reflectance 2 - If/But All of the light leaving the surface goes straight to the sensor (nothing is intercepted or at an angle) = hemispherical refectance We need to account for atmospheric and illumination effects to create re
+-   **Urban and Environmental Analysis**: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.
+
+    ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Houston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)"}
+    knitr::include_graphics('https://github.com/YNVY7/diary/raw/main/atcor.png')
+    ```
+
+-   **Challenges in Data Processing**: Discusses the complexities involved in pre-processing remotely sensed data, including the need for accurate correction and the potential pitfalls in data interpretation.
+
+-   **Future Directions**: Encourages critical thinking about the use of remote sensing data in research and policy-making, highlighting the importance of understanding the underlying processes of data correction and enhancement.
+
+### Texture-Analysis
+
+**Definition and Importance**
+
+-   Texture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.
+
+-   It is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.
+
+**Techniques and Measures**
+
+-   **Gray-Level Co-occurrence Matrix (GLCM)**: A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.
+
+-   **Fourier Transform**: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.
+
+**Conclusion**
+
+-   Texture analysis provides a valuable complement to spectral analysis in remote sensing, offering additional insights into the physical structure and variation of the Earth's surface. It underscores the complexity and richness of remotely sensed data, advocating for a nuanced approach to data interpretation and application in various geographical and environmental studies.
+
+### Summary
+
+This lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications.
+
+## Further Study

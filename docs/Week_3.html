@@ -157,10 +157,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">4.1</span> Summary</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">4.2</span> Applications</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">4.3</span> Reflection</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">4.4</span> References</a></li>
+  <li><a href="#notebook" id="toc-notebook" class="nav-link active" data-scroll-target="#notebook"><span class="header-section-number">4.1</span> Notebook</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview"><span class="header-section-number">4.1.1</span> Overview</a></li>
+  <li><a href="#key-concepts-and-techniques" id="toc-key-concepts-and-techniques" class="nav-link" data-scroll-target="#key-concepts-and-techniques"><span class="header-section-number">4.1.2</span> Key Concepts and Techniques</a></li>
+  <li><a href="#practical-insights" id="toc-practical-insights" class="nav-link" data-scroll-target="#practical-insights"><span class="header-section-number">4.1.3</span> Practical Insights</a></li>
+  <li><a href="#applications-and-implications" id="toc-applications-and-implications" class="nav-link" data-scroll-target="#applications-and-implications"><span class="header-section-number">4.1.4</span> Applications and Implications</a></li>
+  <li><a href="#texture-analysis" id="toc-texture-analysis" class="nav-link" data-scroll-target="#texture-analysis"><span class="header-section-number">4.1.5</span> Texture-Analysis</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">4.1.6</span> Summary</a></li>
+  </ul></li>
+  <li><a href="#further-study" id="toc-further-study" class="nav-link" data-scroll-target="#further-study"><span class="header-section-number">4.2</span> Further Study</a></li>
   </ul>
 </nav>
     </div>
@@ -184,9 +190,34 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="summary" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.1</span> Summary</h2>
-<p>The summary of this week’s content is presented below in the mind map (I realised in the middle it says week 2 instead of 3 - my mistake!).</p>
+<section id="notebook" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="notebook"><span class="header-section-number">4.1</span> Notebook</h2>
+<section id="overview" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">4.1.1</span> Overview</h3>
+<p>Week 3 focuses on the critical aspects of remote sensing data, including corrections, data joining, and enhancement techniques, providing insights into practical applications and methodologies for processing and improving remote sensing imagery.</p>
+</section>
+<section id="key-concepts-and-techniques" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="key-concepts-and-techniques"><span class="header-section-number">4.1.2</span> Key Concepts and Techniques</h3>
+<ul>
+<li><p><strong>Remote Sensing Corrections</strong>: Essential for removing flaws due to sensor errors, atmospheric conditions, and terrain effects. Key correction types include:</p>
+<ul>
+<li><p><strong>Geometric Correction</strong>: Adjusts for distortions due to the satellite’s view angle, Earth’s rotation, and topography.</p></li>
+<li><p><strong>Atmospheric Correction</strong>: Removes atmospheric effects to improve image clarity and accuracy, crucial for applications requiring precise biophysical parameters.</p></li>
+<li><p><strong>Radiometric Calibration</strong>: Converts digital numbers (DN) to meaningful spectral radiance values, enabling comparison across different sensors and times.</p></li>
+</ul></li>
+<li><p><strong>Data Joining and Enhancement</strong>: Techniques to merge and enhance remote sensing data for clearer, more accurate representations.</p>
+<ul>
+<li><p><strong>Mosaicking and Feathering</strong>: Combining multiple images seamlessly, often used to create comprehensive maps from satellite data.</p></li>
+<li><p><strong>Contrast Enhancement</strong>: Adjusting image contrast to highlight features more distinctly.</p></li>
+<li><p><strong>Image Enhancement Techniques</strong>: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="practical-insights" class="level3" data-number="4.1.3">
+<h3 data-number="4.1.3" class="anchored" data-anchor-id="practical-insights"><span class="header-section-number">4.1.3</span> Practical Insights</h3>
+<ul>
+<li><p><strong>Virginia Norwood’s Contribution</strong>: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.</p></li>
+<li><p><strong>Sensor Technologies</strong>: Discussion on “push broom” and “whisk broom” sensors, illustrating the evolution and capabilities of satellite imaging technology.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -195,12 +226,16 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </div>
-</div>
-<p>Something I wanted to add onto this mind map for the summary is the difference between radiance and reflectance. Reflectance is the property of a material, and the proportion of radiation hitting a surface to the radiation reflecting off of it. Radiance is how much light the instrument measures and depends on illumination, the orientation and position of what is being observed and the light’s path.</p>
+</div></li>
+<li><p><strong>Correcting Image Distortions</strong>: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.</p></li>
+<li><p><strong>Atmospheric Correction Methods</strong>: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.</p></li>
+<li><p><strong>Enhancing Image Quality</strong>: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.</p></li>
+</ul>
 </section>
-<section id="applications" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">4.2</span> Applications</h2>
-<p>The practical content addressed corrections using raw satellite imagery, merging images together and enhancements. This application section will focus on studies which have made use of atmospheric corrections, as I found this type of correction really fascinating! I noticed that many papers mentioning atmospheric correction in their titles focused on ocean or water imagery. For example, Vanhellemont developed a dark spectrum fitting (DSF) correction model to estimate path reflectance in order to remove the effects of sun glinting (2019). This paper contributed to correction models to improve the quality of water imagery.</p>
+<section id="applications-and-implications" class="level3" data-number="4.1.4">
+<h3 data-number="4.1.4" class="anchored" data-anchor-id="applications-and-implications"><span class="header-section-number">4.1.4</span> Applications and Implications</h3>
+<ul>
+<li><p><strong>Urban and Environmental Analysis</strong>: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -210,35 +245,35 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </div>
-</div>
-<p>Atmospheric correction is of particular importance in the ocean colour (OC) area of remote sensing, which is used to provide information on factors such as the abundance of chlorophyll as an indicator for plankton, seawater depth and seafloor reflectance (Ilori, <em>et al.,</em> 2019).</p>
-<p>From understanding more about applications of atmospheric corrections in remote sensing, it is clear that a big challenge is to be able to make the corrections applicable to a time series and across different sensors and geographies – the same could be assumed for the other types of correction as well.</p>
-</section>
-<section id="reflection" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">4.3</span> Reflection</h2>
-<p>I have to admit – this lecture was quite difficult for me to get my head around! Remote sensing imagery is more complex than I realised, however it is interesting to understand more about how the images can be manipulated to demonstrate particular things and how they can be improved to maximise their accuracy and potential. It is clear however, that there are so many ways the images can be enhanced, corrected or adjusted, that these changes must be carried out with a specific goal in mind. From the lecture and practical content found DOS correction particularly interesting - I think it is a clever and straightforward way to account for atmospheric corrections.</p>
-<p>I think understanding the theory behind correction is useful, however I am uncertain if it is important to understand the specific details and science behind each type as a lot of the data comes already corrected. That being said, I think it is valuable in data science and research to not accept data as it comes and just analyse it – it is important to think about how the data was created or adjusted before it is used. It’s definitely something I will consider more in the future, whether using remotely sensed data or other types of data.</p>
-</section>
-<section id="references" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="references"><span class="header-section-number">4.4</span> References</h2>
-<p>Ilori, C., Pahlevan, N. and Knudby, A. (2019) ‘Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing’, <em>Remote Sensing</em>, 11, 4</p>
-<p>Vanhellemont, Q. (2019) ‘Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives’, <em>Remote Sensing of Environment</em>, 225, pp.&nbsp;175-192</p>
-<p>Geometric Correction</p>
-<ul>
-<li>SOLUTION 1 Ground Control Points (GPS) match by known points in severval dataset:
-<ul>
-<li>local map</li>
-<li>another image</li>
-<li>GPS data from handheld device</li>
-</ul></li>
-<li>SOLUTION 2 RMSE</li>
-<li>(observed - predicted (the residual))^2</li>
-<li>sum them and divide by number of data points</li>
-<li>square root that total</li>
+</div></li>
+<li><p><strong>Challenges in Data Processing</strong>: Discusses the complexities involved in pre-processing remotely sensed data, including the need for accurate correction and the potential pitfalls in data interpretation.</p></li>
+<li><p><strong>Future Directions</strong>: Encourages critical thinking about the use of remote sensing data in research and policy-making, highlighting the importance of understanding the underlying processes of data correction and enhancement.</p></li>
 </ul>
-<p>Atmospheric correction</p>
-<p>Remote sensing jargon - Digital number(DN):</p>
-<p>-Radiance - Reflectance - Reflectance 2 - If/But All of the light leaving the surface goes straight to the sensor (nothing is intercepted or at an angle) = hemispherical refectance We need to account for atmospheric and illumination effects to create re</p>
+</section>
+<section id="texture-analysis" class="level3" data-number="4.1.5">
+<h3 data-number="4.1.5" class="anchored" data-anchor-id="texture-analysis"><span class="header-section-number">4.1.5</span> Texture-Analysis</h3>
+<p><strong>Definition and Importance</strong></p>
+<ul>
+<li><p>Texture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.</p></li>
+<li><p>It is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.</p></li>
+</ul>
+<p><strong>Techniques and Measures</strong></p>
+<ul>
+<li><p><strong>Gray-Level Co-occurrence Matrix (GLCM)</strong>: A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.</p></li>
+<li><p><strong>Fourier Transform</strong>: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.</p></li>
+</ul>
+<p><strong>Conclusion</strong></p>
+<ul>
+<li>Texture analysis provides a valuable complement to spectral analysis in remote sensing, offering additional insights into the physical structure and variation of the Earth’s surface. It underscores the complexity and richness of remotely sensed data, advocating for a nuanced approach to data interpretation and application in various geographical and environmental studies.</li>
+</ul>
+</section>
+<section id="summary" class="level3" data-number="4.1.6">
+<h3 data-number="4.1.6" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.1.6</span> Summary</h3>
+<p>This lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications.</p>
+</section>
+</section>
+<section id="further-study" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="further-study"><span class="header-section-number">4.2</span> Further Study</h2>
 
 
 </section>
