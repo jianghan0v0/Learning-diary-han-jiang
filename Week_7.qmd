@@ -1,0 +1,13 @@
+---
+title: "Week_7"
+---
+
+# Week_7 Google Earth Engine
+
+## Introduction
+
+"Geospatial" processing service, which permits geospatial analysis **at scale.** Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed "proxy objects". In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.
+
+### Scale
+
+### Feedback

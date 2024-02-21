@@ -35,3 +35,5 @@ title: "Week_1"
 ## Summary
 
 The field of remote sensing is essential for understanding and managing environmental hazards, especially in the context of urban sustainability and climate change. The module provides comprehensive training in using remote sensing data and tools for environmental analysis and decision-making.
+
+## Further Study

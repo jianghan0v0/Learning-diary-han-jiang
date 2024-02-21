@@ -215,5 +215,40 @@
     "title": "4  Week_3",
     "section": "4.2 Further Study",
     "text": "4.2 Further Study"
+  },
+  {
+    "objectID": "Week_1.html#further-study",
+    "href": "Week_1.html#further-study",
+    "title": "2  Week_1",
+    "section": "3.5 Further Study",
+    "text": "3.5 Further Study"
+  },
+  {
+    "objectID": "Week_7.html",
+    "href": "Week_7.html",
+    "title": "7  Week_7",
+    "section": "",
+    "text": "8 Week_7 Google Earth Engine"
+  },
+  {
+    "objectID": "Week_7.html#introduction",
+    "href": "Week_7.html#introduction",
+    "title": "7  Week_7",
+    "section": "8.1 Introduction",
+    "text": "8.1 Introduction\n“Geospatial” processing service, which permits geospatial analysis at scale. Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.\n\n8.1.1 Scale\n\n\n8.1.2 Feedback"
+  },
+  {
+    "objectID": "Week_5.html#notebook-budget",
+    "href": "Week_5.html#notebook-budget",
+    "title": "6  Week_5",
+    "section": "6.1 Notebook-Budget",
+    "text": "6.1 Notebook-Budget\nUrban Heat Island"
+  },
+  {
+    "objectID": "Week_5.html#groupwork-process",
+    "href": "Week_5.html#groupwork-process",
+    "title": "6  Week_5",
+    "section": "6.2 Groupwork Process",
+    "text": "6.2 Groupwork Process"
   }
 ]
