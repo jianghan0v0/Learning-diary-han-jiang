@@ -235,7 +235,7 @@
     "href": "Week_7.html#introduction",
     "title": "7  Week_7",
     "section": "8.1 Introduction",
-    "text": "8.1 Introduction\n“Geospatial” processing service, which permits geospatial analysis at scale. Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.\n\n8.1.1 Scale\n\n\n8.1.2 Feedback"
+    "text": "8.1 Introduction\n“Geospatial” processing service, which permits geospatial analysis at scale. Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.\ncentered, scale, region\n\n8.1.1 Practical\nPCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.\n\nPCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.\nPCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.\nAlthough PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.\n\n\n\n8.1.2 Feedback"
   },
   {
     "objectID": "Week_5.html#notebook-budget",
@@ -250,5 +250,12 @@
     "title": "6  Week_5",
     "section": "6.2 Groupwork Process",
     "text": "6.2 Groupwork Process"
+  },
+  {
+    "objectID": "Week_6.html",
+    "href": "Week_6.html",
+    "title": "7  Week_6",
+    "section": "",
+    "text": "8 Week_6"
   }
 ]
