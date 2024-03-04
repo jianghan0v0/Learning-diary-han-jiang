@@ -6,17 +6,33 @@ title: "Week_1"
 
 ## Lecture Content
 
--   **Remote Sensing Definition**: NASA defines it as acquiring information from a distance, using sensors mounted on platforms like satellites, planes, drones, and phones.
+### **Remote Sensing Definition**:
 
-    ![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1scan.jpg)
+NASA defines it as acquiring information from a distance, using sensors mounted on platforms like satellites, planes, drones, and phones.
 
--   **Types of Sensors**: Passive sensors detect reflected energy from the sun, while active sensors emit electromagnetic waves and wait for the reflection.
+-   ![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1scan.jpg)
 
--   **Data Interaction and Scattering**: Interaction with Earth's surface and atmospheric scattering (Rayleigh, Mie, Non-selective) affects the data.
+Here is a video that introduce Remote Sensing.
 
--   **Spatial Junk Issue**: The volume of spacecraft and sensors has led to concerns about space debris tracked by NASA.
+{{< video https://www.youtube.com/watch?v=N49PzLDUIFQ >}}
 
-## Four Resolutions
+### **Types of Sensors**:
+
+**Passive sensors** detect reflected energy from the sun, while **active sensors** emit electromagnetic waves and wait for the reflection.
+
+### **Data Interaction and Scattering**:
+
+Interaction with Earth's surface and atmospheric scattering (Rayleigh, Mie, Non-selective) affects the data.
+
+The interaction of electromagnetic waves with Earth's surface and atmosphere is fundamental to many processes, including climate regulation, weather patterns, and the global energy balance. Here are how EM waves interact with Specific Atmospheric Components:
+
+-Water Vapor: Absorbs infrared and microwave radiation, playing a significant role in the Earth's energy balance.
+
+-Ozone: Absorbs most of the Sun's harmful ultraviolet radiation, protecting living organisms.
+
+-Aerosols and Particulates: Scatter and absorb sunlight, which can cool the surface or contribute to atmospheric warming, depending on their properties.
+
+## Four Resolutions of Remotely Sensing Data
 
 -   **Spatial**: Size of raster cells varies from 10cm to several kilometers.
 
@@ -28,7 +44,25 @@ title: "Week_1"
 
 ## Practical Applications
 
--   **Introduction to Practical Tools**: Loading Landsat and Sentinel data, exploring SNAP and R, selecting regions of interest, and plotting spectral signatures.
+### **Introduction to Tools**:
+
+**1. Loading Landsat and Sentinel Data**
+
+-   **Landsat** and **Sentinel** are two different Earth observation satellite programs. The Landsat program is managed jointly by the U.S. Geological Survey (USGS) and NASA and has been operational since 1972, making it the longest-running enterprise for acquisition of satellite imagery of Earth. The Sentinel program is part of the European Space Agency (ESA) and supports the European Union's Copernicus program, providing a wide range of data for environmental and security monitoring.
+
+-   **Loading the data** involves retrieving these satellites' imagery from databases or storage services. This may include specifying certain criteria like specific dates, areas of interest, cloud cover percentage, etc., to filter the data.
+
+**2. Selecting Regions of Interest (ROIs)**
+
+-   **Selecting Regions of Interest (ROIs)** is the process of identifying areas for focused analysis within the vast amounts of remote sensing data. These areas might be selected based on specific geographic features, ecosystems, urban areas, etc.
+
+-   ROIs can be selected by manually drawing polygons, entering geographic coordinates, or using existing geographic information data (like vector layers). This step is crucial to ensure that subsequent analyses are concentrated on relevant areas.
+
+**3. Plotting Spectral Signatures**
+
+-   **Spectral signatures** refer to the characteristic pattern of reflection or absorption of light at different wavelengths by objects or materials. In remote sensing, analyzing the spectral reflectance of different terrestrial materials (like vegetation, water bodies, soil, etc.) allows for their identification and classification.
+
+-   **Plotting spectral signatures** involves graphically representing these spectral characteristics, typically showing wavelength (or bands) against reflectance values. This helps in understanding the spectral behavior of different materials, which is vital for applications like material classification, vegetation health analysis, etc.
 
 -   **Applications of Remote Sensing**: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis.
 
@@ -37,3 +71,5 @@ title: "Week_1"
 The field of remote sensing is essential for understanding and managing environmental hazards, especially in the context of urban sustainability and climate change. The module provides comprehensive training in using remote sensing data and tools for environmental analysis and decision-making.
 
 ## Further Study
+
+### SNAP

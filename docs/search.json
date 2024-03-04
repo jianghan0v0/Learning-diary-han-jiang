@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Diary_hanjiang",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Introduction\nHello! I’m HAN JIANG. I’m currently pursuing my graduate studies at the Centre for Advanced Spatial Analysis (CASA) at UCL, marking my first foray into postgraduate education. My journey at UCL has been enriching, having completed courses in the Foundations of Spatial Data Science, Geographic Information Systems, Urban Systems Theory, Science, and Quantitative Methods. I’m currently delving into Remote Sensing, Agent-Based Modeling (ABM), Data Science, and Building Spatial Applications with Big Data, which are broadening my perspective and skill set in the spatial sciences.\nI graduated in 2023 with a Bachelor’s degree from a collaborative program between Beijing University of Posts and Telecommunications and Queen Mary University of London in E-commerce Engineering with Law. My undergraduate studies encompassed a diverse array of subjects including Advanced Network Programming, Engineering Mathematics, Discrete Mathematics, Advanced Mathematics, Telecommunications Engineering, Web Front-end Design, Databases, and Macroeconomics.\nMy internship experiences have been equally diverse and enriching. In 2022, I interned at the Institute of Automation, Chinese Academy of Sciences, where I was involved in projects related to Monkey Behavior Image Recognition and Mouse Behavior Recording, focusing mainly on video data annotation and model testing. In 2023, I took up a community operations role at EasyTransfer, where my primary responsibility was addressing and resolving user product inquiries and issues.\nOn a lighter note, here’s a bit more about me beyond academics and work: I’m a Leo born in the 2000s with an ENTP personality type. My hobbies include visiting parks (easy to get tired), exploring museums (easy to get lost), enjoying a drink (easy to be drunk), indulging in gourmet food (on a budget), and watching musicals (even as I struggle with English). I’ve been trying to become a blogger, but I have very few followers. I love dogs, especially my HuanHuan, who is 10 years old now. I miss her so much.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "intro.html",
@@ -16,23 +16,44 @@
   {
     "objectID": "Week_1.html",
     "href": "Week_1.html",
-    "title": "2  Week_1",
+    "title": "1  Week_1",
     "section": "",
-    "text": "3 Week 1 - Introduction to Remote Sensing"
+    "text": "2 Week 1 - Introduction to Remote Sensing"
+  },
+  {
+    "objectID": "Week_1.html#lecture-content",
+    "href": "Week_1.html#lecture-content",
+    "title": "1  Week_1",
+    "section": "2.1 Lecture Content",
+    "text": "2.1 Lecture Content\n\n2.1.1 Remote Sensing Definition:\nNASA defines it as acquiring information from a distance, using sensors mounted on platforms like satellites, planes, drones, and phones.\n\n\n\nHere is a video that introduce Remote Sensing.\n\n\n\n2.1.2 Types of Sensors:\nPassive sensors detect reflected energy from the sun, while active sensors emit electromagnetic waves and wait for the reflection.\n\n\n2.1.3 Data Interaction and Scattering:\nInteraction with Earth’s surface and atmospheric scattering (Rayleigh, Mie, Non-selective) affects the data.\nThe interaction of electromagnetic waves with Earth’s surface and atmosphere is fundamental to many processes, including climate regulation, weather patterns, and the global energy balance. Here are how EM waves interact with Specific Atmospheric Components:\n-Water Vapor: Absorbs infrared and microwave radiation, playing a significant role in the Earth’s energy balance.\n-Ozone: Absorbs most of the Sun’s harmful ultraviolet radiation, protecting living organisms.\n-Aerosols and Particulates: Scatter and absorb sunlight, which can cool the surface or contribute to atmospheric warming, depending on their properties."
+  },
+  {
+    "objectID": "Week_1.html#four-resolutions-of-remotely-sensing-data",
+    "href": "Week_1.html#four-resolutions-of-remotely-sensing-data",
+    "title": "1  Week_1",
+    "section": "2.2 Four Resolutions of Remotely Sensing Data",
+    "text": "2.2 Four Resolutions of Remotely Sensing Data\n\nSpatial: Size of raster cells varies from 10cm to several kilometers.\nSpectral: Number of bands recorded, influenced by atmospheric windows.\nTemporal: Frequency of sensor revisits, affecting data freshness.\nRadiometric: Sensor’s ability to differentiate small energy differences, measured in bit depth (e.g., 8-bit, 256 values)."
+  },
+  {
+    "objectID": "Week_1.html#practical-applications",
+    "href": "Week_1.html#practical-applications",
+    "title": "1  Week_1",
+    "section": "2.3 Practical Applications",
+    "text": "2.3 Practical Applications\n\n2.3.1 Introduction to Tools:\n1. Loading Landsat and Sentinel Data\n\nLandsat and Sentinel are two different Earth observation satellite programs. The Landsat program is managed jointly by the U.S. Geological Survey (USGS) and NASA and has been operational since 1972, making it the longest-running enterprise for acquisition of satellite imagery of Earth. The Sentinel program is part of the European Space Agency (ESA) and supports the European Union’s Copernicus program, providing a wide range of data for environmental and security monitoring.\nLoading the data involves retrieving these satellites’ imagery from databases or storage services. This may include specifying certain criteria like specific dates, areas of interest, cloud cover percentage, etc., to filter the data.\n\n2. Selecting Regions of Interest (ROIs)\n\nSelecting Regions of Interest (ROIs) is the process of identifying areas for focused analysis within the vast amounts of remote sensing data. These areas might be selected based on specific geographic features, ecosystems, urban areas, etc.\nROIs can be selected by manually drawing polygons, entering geographic coordinates, or using existing geographic information data (like vector layers). This step is crucial to ensure that subsequent analyses are concentrated on relevant areas.\n\n3. Plotting Spectral Signatures\n\nSpectral signatures refer to the characteristic pattern of reflection or absorption of light at different wavelengths by objects or materials. In remote sensing, analyzing the spectral reflectance of different terrestrial materials (like vegetation, water bodies, soil, etc.) allows for their identification and classification.\nPlotting spectral signatures involves graphically representing these spectral characteristics, typically showing wavelength (or bands) against reflectance values. This helps in understanding the spectral behavior of different materials, which is vital for applications like material classification, vegetation health analysis, etc.\nApplications of Remote Sensing: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis."
   },
   {
     "objectID": "Week_1.html#summary",
     "href": "Week_1.html#summary",
-    "title": "2  Week_1",
-    "section": "3.4 Summary",
-    "text": "3.4 Summary\nThe field of remote sensing is essential for understanding and managing environmental hazards, especially in the context of urban sustainability and climate change. The module provides comprehensive training in using remote sensing data and tools for environmental analysis and decision-making."
+    "title": "1  Week_1",
+    "section": "2.4 Summary",
+    "text": "2.4 Summary\nThe field of remote sensing is essential for understanding and managing environmental hazards, especially in the context of urban sustainability and climate change. The module provides comprehensive training in using remote sensing data and tools for environmental analysis and decision-making."
   },
   {
-    "objectID": "Week_1.html#remotely-sensed-data-four-solutions",
-    "href": "Week_1.html#remotely-sensed-data-four-solutions",
-    "title": "2  Week_1",
-    "section": "3.2 1.2 Remotely sensed data-Four solutions",
-    "text": "3.2 1.2 Remotely sensed data-Four solutions\n\nSpatial = the size of the raster grid per pixel (e.g. 20cm or 30m)\nSpectral = the number of bands it records data in…more soon\nTemporal = the time it revisits (e.g. daily, every 7 days, on demand ✈️)\nRadiometric = identify differences in light or reflectance, in practice this is the range of possible values.\nan 8 bit sensor has values between 0 and 255 (256 possibilities) an 11 bit sensor has values between 0 and 2047(2048 possibilities)"
+    "objectID": "Week_1.html#further-study",
+    "href": "Week_1.html#further-study",
+    "title": "1  Week_1",
+    "section": "2.5 Further Study",
+    "text": "2.5 Further Study\n\n2.5.1 SNAP"
   },
   {
     "objectID": "Week_2.html",
@@ -42,60 +63,18 @@
     "text": "4 Week 2 - Slides\nThe content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides."
   },
   {
-    "objectID": "Week_3.html#summary",
-    "href": "Week_3.html#summary",
+    "objectID": "Week_3.html#notebook",
+    "href": "Week_3.html#notebook",
     "title": "4  Week_3",
-    "section": "4.1 Summary",
-    "text": "4.1 Summary\nThe summary of this week’s content is presented below in the mind map (I realised in the middle it says week 2 instead of 3 - my mistake!).\n\n\n\n\n\n\n\n\n\nSomething I wanted to add onto this mind map for the summary is the difference between radiance and reflectance. Reflectance is the property of a material, and the proportion of radiation hitting a surface to the radiation reflecting off of it. Radiance is how much light the instrument measures and depends on illumination, the orientation and position of what is being observed and the light’s path."
+    "section": "4.1 Notebook",
+    "text": "4.1 Notebook\n\n4.1.1 Overview\nWeek 3 focuses on the critical aspects of remote sensing data, including corrections, data joining, and enhancement techniques, providing insights into practical applications and methodologies for processing and improving remote sensing imagery.\n\n\n4.1.2 Key Concepts and Techniques\n\nRemote Sensing Corrections: Essential for removing flaws due to sensor errors, atmospheric conditions, and terrain effects. Key correction types include:\n\nGeometric Correction: Adjusts for distortions due to the satellite’s view angle, Earth’s rotation, and topography.\nAtmospheric Correction: Removes atmospheric effects to improve image clarity and accuracy, crucial for applications requiring precise biophysical parameters.\nRadiometric Calibration: Converts digital numbers (DN) to meaningful spectral radiance values, enabling comparison across different sensors and times.\n\nData Joining and Enhancement: Techniques to merge and enhance remote sensing data for clearer, more accurate representations.\n\nMosaicking and Feathering: Combining multiple images seamlessly, often used to create comprehensive maps from satellite data.\nContrast Enhancement: Adjusting image contrast to highlight features more distinctly.\nImage Enhancement Techniques: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.\n\n\n\n\n4.1.3 Practical Insights\n\nVirginia Norwood’s Contribution: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.\nSensor Technologies: Discussion on “push broom” and “whisk broom” sensors, illustrating the evolution and capabilities of satellite imaging technology.\n\n\n\n\n\n\n\n\n\nCorrecting Image Distortions: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.\nAtmospheric Correction Methods: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.\nEnhancing Image Quality: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.\n\n\n\n4.1.4 Applications and Implications\n\nUrban and Environmental Analysis: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.\n\n\n\n\n\nHouston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)\n\n\n\n\nChallenges in Data Processing: Discusses the complexities involved in pre-processing remotely sensed data, including the need for accurate correction and the potential pitfalls in data interpretation.\nFuture Directions: Encourages critical thinking about the use of remote sensing data in research and policy-making, highlighting the importance of understanding the underlying processes of data correction and enhancement.\n\n\n\n4.1.5 Texture-Analysis\nDefinition and Importance\n\nTexture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.\nIt is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.\n\nTechniques and Measures\n\nGray-Level Co-occurrence Matrix (GLCM): A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.\nFourier Transform: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.\n\nConclusion\n\nTexture analysis provides a valuable complement to spectral analysis in remote sensing, offering additional insights into the physical structure and variation of the Earth’s surface. It underscores the complexity and richness of remotely sensed data, advocating for a nuanced approach to data interpretation and application in various geographical and environmental studies.\n\n\n\n4.1.6 Summary\nThis lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications."
   },
   {
-    "objectID": "Week_3.html#applications",
-    "href": "Week_3.html#applications",
+    "objectID": "Week_3.html#further-study",
+    "href": "Week_3.html#further-study",
     "title": "4  Week_3",
-    "section": "4.2 Applications",
-    "text": "4.2 Applications\nThe practical content addressed corrections using raw satellite imagery, merging images together and enhancements. This application section will focus on studies which have made use of atmospheric corrections, as I found this type of correction really fascinating! I noticed that many papers mentioning atmospheric correction in their titles focused on ocean or water imagery. For example, Vanhellemont developed a dark spectrum fitting (DSF) correction model to estimate path reflectance in order to remove the effects of sun glinting (2019). This paper contributed to correction models to improve the quality of water imagery.\n\n\n\n\n\nHouston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)\n\n\n\n\nAtmospheric correction is of particular importance in the ocean colour (OC) area of remote sensing, which is used to provide information on factors such as the abundance of chlorophyll as an indicator for plankton, seawater depth and seafloor reflectance (Ilori, et al., 2019).\nFrom understanding more about applications of atmospheric corrections in remote sensing, it is clear that a big challenge is to be able to make the corrections applicable to a time series and across different sensors and geographies – the same could be assumed for the other types of correction as well."
-  },
-  {
-    "objectID": "Week_3.html#reflection",
-    "href": "Week_3.html#reflection",
-    "title": "4  Week_3",
-    "section": "4.3 Reflection",
-    "text": "4.3 Reflection\nI have to admit – this lecture was quite difficult for me to get my head around! Remote sensing imagery is more complex than I realised, however it is interesting to understand more about how the images can be manipulated to demonstrate particular things and how they can be improved to maximise their accuracy and potential. It is clear however, that there are so many ways the images can be enhanced, corrected or adjusted, that these changes must be carried out with a specific goal in mind. From the lecture and practical content found DOS correction particularly interesting - I think it is a clever and straightforward way to account for atmospheric corrections.\nI think understanding the theory behind correction is useful, however I am uncertain if it is important to understand the specific details and science behind each type as a lot of the data comes already corrected. That being said, I think it is valuable in data science and research to not accept data as it comes and just analyse it – it is important to think about how the data was created or adjusted before it is used. It’s definitely something I will consider more in the future, whether using remotely sensed data or other types of data."
-  },
-  {
-    "objectID": "Week_3.html#references",
-    "href": "Week_3.html#references",
-    "title": "4  Week_3",
-    "section": "4.4 References",
-    "text": "4.4 References\nIlori, C., Pahlevan, N. and Knudby, A. (2019) ‘Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing’, Remote Sensing, 11, 4\nVanhellemont, Q. (2019) ‘Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives’, Remote Sensing of Environment, 225, pp. 175-192\nGeometric Correction\n\nSOLUTION 1 Ground Control Points (GPS) match by known points in severval dataset:\n\nlocal map\nanother image\nGPS data from handheld device\n\nSOLUTION 2 RMSE\n(observed - predicted (the residual))^2\nsum them and divide by number of data points\nsquare root that total\n\nAtmospheric correction\nRemote sensing jargon - Digital number(DN):\n-Radiance - Reflectance - Reflectance 2 - If/But All of the light leaving the surface goes straight to the sensor (nothing is intercepted or at an angle) = hemispherical refectance We need to account for atmospheric and illumination effects to create re"
-  },
-  {
-    "objectID": "Week_4.html#lulc",
-    "href": "Week_4.html#lulc",
-    "title": "5  Week_4",
-    "section": "5.1 LULC",
-    "text": "5.1 LULC\nLULC stands for Land Use and Land Cover. It refers to the classification of the Earth’s surface into different categories based on how the land is used by humans (such as residential, agricultural, industrial) and the natural cover present on the land (like forests, water bodies, deserts)."
-  },
-  {
-    "objectID": "Week_4.html#sarsynthetic-aperture-radar",
-    "href": "Week_4.html#sarsynthetic-aperture-radar",
-    "title": "5  Week_4",
-    "section": "5.2 SAR(Synthetic Aperture Radar)",
-    "text": "5.2 SAR(Synthetic Aperture Radar)\n\nHigh-resolution radar system.\nMounted on aircraft or satellites.\nUses microwave signals, receives reflections.\nFunctions in all weather, day and night.\nApplications: terrain mapping, environmental monitoring, agriculture, forestry, urban planning, disaster assessment.\nPenetrates vegetation, some surface materials.\nProvides in-depth ground information, complementing optical satellites.\n\n\n5.2.1 SAR polarization\n\nSingle = 1 horizontal (or vertical)\nDual = transmits and receives both horizontal and vertical\nHH = emitted in horizontal (H) and received in horizontal (H)"
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "6  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "section": "4.2 Further Study",
+    "text": "4.2 Further Study"
   },
   {
     "objectID": "Week_4.html",
@@ -103,20 +82,6 @@
     "title": "5  Week_4",
     "section": "",
     "text": "6 Project Proposal - River Witham Ecological Enhancement Works Tender"
-  },
-  {
-    "objectID": "Week_4.html#note",
-    "href": "Week_4.html#note",
-    "title": "5  Week_4",
-    "section": "6.1 Note",
-    "text": "6.1 Note\n\n6.1.1 LULC\nLULC stands for Land Use and Land Cover. It refers to the classification of the Earth’s surface into different categories based on how the land is used by humans (such as residential, agricultural, industrial) and the natural cover present on the land (like forests, water bodies, deserts).\n\n\n6.1.2 SAR(Synthetic Aperture Radar)\n\nHigh-resolution radar system.\nMounted on aircraft or satellites.\nUses microwave signals, receives reflections.\nFunctions in all weather, day and night.\nApplications: terrain mapping, environmental monitoring, agriculture, forestry, urban planning, disaster assessment.\nPenetrates vegetation, some surface materials.\nProvides in-depth ground information, complementing optical satellites.\n\n\n\n6.1.3 SAR polarization\n\nSingle = 1 horizontal (or vertical)\nDual = transmits and receives both horizontal and vertical\nHH = emitted in horizontal (H) and received in horizontal (H)"
-  },
-  {
-    "objectID": "Week_4.html#section",
-    "href": "Week_4.html#section",
-    "title": "5  Week_4",
-    "section": "6.9 ",
-    "text": "6.9 \n纽约市：宜居的气候，气候变暖对高原植被的影响\n通过遥感来检测监测气候变化，全球目标C40,\n新加坡热环境，2050年实现0碳 green plan，它相应了\n方法：增加绿地面积，改变建筑布局（减少空调使用）——城市规划解决热效应\n局部气候问题，城市形态+建成环境landcover（分类）\n连续变量，没有必要做这个植被分类变量，单纯分析他们的相关关系\n我们可以做的：通过遥感计算热环境的公式，存在这个变量；LCC和热岛之间的关系\noptional：urban fall和经济效应联合起来，会不会对热岛效应的研究有变化\nps：提出假设（比如高层建筑影响热环境），做出分析，拿着结果去找政策对应，一切研究最终要回归政策，最终呈现的结果要很简单（高层建筑会影响热环境，且响应了政策的某部分（作为reference）\n海岸线侵蚀，植被，预测\n关键词：urban island；\n竞标：做的东西简单——结果又要有效"
   },
   {
     "objectID": "Week_4.html#introduction",
@@ -175,67 +140,11 @@
     "text": "6.8 Notebook\n\n6.8.1 LULC\nLULC stands for Land Use and Land Cover. It refers to the classification of the Earth’s surface into different categories based on how the land is used by humans (such as residential, agricultural, industrial) and the natural cover present on the land (like forests, water bodies, deserts).\n\n\n6.8.2 SAR(Synthetic Aperture Radar)\n\nHigh-resolution radar system.\nMounted on aircraft or satellites.\nUses microwave signals, receives reflections.\nFunctions in all weather, day and night.\nApplications: terrain mapping, environmental monitoring, agriculture, forestry, urban planning, disaster assessment.\nPenetrates vegetation, some surface materials.\nProvides in-depth ground information, complementing optical satellites.\n\n\n\n6.8.3 SAR polarization\n\nSingle = 1 horizontal (or vertical)\nDual = transmits and receives both horizontal and vertical\nHH = emitted in horizontal (H) and received in horizontal (H)"
   },
   {
-    "objectID": "Week_4.html#project-proposal---river-witham-ecological-enhancement-works-tender",
-    "href": "Week_4.html#project-proposal---river-witham-ecological-enhancement-works-tender",
+    "objectID": "Week_4.html#section",
+    "href": "Week_4.html#section",
     "title": "5  Week_4",
-    "section": "5.1 Project Proposal - River Witham Ecological Enhancement Works Tender",
-    "text": "5.1 Project Proposal - River Witham Ecological Enhancement Works Tender"
-  },
-  {
-    "objectID": "Week_1.html#lecture-content",
-    "href": "Week_1.html#lecture-content",
-    "title": "2  Week_1",
-    "section": "3.1 Lecture Content",
-    "text": "3.1 Lecture Content\n\nRemote Sensing Definition: NASA defines it as acquiring information from a distance, using sensors mounted on platforms like satellites, planes, drones, and phones.\n\nTypes of Sensors: Passive sensors detect reflected energy from the sun, while active sensors emit electromagnetic waves and wait for the reflection.\nData Interaction and Scattering: Interaction with Earth’s surface and atmospheric scattering (Rayleigh, Mie, Non-selective) affects the data.\nSpatial Junk Issue: The volume of spacecraft and sensors has led to concerns about space debris tracked by NASA."
-  },
-  {
-    "objectID": "Week_1.html#four-resolutions",
-    "href": "Week_1.html#four-resolutions",
-    "title": "2  Week_1",
-    "section": "3.2 Four Resolutions",
-    "text": "3.2 Four Resolutions\n\nSpatial: Size of raster cells varies from 10cm to several kilometers.\nSpectral: Number of bands recorded, influenced by atmospheric windows.\nTemporal: Frequency of sensor revisits, affecting data freshness.\nRadiometric: Sensor’s ability to differentiate small energy differences, measured in bit depth (e.g., 8-bit, 256 values)."
-  },
-  {
-    "objectID": "Week_1.html#practical-applications",
-    "href": "Week_1.html#practical-applications",
-    "title": "2  Week_1",
-    "section": "3.3 Practical Applications",
-    "text": "3.3 Practical Applications\n\nIntroduction to Practical Tools: Loading Landsat and Sentinel data, exploring SNAP and R, selecting regions of interest, and plotting spectral signatures.\nApplications of Remote Sensing: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis."
-  },
-  {
-    "objectID": "Week_3.html#notebook",
-    "href": "Week_3.html#notebook",
-    "title": "4  Week_3",
-    "section": "4.1 Notebook",
-    "text": "4.1 Notebook\n\n4.1.1 Overview\nWeek 3 focuses on the critical aspects of remote sensing data, including corrections, data joining, and enhancement techniques, providing insights into practical applications and methodologies for processing and improving remote sensing imagery.\n\n\n4.1.2 Key Concepts and Techniques\n\nRemote Sensing Corrections: Essential for removing flaws due to sensor errors, atmospheric conditions, and terrain effects. Key correction types include:\n\nGeometric Correction: Adjusts for distortions due to the satellite’s view angle, Earth’s rotation, and topography.\nAtmospheric Correction: Removes atmospheric effects to improve image clarity and accuracy, crucial for applications requiring precise biophysical parameters.\nRadiometric Calibration: Converts digital numbers (DN) to meaningful spectral radiance values, enabling comparison across different sensors and times.\n\nData Joining and Enhancement: Techniques to merge and enhance remote sensing data for clearer, more accurate representations.\n\nMosaicking and Feathering: Combining multiple images seamlessly, often used to create comprehensive maps from satellite data.\nContrast Enhancement: Adjusting image contrast to highlight features more distinctly.\nImage Enhancement Techniques: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.\n\n\n\n\n4.1.3 Practical Insights\n\nVirginia Norwood’s Contribution: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.\nSensor Technologies: Discussion on “push broom” and “whisk broom” sensors, illustrating the evolution and capabilities of satellite imaging technology.\n\n\n\n\n\n\n\n\n\nCorrecting Image Distortions: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.\nAtmospheric Correction Methods: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.\nEnhancing Image Quality: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.\n\n\n\n4.1.4 Applications and Implications\n\nUrban and Environmental Analysis: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.\n\n\n\n\n\nHouston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)\n\n\n\n\nChallenges in Data Processing: Discusses the complexities involved in pre-processing remotely sensed data, including the need for accurate correction and the potential pitfalls in data interpretation.\nFuture Directions: Encourages critical thinking about the use of remote sensing data in research and policy-making, highlighting the importance of understanding the underlying processes of data correction and enhancement.\n\n\n\n4.1.5 Texture-Analysis\nDefinition and Importance\n\nTexture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.\nIt is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.\n\nTechniques and Measures\n\nGray-Level Co-occurrence Matrix (GLCM): A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.\nFourier Transform: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.\n\nConclusion\n\nTexture analysis provides a valuable complement to spectral analysis in remote sensing, offering additional insights into the physical structure and variation of the Earth’s surface. It underscores the complexity and richness of remotely sensed data, advocating for a nuanced approach to data interpretation and application in various geographical and environmental studies.\n\n\n\n4.1.6 Summary\nThis lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications."
-  },
-  {
-    "objectID": "Week_3.html#further-study",
-    "href": "Week_3.html#further-study",
-    "title": "4  Week_3",
-    "section": "4.2 Further Study",
-    "text": "4.2 Further Study"
-  },
-  {
-    "objectID": "Week_1.html#further-study",
-    "href": "Week_1.html#further-study",
-    "title": "2  Week_1",
-    "section": "3.5 Further Study",
-    "text": "3.5 Further Study"
-  },
-  {
-    "objectID": "Week_7.html",
-    "href": "Week_7.html",
-    "title": "7  Week_7",
-    "section": "",
-    "text": "8 Week_7 Google Earth Engine"
-  },
-  {
-    "objectID": "Week_7.html#introduction",
-    "href": "Week_7.html#introduction",
-    "title": "7  Week_7",
-    "section": "8.1 Introduction",
-    "text": "8.1 Introduction\n“Geospatial” processing service, which permits geospatial analysis at scale. Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.\ncentered, scale, region\n\n8.1.1 Practical\nPCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.\n\nPCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.\nPCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.\nAlthough PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.\n\n\n\n8.1.2 Feedback"
+    "section": "6.9 ",
+    "text": "6.9 \n纽约市：宜居的气候，气候变暖对高原植被的影响\n通过遥感来检测监测气候变化，全球目标C40,\n新加坡热环境，2050年实现0碳 green plan，它相应了\n方法：增加绿地面积，改变建筑布局（减少空调使用）——城市规划解决热效应\n局部气候问题，城市形态+建成环境landcover（分类）\n连续变量，没有必要做这个植被分类变量，单纯分析他们的相关关系\n我们可以做的：通过遥感计算热环境的公式，存在这个变量；LCC和热岛之间的关系\noptional：urban fall和经济效应联合起来，会不会对热岛效应的研究有变化\nps：提出假设（比如高层建筑影响热环境），做出分析，拿着结果去找政策对应，一切研究最终要回归政策，最终呈现的结果要很简单（高层建筑会影响热环境，且响应了政策的某部分（作为reference）\n海岸线侵蚀，植被，预测\n关键词：urban island；\n竞标：做的东西简单——结果又要有效"
   },
   {
     "objectID": "Week_5.html#notebook-budget",
@@ -257,5 +166,33 @@
     "title": "7  Week_6",
     "section": "",
     "text": "8 Week_6"
+  },
+  {
+    "objectID": "Week_7.html",
+    "href": "Week_7.html",
+    "title": "8  Week_7",
+    "section": "",
+    "text": "9 Week_7 Google Earth Engine"
+  },
+  {
+    "objectID": "Week_7.html#introduction",
+    "href": "Week_7.html#introduction",
+    "title": "8  Week_7",
+    "section": "9.1 Introduction",
+    "text": "9.1 Introduction\n“Geospatial” processing service, which permits geospatial analysis at scale. Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.\ncentered, scale, region\n\n9.1.1 Practical\nPCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.\n\nPCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.\nPCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.\nAlthough PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.\n\n\n\n9.1.2 Feedback"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "9  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   }
 ]
