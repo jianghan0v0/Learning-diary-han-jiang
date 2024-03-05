@@ -21,3 +21,9 @@ centered, scale, region
 3.  Although PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.
 
 ### Feedback
+
+### Extracurricular Study
+
+In this week, to better understand how UHI affect cities and i want to figure out how to deal with that, so here I list several ways toitigating the urban heat island effects.
+
+Then I collect them and make one **Hazard-Vulnerability Risk** Map.

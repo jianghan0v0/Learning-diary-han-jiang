@@ -3,3 +3,14 @@ title: "Week_6"
 ---
 
 # Week_6
+
+## Extracurricular study
+
+In this week, my group decide the specific city and main topic to study: the Heat Island
+
+![CART ([Geeks for Geeks](https://www.geeksforgeeks.org/cart-classification-and-regression-tree-in-machine-learning/))](images/CARTClassificationAndRegressionTree.jpg)
+
+```{r}
+
+
+```
