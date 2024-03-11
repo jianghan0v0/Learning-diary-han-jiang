@@ -14,7 +14,7 @@ Representative Concentration Pathway (RCP):
 Out of my interests, I read the essay provided by lecturer, *Economic Assessment of the Urban Heat Island Effect*, and try to figure out the issues raised by UHI.[AECON,2012](https://www.melbourne.vic.gov.au/sitecollectiondocuments/eco-assessment-of-urban-heat-island-effect.pdf)
 
 Firstly, the heat island effect has a significant impact on the urban environment, especially the increase in temperature, which not only affects the health and quality of life of urban residents, but also increases energy consumption and related economic costs. From a government perspective, taking steps to mitigate the heat island effect would not only help combat climate change, but could also lead to economic savings, such as energy savings through reduced air conditioning use and lower healthcare costs through improved public health.
-
+![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/UHI-I.jpg)
 [AECON,2012](https://www.melbourne.vic.gov.au/sitecollectiondocuments/eco-assessment-of-urban-heat-island-effect.pdf)
 Through this article, we have seen more effects of heat island effect on the economy. By combining policy and economic factors, I can reflect and study heat island effect in a more comprehensive way.
 

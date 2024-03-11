@@ -4,14 +4,7 @@
     "href": "index.html",
     "title": "Diary_hanjiang",
     "section": "",
-    "text": "Introduction\nHello! I’m HAN JIANG. I’m currently pursuing my graduate studies at the Centre for Advanced Spatial Analysis (CASA) at UCL, marking my first foray into postgraduate education. My journey at UCL has been enriching, having completed courses in the Foundations of Spatial Data Science, Geographic Information Systems, Urban Systems Theory, Science, and Quantitative Methods. I’m currently delving into Remote Sensing, Agent-Based Modeling (ABM), Data Science, and Building Spatial Applications with Big Data, which are broadening my perspective and skill set in the spatial sciences.\nI graduated in 2023 with a Bachelor’s degree from a collaborative program between Beijing University of Posts and Telecommunications and Queen Mary University of London in E-commerce Engineering with Law. My undergraduate studies encompassed a diverse array of subjects including Advanced Network Programming, Engineering Mathematics, Discrete Mathematics, Advanced Mathematics, Telecommunications Engineering, Web Front-end Design, Databases, and Macroeconomics.\nMy internship experiences have been equally diverse and enriching. In 2022, I interned at the Institute of Automation, Chinese Academy of Sciences, where I was involved in projects related to Monkey Behavior Image Recognition and Mouse Behavior Recording, focusing mainly on video data annotation and model testing. In 2023, I took up a community operations role at EasyTransfer, where my primary responsibility was addressing and resolving user product inquiries and issues.\nOn a lighter note, here’s a bit more about me beyond academics and work: I’m a Leo born in the 2000s with an ENTP personality type. My hobbies include visiting parks (easy to get tired), exploring museums (easy to get lost), enjoying a drink (easy to be drunk), indulging in gourmet food (on a budget), and watching musicals (even as I struggle with English). I’ve been trying to become a blogger, but I have very few followers. I love dogs, especially my HuanHuan, who is 10 years old now. I miss her so much.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Introduction\n\n\n\nHello! I’m HAN JIANG. I’m currently pursuing my graduate studies at the Centre for Advanced Spatial Analysis (CASA) at UCL, marking my first foray into postgraduate education. My journey at UCL has been enriching, having completed courses in the Foundations of Spatial Data Science, Geographic Information Systems, Urban Systems Theory, Science, and Quantitative Methods. I’m currently delving into Remote Sensing, Agent-Based Modeling (ABM), Data Science, and Building Spatial Applications with Big Data, which are broadening my perspective and skill set in the spatial sciences.\nI graduated in 2023 with a Bachelor’s degree from a collaborative program between Beijing University of Posts and Telecommunications and Queen Mary University of London in E-commerce Engineering with Law. My undergraduate studies encompassed a diverse array of subjects including Advanced Network Programming, Engineering Mathematics, Discrete Mathematics, Advanced Mathematics, Telecommunications Engineering, Web Front-end Design, Databases, and Macroeconomics.\nMy internship experiences have been equally diverse and enriching. In 2022, I interned at the Institute of Automation, Chinese Academy of Sciences, where I was involved in projects related to Monkey Behavior Image Recognition and Mouse Behavior Recording, focusing mainly on video data annotation and model testing. In 2023, I took up a community operations role at EasyTransfer, where my primary responsibility was addressing and resolving user product inquiries and issues.\nOn a lighter note, here’s a bit more about me beyond academics and work: I’m a Leo born in the 2000s with an ENTP personality type. My hobbies include visiting parks (easy to get tired), exploring museums (easy to get lost), enjoying a drink (easy to be drunk), indulging in gourmet food (on a budget), and watching musicals (even as I struggle with English). I’ve been trying to become a blogger, but I have very few followers. I love dogs, especially my HuanHuan, who is 10 years old now. I miss her so much.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "Week_1.html",
@@ -58,142 +51,121 @@
   {
     "objectID": "Week_2.html",
     "href": "Week_2.html",
-    "title": "3  Week_2",
+    "title": "2  Week_2",
     "section": "",
-    "text": "4 Week 2 - Slides\nThe content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides."
+    "text": "3 Week 2 - Slides\nThe content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides."
   },
   {
     "objectID": "Week_3.html#notebook",
     "href": "Week_3.html#notebook",
-    "title": "4  Week_3",
-    "section": "4.1 Notebook",
-    "text": "4.1 Notebook\n\n4.1.1 Overview\nWeek 3 focuses on the critical aspects of remote sensing data, including corrections, data joining, and enhancement techniques, providing insights into practical applications and methodologies for processing and improving remote sensing imagery.\n\n\n4.1.2 Key Concepts and Techniques\n\nRemote Sensing Corrections: Essential for removing flaws due to sensor errors, atmospheric conditions, and terrain effects. Key correction types include:\n\nGeometric Correction: Adjusts for distortions due to the satellite’s view angle, Earth’s rotation, and topography.\nAtmospheric Correction: Removes atmospheric effects to improve image clarity and accuracy, crucial for applications requiring precise biophysical parameters.\nRadiometric Calibration: Converts digital numbers (DN) to meaningful spectral radiance values, enabling comparison across different sensors and times.\n\nData Joining and Enhancement: Techniques to merge and enhance remote sensing data for clearer, more accurate representations.\n\nMosaicking and Feathering: Combining multiple images seamlessly, often used to create comprehensive maps from satellite data.\nContrast Enhancement: Adjusting image contrast to highlight features more distinctly.\nImage Enhancement Techniques: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.\n\n\n\n\n4.1.3 Practical Insights\n\nVirginia Norwood’s Contribution: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.\nSensor Technologies: Discussion on “push broom” and “whisk broom” sensors, illustrating the evolution and capabilities of satellite imaging technology.\n\n\n\n\n\n\n\n\n\nCorrecting Image Distortions: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.\nAtmospheric Correction Methods: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.\nEnhancing Image Quality: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.\n\n\n\n4.1.4 Applications and Implications\n\nUrban and Environmental Analysis: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.\n\n\n\n\n\nHouston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)\n\n\n\n\nChallenges in Data Processing: Discusses the complexities involved in pre-processing remotely sensed data, including the need for accurate correction and the potential pitfalls in data interpretation.\nFuture Directions: Encourages critical thinking about the use of remote sensing data in research and policy-making, highlighting the importance of understanding the underlying processes of data correction and enhancement.\n\n\n\n4.1.5 Texture-Analysis\nDefinition and Importance\n\nTexture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.\nIt is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.\n\nTechniques and Measures\n\nGray-Level Co-occurrence Matrix (GLCM): A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.\nFourier Transform: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.\n\nConclusion\n\nTexture analysis provides a valuable complement to spectral analysis in remote sensing, offering additional insights into the physical structure and variation of the Earth’s surface. It underscores the complexity and richness of remotely sensed data, advocating for a nuanced approach to data interpretation and application in various geographical and environmental studies.\n\n\n\n4.1.6 Summary\nThis lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications."
+    "title": "3  Week_3",
+    "section": "3.1 Notebook",
+    "text": "3.1 Notebook\n\n3.1.1 Overview\nWeek 3 focuses on the critical aspects of remote sensing data, including corrections, data joining, and enhancement techniques, providing insights into practical applications and methodologies for processing and improving remote sensing imagery.\n\n\n3.1.2 Key Concepts and Techniques\n\nRemote Sensing Corrections: Essential for removing flaws due to sensor errors, atmospheric conditions, and terrain effects. Key correction types include:\n\nGeometric Correction: Adjusts for distortions due to the satellite’s view angle, Earth’s rotation, and topography.\nAtmospheric Correction: Removes atmospheric effects to improve image clarity and accuracy, crucial for applications requiring precise biophysical parameters.\nRadiometric Calibration: Converts digital numbers (DN) to meaningful spectral radiance values, enabling comparison across different sensors and times.\n\nData Joining and Enhancement: Techniques to merge and enhance remote sensing data for clearer, more accurate representations.\n\nMosaicking and Feathering: Combining multiple images seamlessly, often used to create comprehensive maps from satellite data.\nContrast Enhancement: Adjusting image contrast to highlight features more distinctly.\nImage Enhancement Techniques: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.\n\n\n\n\n3.1.3 Practical Insights\n\nVirginia Norwood’s Contribution: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.\nSensor Technologies: Discussion on “push broom” and “whisk broom” sensors, illustrating the evolution and capabilities of satellite imaging technology.\n\n\n\n\n\n\n\n\n\nCorrecting Image Distortions: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.\nAtmospheric Correction Methods: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.\nEnhancing Image Quality: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.\n\n\n\n3.1.4 Applications and Implications\n\nUrban and Environmental Analysis: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.\n\n\n\n\n\nHouston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)\n\n\n\n\nChallenges in Data Processing: Discusses the complexities involved in pre-processing remotely sensed data, including the need for accurate correction and the potential pitfalls in data interpretation.\nFuture Directions: Encourages critical thinking about the use of remote sensing data in research and policy-making, highlighting the importance of understanding the underlying processes of data correction and enhancement.\n\n\n\n3.1.5 Texture-Analysis\nDefinition and Importance\n\nTexture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.\nIt is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.\n\nTechniques and Measures\n\nGray-Level Co-occurrence Matrix (GLCM): A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.\nFourier Transform: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.\n\nConclusion\n\nTexture analysis provides a valuable complement to spectral analysis in remote sensing, offering additional insights into the physical structure and variation of the Earth’s surface. It underscores the complexity and richness of remotely sensed data, advocating for a nuanced approach to data interpretation and application in various geographical and environmental studies.\n\n\n\n3.1.6 Summary\nThis lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications."
   },
   {
     "objectID": "Week_3.html#further-study",
     "href": "Week_3.html#further-study",
-    "title": "4  Week_3",
-    "section": "4.2 Further Study",
-    "text": "4.2 Further Study"
+    "title": "3  Week_3",
+    "section": "3.2 Further Study",
+    "text": "3.2 Further Study"
   },
   {
     "objectID": "Week_4.html",
     "href": "Week_4.html",
-    "title": "5  Week_4",
+    "title": "4  Week_4",
     "section": "",
-    "text": "6 Project Proposal - River Witham Ecological Enhancement Works Tender"
+    "text": "5 Project Proposal - River Witham Ecological Enhancement Works Tender"
   },
   {
     "objectID": "Week_4.html#introduction",
     "href": "Week_4.html#introduction",
-    "title": "5  Week_4",
-    "section": "6.1 Introduction",
-    "text": "6.1 Introduction\nWe are pleased to submit our proposal for the River Witham Ecological Enhancement Works Tender. Our company is eager to take part in this important project and contribute to the ecological improvement of the River Witham in Grantham."
+    "title": "4  Week_4",
+    "section": "5.1 Introduction",
+    "text": "5.1 Introduction\nWe are pleased to submit our proposal for the River Witham Ecological Enhancement Works Tender. Our company is eager to take part in this important project and contribute to the ecological improvement of the River Witham in Grantham."
   },
   {
     "objectID": "Week_4.html#company-overview",
     "href": "Week_4.html#company-overview",
-    "title": "5  Week_4",
-    "section": "6.2 Company Overview",
-    "text": "6.2 Company Overview\n\n6.2.1 Background\nOreooo is a reputable environmental services provider with a proven track record of successfully delivering similar projects. We are committed to sustainable practices and environmental conservation.\n\n\n6.2.2 Expertise\nOur team consists of highly skilled professionals with expertise in habitat restoration, river channel improvements, and ecological enhancements. We have successfully completed projects that align with the objectives outlined in the tender."
+    "title": "4  Week_4",
+    "section": "5.2 Company Overview",
+    "text": "5.2 Company Overview\n\n5.2.1 Background\nOreooo is a reputable environmental services provider with a proven track record of successfully delivering similar projects. We are committed to sustainable practices and environmental conservation.\n\n\n5.2.2 Expertise\nOur team consists of highly skilled professionals with expertise in habitat restoration, river channel improvements, and ecological enhancements. We have successfully completed projects that align with the objectives outlined in the tender."
   },
   {
     "objectID": "Week_4.html#proposed-approach",
     "href": "Week_4.html#proposed-approach",
-    "title": "5  Week_4",
-    "section": "6.3 Proposed Approach",
-    "text": "6.3 Proposed Approach\n\n6.3.1 Lot 1: River Witham Ecological Enhancement\nObjective: To enhance the ecological value along the River Witham at Stonebridge Close and Sedgwick Meadows, Grantham.\nProposed Works:\n\nCreation of berms\nInstallation of coir rolls\nInstallation of woody deflectors\nIntroduction of gravel\nBerm repair and planting\nVolunteer engagement\n\n\n\n6.3.2 Lot 2: Environmental Improvements and Increased Accessibility\nObjective: To enhance the ecological value along the River Witham through floodplain reconnection at Belton Parkland, Grantham.\nProposed Works:\n\nTree hinging\nBank lowering\nInstallation of in-channel woody materials\nPlacement of floodplain woody materials\nCreation of beaver dam analogues using posts and faggots\nScrape creation"
+    "title": "4  Week_4",
+    "section": "5.3 Proposed Approach",
+    "text": "5.3 Proposed Approach\n\n5.3.1 Lot 1: River Witham Ecological Enhancement\nObjective: To enhance the ecological value along the River Witham at Stonebridge Close and Sedgwick Meadows, Grantham.\nProposed Works:\n\nCreation of berms\nInstallation of coir rolls\nInstallation of woody deflectors\nIntroduction of gravel\nBerm repair and planting\nVolunteer engagement\n\n\n\n5.3.2 Lot 2: Environmental Improvements and Increased Accessibility\nObjective: To enhance the ecological value along the River Witham through floodplain reconnection at Belton Parkland, Grantham.\nProposed Works:\n\nTree hinging\nBank lowering\nInstallation of in-channel woody materials\nPlacement of floodplain woody materials\nCreation of beaver dam analogues using posts and faggots\nScrape creation"
   },
   {
     "objectID": "Week_4.html#project-process",
     "href": "Week_4.html#project-process",
-    "title": "5  Week_4",
-    "section": "6.4 Project Process",
-    "text": "6.4 Project Process\n\n\n\n\n\n\n\n\n\n\n6.4.1 Step 1: Project Initiation (6 weeks)\n\n6.4.1.1 Week 1-2: Project Inception and Team Formation\n\nDefine project requirements and objectives\nAppoint a project manager and team members\nIdentify key success factors for the project\n\n\n\n6.4.1.2 Week 3-4: Preparation of Project Documents and Contract Agreements\n\nDevelop project plan and Work Breakdown Structure (WBS)\nPrepare tender documents and contract drafts\nReview contract details, including schedules and milestones\n\n\n\n6.4.1.3 Week 5-6: Tender Announcement and Supplier Registration\n\nPublish tender announcement\nAccept registration applications from potential suppliers\nPrepare supplier information packages\n\n\n\n\n6.4.2 Step 2: Supplier Evaluation and Selection (8 weeks)\n\n6.4.2.1 Week 7-8: Tender Submission and Evaluation\n\nCollect supplier bids\nEvaluate bids, including technical and financial assessments\nIdentify qualified suppliers who meet the criteria\n\n\n\n\n6.4.3 Step 3: Project Execution (12 months)\n\n6.4.3.1 Month 1-2: Contractor Preparation and Material Procurement\n\nFinalize the selection of the supplier\nContractor prepares a work plan and allocates resources\nCommence material procurement and equipment setup\n\n\n\n6.4.3.2 Month 3-6: Engineering Construction\n\nContractor carries out River Witham habitat improvement works\nMonitor progress of the construction and ensure quality control\n\n\n\n6.4.3.3 Month 7-9: Volunteer Engagement (if applicable)\n\nConduct volunteer training and recruitment\nAssist volunteers in participating in ecological improvement projects\n\n\n\n6.4.3.4 Month 10-12: Project Completion and Acceptance\n\nComplete the construction work\nConduct final acceptance and quality review\nPrepare project reports and documentation\n\n\n\n\n6.4.4 Step 4: Project Delivery and Acceptance (4 weeks)\n\n6.4.4.1 Week 1-2: Final Acceptance and Document Submission\n\nConduct final acceptance of the project results\nSubmit project reports and documentation\nOrganize project documents to meet audit requirements\n\n\n\n6.4.4.2 Week 3-4: Project Acceptance and Settlement\n\nComplete project acceptance procedures\nFinal settlement and payment to the supplier\nComplete project closure and archive documentation"
+    "title": "4  Week_4",
+    "section": "5.4 Project Process",
+    "text": "5.4 Project Process\n\n\n\n\n\n\n\n\n\n\n5.4.1 Step 1: Project Initiation (6 weeks)\n\n5.4.1.1 Week 1-2: Project Inception and Team Formation\n\nDefine project requirements and objectives\nAppoint a project manager and team members\nIdentify key success factors for the project\n\n\n\n5.4.1.2 Week 3-4: Preparation of Project Documents and Contract Agreements\n\nDevelop project plan and Work Breakdown Structure (WBS)\nPrepare tender documents and contract drafts\nReview contract details, including schedules and milestones\n\n\n\n5.4.1.3 Week 5-6: Tender Announcement and Supplier Registration\n\nPublish tender announcement\nAccept registration applications from potential suppliers\nPrepare supplier information packages\n\n\n\n\n5.4.2 Step 2: Supplier Evaluation and Selection (8 weeks)\n\n5.4.2.1 Week 7-8: Tender Submission and Evaluation\n\nCollect supplier bids\nEvaluate bids, including technical and financial assessments\nIdentify qualified suppliers who meet the criteria\n\n\n\n\n5.4.3 Step 3: Project Execution (12 months)\n\n5.4.3.1 Month 1-2: Contractor Preparation and Material Procurement\n\nFinalize the selection of the supplier\nContractor prepares a work plan and allocates resources\nCommence material procurement and equipment setup\n\n\n\n5.4.3.2 Month 3-6: Engineering Construction\n\nContractor carries out River Witham habitat improvement works\nMonitor progress of the construction and ensure quality control\n\n\n\n5.4.3.3 Month 7-9: Volunteer Engagement (if applicable)\n\nConduct volunteer training and recruitment\nAssist volunteers in participating in ecological improvement projects\n\n\n\n5.4.3.4 Month 10-12: Project Completion and Acceptance\n\nComplete the construction work\nConduct final acceptance and quality review\nPrepare project reports and documentation\n\n\n\n\n5.4.4 Step 4: Project Delivery and Acceptance (4 weeks)\n\n5.4.4.1 Week 1-2: Final Acceptance and Document Submission\n\nConduct final acceptance of the project results\nSubmit project reports and documentation\nOrganize project documents to meet audit requirements\n\n\n\n5.4.4.2 Week 3-4: Project Acceptance and Settlement\n\nComplete project acceptance procedures\nFinal settlement and payment to the supplier\nComplete project closure and archive documentation"
   },
   {
     "objectID": "Week_4.html#budget-and-timeline",
     "href": "Week_4.html#budget-and-timeline",
-    "title": "5  Week_4",
-    "section": "6.5 Budget and Timeline",
-    "text": "6.5 Budget and Timeline\n\n6.5.1 Budget\nThe total budget is £500,000.\n\n\n6.5.2 Timeline\n\nProject Initiation: Q2 2024\nSupplier Evaluation and Selection: Q3 2024\nProject Execution: Q4 2024 to Q4 2025\nProject Delivery and Acceptance: Q1 2026"
+    "title": "4  Week_4",
+    "section": "5.5 Budget and Timeline",
+    "text": "5.5 Budget and Timeline\n\n5.5.1 Budget\nThe total budget is £500,000.\n\n\n5.5.2 Timeline\n\nProject Initiation: Q2 2024\nSupplier Evaluation and Selection: Q3 2024\nProject Execution: Q4 2024 to Q4 2025\nProject Delivery and Acceptance: Q1 2026"
   },
   {
     "objectID": "Week_4.html#project-management",
     "href": "Week_4.html#project-management",
-    "title": "5  Week_4",
-    "section": "6.6 Project Management",
-    "text": "6.6 Project Management\nWe will employ a dedicated project manager to oversee all project activities, coordinate with subcontractors, ensure quality control, and adhere to the project schedule. We will use Gantt charts to monitor and manage project progress effectively."
+    "title": "4  Week_4",
+    "section": "5.6 Project Management",
+    "text": "5.6 Project Management\nWe will employ a dedicated project manager to oversee all project activities, coordinate with subcontractors, ensure quality control, and adhere to the project schedule. We will use Gantt charts to monitor and manage project progress effectively."
   },
   {
     "objectID": "Week_4.html#value-proposition",
     "href": "Week_4.html#value-proposition",
-    "title": "5  Week_4",
-    "section": "6.7 Value Proposition",
-    "text": "6.7 Value Proposition\nOur proposal aligns with the objectives of enhancing the ecological value of the River Witham in Grantham, as outlined in the tender. We are committed to delivering high-quality work that meets the European Structural Investment Fund’s funding requirements, contributes to sustainable development goals, and addresses the environmental improvement needs of the region."
+    "title": "4  Week_4",
+    "section": "5.7 Value Proposition",
+    "text": "5.7 Value Proposition\nOur proposal aligns with the objectives of enhancing the ecological value of the River Witham in Grantham, as outlined in the tender. We are committed to delivering high-quality work that meets the European Structural Investment Fund’s funding requirements, contributes to sustainable development goals, and addresses the environmental improvement needs of the region."
   },
   {
     "objectID": "Week_4.html#notebook",
     "href": "Week_4.html#notebook",
-    "title": "5  Week_4",
-    "section": "6.8 Notebook",
-    "text": "6.8 Notebook\n\n6.8.1 LULC\nLULC stands for Land Use and Land Cover. It refers to the classification of the Earth’s surface into different categories based on how the land is used by humans (such as residential, agricultural, industrial) and the natural cover present on the land (like forests, water bodies, deserts).\n\n\n6.8.2 SAR(Synthetic Aperture Radar)\n\nHigh-resolution radar system.\nMounted on aircraft or satellites.\nUses microwave signals, receives reflections.\nFunctions in all weather, day and night.\nApplications: terrain mapping, environmental monitoring, agriculture, forestry, urban planning, disaster assessment.\nPenetrates vegetation, some surface materials.\nProvides in-depth ground information, complementing optical satellites.\n\n\n\n6.8.3 SAR polarization\n\nSingle = 1 horizontal (or vertical)\nDual = transmits and receives both horizontal and vertical\nHH = emitted in horizontal (H) and received in horizontal (H)"
+    "title": "4  Week_4",
+    "section": "5.8 Notebook",
+    "text": "5.8 Notebook\n\n5.8.1 LULC\nLULC stands for Land Use and Land Cover. It refers to the classification of the Earth’s surface into different categories based on how the land is used by humans (such as residential, agricultural, industrial) and the natural cover present on the land (like forests, water bodies, deserts).\n\n\n5.8.2 SAR(Synthetic Aperture Radar)\n\nHigh-resolution radar system.\nMounted on aircraft or satellites.\nUses microwave signals, receives reflections.\nFunctions in all weather, day and night.\nApplications: terrain mapping, environmental monitoring, agriculture, forestry, urban planning, disaster assessment.\nPenetrates vegetation, some surface materials.\nProvides in-depth ground information, complementing optical satellites.\n\n\n\n5.8.3 SAR polarization\n\nSingle = 1 horizontal (or vertical)\nDual = transmits and receives both horizontal and vertical\nHH = emitted in horizontal (H) and received in horizontal (H)"
   },
   {
     "objectID": "Week_4.html#section",
     "href": "Week_4.html#section",
-    "title": "5  Week_4",
-    "section": "6.9 ",
-    "text": "6.9 \n纽约市：宜居的气候，气候变暖对高原植被的影响\n通过遥感来检测监测气候变化，全球目标C40,\n新加坡热环境，2050年实现0碳 green plan，它相应了\n方法：增加绿地面积，改变建筑布局（减少空调使用）——城市规划解决热效应\n局部气候问题，城市形态+建成环境landcover（分类）\n连续变量，没有必要做这个植被分类变量，单纯分析他们的相关关系\n我们可以做的：通过遥感计算热环境的公式，存在这个变量；LCC和热岛之间的关系\noptional：urban fall和经济效应联合起来，会不会对热岛效应的研究有变化\nps：提出假设（比如高层建筑影响热环境），做出分析，拿着结果去找政策对应，一切研究最终要回归政策，最终呈现的结果要很简单（高层建筑会影响热环境，且响应了政策的某部分（作为reference）\n海岸线侵蚀，植被，预测\n关键词：urban island；\n竞标：做的东西简单——结果又要有效"
+    "title": "4  Week_4",
+    "section": "5.9 ",
+    "text": "5.9 \n纽约市：宜居的气候，气候变暖对高原植被的影响\n通过遥感来检测监测气候变化，全球目标C40,\n新加坡热环境，2050年实现0碳 green plan，它相应了\n方法：增加绿地面积，改变建筑布局（减少空调使用）——城市规划解决热效应\n局部气候问题，城市形态+建成环境landcover（分类）\n连续变量，没有必要做这个植被分类变量，单纯分析他们的相关关系\n我们可以做的：通过遥感计算热环境的公式，存在这个变量；LCC和热岛之间的关系\noptional：urban fall和经济效应联合起来，会不会对热岛效应的研究有变化\nps：提出假设（比如高层建筑影响热环境），做出分析，拿着结果去找政策对应，一切研究最终要回归政策，最终呈现的结果要很简单（高层建筑会影响热环境，且响应了政策的某部分（作为reference）\n海岸线侵蚀，植被，预测\n关键词：urban island；\n竞标：做的东西简单——结果又要有效"
   },
   {
-    "objectID": "Week_5.html#notebook-budget",
-    "href": "Week_5.html#notebook-budget",
-    "title": "6  Week_5",
-    "section": "6.1 Notebook-Budget",
-    "text": "6.1 Notebook-Budget\nUrban Heat Island"
+    "objectID": "Week_5.html#urban-heat-islanduhi",
+    "href": "Week_5.html#urban-heat-islanduhi",
+    "title": "5  Week_5",
+    "section": "5.1 Urban Heat Island(UHI)",
+    "text": "5.1 Urban Heat Island(UHI)\nUHI is that urban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas. - \nRepresentative Concentration Pathway (RCP): SOURCE:Climate change impacts and adaptation: a Canadian perspective ### Policy"
+  },
+  {
+    "objectID": "Week_5.html#further-study",
+    "href": "Week_5.html#further-study",
+    "title": "5  Week_5",
+    "section": "5.2 Further Study",
+    "text": "5.2 Further Study\nOut of my interests, I read the essay provided by lecturer, Economic Assessment of the Urban Heat Island Effect, and try to figure out the issues raised by UHI.AECON,2012\nFirstly, the heat island effect has a significant impact on the urban environment, especially the increase in temperature, which not only affects the health and quality of life of urban residents, but also increases energy consumption and related economic costs. From a government perspective, taking steps to mitigate the heat island effect would not only help combat climate change, but could also lead to economic savings, such as energy savings through reduced air conditioning use and lower healthcare costs through improved public health.  AECON,2012 Through this article, we have seen more effects of heat island effect on the economy. By combining policy and economic factors, I can reflect and study heat island effect in a more comprehensive way.\nI was pleasantly surprised to find that the government’s approach to global warming from the heat island effect is a win-all strategy. It can not only improve the urban environment and improve the quality of life of residents, but also bring economic savings and benefits, especially in reducing energy consumption, improving public health and promoting green urban planning. Before I came into contact with the direction of environmental protection, I was always confused about the solution to the problem of global warming, because I felt that it was a very general plan, and the government did not know what kind of city-wide measures to improve the greenhouse effect. Therefore, after learning the term UHI, I have more ideas for policy makers and urban planners to incorporate measures to mitigate the heat island effect into urban development and climate change adaptation strategies, start from the comfort of people’s lives, and work up and down to solve the greenhouse effect in a more efficient way."
+  },
+  {
+    "objectID": "Week_5.html#workshop",
+    "href": "Week_5.html#workshop",
+    "title": "5  Week_5",
+    "section": "5.3 Workshop",
+    "text": "5.3 Workshop\nThis week we use GEE to"
   },
   {
     "objectID": "Week_5.html#groupwork-process",
     "href": "Week_5.html#groupwork-process",
     "title": "5  Week_5",
-    "section": "5.2 Groupwork Process",
-    "text": "5.2 Groupwork Process"
-  },
-  {
-    "objectID": "Week_6.html",
-    "href": "Week_6.html",
-    "title": "6  Week_6",
-    "section": "",
-    "text": "7 Week_6"
-  },
-  {
-    "objectID": "Week_7.html",
-    "href": "Week_7.html",
-    "title": "8  Week_7",
-    "section": "",
-    "text": "9 Week_7 Google Earth Engine"
-  },
-  {
-    "objectID": "Week_7.html#introduction",
-    "href": "Week_7.html#introduction",
-    "title": "8  Week_7",
-    "section": "9.1 Introduction",
-    "text": "9.1 Introduction\n“Geospatial” processing service, which permits geospatial analysis at scale. Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.\ncentered, scale, region\n\n9.1.1 Practical\nPCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.\n\nPCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.\nPCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.\nAlthough PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.\n\n\n\n9.1.2 Feedback"
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "9  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "section": "5.4 Groupwork Process",
+    "text": "5.4 Groupwork Process"
   },
   {
     "objectID": "Week_6.html#extracurricular-study",
@@ -203,10 +175,45 @@
     "text": "6.1 Extracurricular study\nIn this week, my group decide the specific city and main topic to study: the Urban Heat Island issues in Hongkung. So here I collect current policy and global policy that could support our study.\n\n6.1.1 Current Policy: Hongkong Climate Action Blueprint 2050\nTo follow up and review the design standards related to public infrastructure and government buildings, which is expected to be substantially completed by 2023. Further promote green building design and sustainable built environment. Promoting urban forestry and increasing afforestation has not helped to reduce urban temperatures and alleviate the heat island effect (Environment and Ecology Bureau, 2023).\n\n\n6.1.2 Global Policy\n\nUnited Nations’ The New Urban Agenda includes a commitment to reduce the financial, environmental and public health costs of the heat island effect.\nBeating the Heat: A Sustainable Cooling Handbook for Cites has made mitigating urban heat island effect one of its goals.\nThe Cool Cities Network proposes to mitigate the urban heat island effect by reducing urban temperatures through the use of cooling surfaces, alternative materials and designs, and green infrastructure.\n\n4.The Paris Agreement aims to combat climate change globally, indirectly supporting efforts to mitigate urban heat island (UHI) effects through its emphasis on reducing greenhouse gas emissions and enhancing adaptation strategies."
   },
   {
-    "objectID": "Week_5.html#urban-heat-islanduhi",
-    "href": "Week_5.html#urban-heat-islanduhi",
-    "title": "5  Week_5",
-    "section": "5.1 Urban Heat Island(UHI)",
-    "text": "5.1 Urban Heat Island(UHI)\nUHI is that urban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas. - \n)](images/CARTClassificationAndRegressionTree.jpg)"
+    "objectID": "Week_7.html",
+    "href": "Week_7.html",
+    "title": "7  Week_7",
+    "section": "",
+    "text": "8 Week_7 Google Earth Engine"
+  },
+  {
+    "objectID": "Week_7.html#introduction",
+    "href": "Week_7.html#introduction",
+    "title": "7  Week_7",
+    "section": "8.1 Introduction",
+    "text": "8.1 Introduction\n“Geospatial” processing service, which permits geospatial analysis at scale. Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.\ncentered, scale, region"
+  },
+  {
+    "objectID": "Week_7.html#practical",
+    "href": "Week_7.html#practical",
+    "title": "7  Week_7",
+    "section": "8.2 Practical",
+    "text": "8.2 Practical\nPCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.\n\nPCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.\nPCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.\nAlthough PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data."
+  },
+  {
+    "objectID": "Week_7.html#feedback",
+    "href": "Week_7.html#feedback",
+    "title": "7  Week_7",
+    "section": "8.3 Feedback",
+    "text": "8.3 Feedback"
+  },
+  {
+    "objectID": "Week_7.html#extracurricular-study",
+    "href": "Week_7.html#extracurricular-study",
+    "title": "7  Week_7",
+    "section": "8.4 Extracurricular Study",
+    "text": "8.4 Extracurricular Study\nIn this week, to better understand how UHI affect cities and i want to figure out how to deal with that, so here I list several ways toitigate the urban heat island effects.\n\n8.4.1 Action Map\nThe professional articulation of the action plan derived from the dataset informed by remote sensing analysis could be stated as follows:\nSustainable Construction Initiatives:\n\nNewly constructed edifices will integrate eco-friendly design principles, targeting certification under the Green Building Environmental Assessment, known as “BEAM Plus,” to ensure environmental sustainability and operational efficiency.\n\nUrban Retrofitting Strategies:\n\nRevitalization projects will involve retrofitting pedestrian pathways and the external surfaces of structures with high-albedo materials, effectively diminishing the surrounding microclimate temperatures through increased solar reflectance.\n\nPublic Space Enhancement Measures:\n\nInfrastructure in densely populated zones and commercial complexes will be augmented with heat mitigation features, including but not limited to pergolas, water features, expansive waterfront promenades, misting systems, and solar-powered evaporative cooling fans.\n\nCommunity Welfare and Support Services:\n\nThe deployment of sprinkler systems and the provision of public swimming facilities will be instituted as recreational cooling measures. Additionally, a subsidy program will be implemented to offset the cost of air conditioning for eligible individuals, promoting social equity during extreme temperature events.\n\nEnvironmental Conservation and Greening Efforts:\n\nAn increase in the number of verdant thoroughfares will be pursued, enhancing the urban canopy and vegetation density. This will be complemented by an ambitious urban forestry initiative aimed at the establishment and expansion of parklands to foster biodiversity, improve air quality, and enhance the urban dwellers’ quality of life.\n\nThese strategic measures align with contemporary urban resilience and sustainability frameworks, aiming to holistically address the urban heat island phenomenon and promote a healthier, more sustainable urban environment.\nThen I collect them and make one Hazard-Vulnerability Risk Map."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "8  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
   }
 ]

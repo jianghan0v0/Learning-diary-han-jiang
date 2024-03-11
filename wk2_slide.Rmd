@@ -22,18 +22,28 @@ library(tidyverse) #where the mpg data is stored
 ```
 class: inverse,left, middle
 
-## Four Resolution
+## Xaringan
 
-Remotely sensed data and applications will vary based on the four resolutions:
+Xaringan is an R-based presentation package that leverages Remark.js to create attractive, HTML5-based slides. The package was developed by Yihui Xie, and its name is derived from the Japanese word for "shimmering" (pronounced like "summer lang"), symbolizing the creation of a presentation that is both bright and engaging. Xaringan enables users to generate presentations directly from R Markdown files, which is especially useful for data scientists and statisticians who often need to include dynamically generated statistical charts and R code results in their presentations.
 
-1. Spatial = the size of the raster grid per pixel (e.g. 20cm or 30m)
-1. Spectral = the number of bands it records data in...more soon
-1. Temporal = the time it revisits (e.g. daily, every 7 days, on demand ✈️)
-1. Radiometric = identify differences in light or reflectance, in practice this is the range of possible values.
-  * an 8 bit sensor has values between 0 and 255 (256 possibilities)
-  * an 11 bit sensor has values between 0 and 2047(2048 possibilities)
 ---
-## Spatial resolution
+class: middle, center
+
+### Purpose
+Xaringan is primarily used to create presentations, especially for scenarios where R code, graphics, and data analysis results need to be embedded in slides. This makes it ideal for academic conferences, teaching, workshops, and any occasion where data analysis needs to be presented.
+
+```{r echo=FALSE, out.width='80%'}
+
+htmltools::tags$iframe(style="margin: 0 auto; display: block;", width="560", height="315", src="https://www.youtube.com/embed/RPFh3y9UAX4", frameborder="0", allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=TRUE)
+
+
+```
+
+
+---
+
+## 
+
 
 
 
@@ -67,10 +77,45 @@ to have things on the left
 knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/s1.png')
 ```
 
-
-```{r}
-
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
 ```
 
+class: left
+.center[
+# What is the IKONOS-2 satellite?
+]
 
-knitr::kable(head(mpg), format = 'html')
+---
+class: left
+.center[
+#Reflection
+]
+As a data analytics student, I've tried a variety of tools to create presentations, but often the problem is how to effectively combine text, code, and dynamically generated graphs. However, after learning Xaringan in RS class, I can see a brand new way of slides making.
+
+By using Xaringan, I was able to generate presentations directly from my R Markdown files, which not only saved me a lot of time, but also kept the presentation data real-time and accurate. In addition, the customization options offered by Xaringan allowed me to create slides that were both professional and attractive, whether it was font selection, layout design, or animation effects that met my needs.
+
+What impressed me most was that by embedding R code and real-time results, I was able to demonstrate the process of data analysis in a presentation, which is crucial for communicating complex concepts and results. Xaringan not only increased my productivity, but also allowed me to communicate with my audience in a more dynamic and interactive way.
+
+All in all, Xaringan is a powerful and flexible tool. Although I still have a shallow grasp of it, I believe that I can expand more application areas of Xaringan after further exploration of Rstudio in the future.
+
+---
+# References
+Xie, Yihui. (2018). R Markdown: The Definitive Guide. Chapman and Hall/CRC. 
+
+Xie, Yihui. Xaringan: An R package for creating slideshows with remark.js using R Markdown. GitHub repository. 
+
+eoPortal (2012) 'Ikonos-2', available at: https://www.eoportal.org/satellite-missions/ikonos-2 (accessed: 22.2.23)
+
+Greenhill, D., Lennart, R., et al. (2003) 'Characterization of Suburban Areas for Land Use Planning Using Landscape Ecological Indicators Derived From Ikonos-2 Multispectral Imagery', IEEE Transaction on Geoscience and Remote Sensing, 41, 9, pp. 2015-2021
+
+Kayitakire, F., Hamel, C. and Defourny, P. (2006) 'Retrieving forest structure variables based on image texture analysis and IKONOS-2 imagery', Remote Sensing of Environment, 102, pp. 390-401
+Kramer, M (2015) 'The life and death of Ikonos, a pioneering commercial satellite', available at: https://mashable.com/archive/ikonos-satellite-digitalglobe (accessed: 22.2.23)
+
+---
+#References 2
+Tomas, L., Fonseca, L., et al. (2015) 'Urban population estimation based on residential buildings volume using IKONOS-2 images and lidar data', International Journal of Remote Sensing, 37, pp. 1-28
+
+Van der Sande, C.J. (2001) 'River flood damage asseement using IKONOS imagery', European Commission, Joint Research Centre, Natrual Hazards Unit - Floods, Ispra, Italy
+
