@@ -1,0 +1,36 @@
+---
+title: "Week_9"
+---
+### LULC
+
+LULC stands for Land Use and Land Cover. It refers to the classification of the Earth's surface into different categories based on how the land is used by humans (such as residential, agricultural, industrial) and the natural cover present on the land (like forests, water bodies, deserts).
+
+### SAR(Synthetic Aperture Radar)
+
+-   High-resolution radar system.
+
+-   Mounted on aircraft or satellites.
+
+-   Uses microwave signals, receives reflections.
+
+-   Functions in all weather, day and night.
+
+-   Applications: terrain mapping, environmental monitoring, agriculture, forestry, urban planning, disaster assessment.
+
+-   Penetrates vegetation, some surface materials.
+
+-   Provides in-depth ground information, complementing optical satellites.
+
+### SAR polarization
+
+-   Single = 1 horizontal (or vertical)
+
+-   Dual = transmits and receives both horizontal and vertical
+
+-   HH = emitted in horizontal (H) and received in horizontal (H)
+
+
+## Workshop
+This week we use GEE to 
+
+## Groupwork Process
