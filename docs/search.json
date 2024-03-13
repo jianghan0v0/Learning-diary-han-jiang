@@ -16,58 +16,58 @@
   {
     "objectID": "Week_1.html#lecture-content",
     "href": "Week_1.html#lecture-content",
-    "title": "1  Week_1",
-    "section": "2.1 Lecture Content",
-    "text": "2.1 Lecture Content\n\n2.1.1 Remote Sensing Definition:\nNASA defines it as acquiring information from a distance, using sensors mounted on platforms like satellites, planes, drones, and phones.\n\n\n\nHere is a video that introduce Remote Sensing.\n\n\n\n2.1.2 Types of Sensors:\nPassive sensors detect reflected energy from the sun, while active sensors emit electromagnetic waves and wait for the reflection.\n\n\n2.1.3 Data Interaction and Scattering:\nInteraction with Earth’s surface and atmospheric scattering (Rayleigh, Mie, Non-selective) affects the data.\nThe interaction of electromagnetic waves with Earth’s surface and atmosphere is fundamental to many processes, including climate regulation, weather patterns, and the global energy balance. Here are how EM waves interact with Specific Atmospheric Components:\n-Water Vapor: Absorbs infrared and microwave radiation, playing a significant role in the Earth’s energy balance.\n-Ozone: Absorbs most of the Sun’s harmful ultraviolet radiation, protecting living organisms.\n-Aerosols and Particulates: Scatter and absorb sunlight, which can cool the surface or contribute to atmospheric warming, depending on their properties."
+    "title": "1  Week_1 Introduction to Remote Sensing",
+    "section": "1.1 Lecture Content",
+    "text": "1.1 Lecture Content\n\n1.1.1 Remote Sensing Definition:\nNASA defines it as acquiring information from a distance, using sensors mounted on platforms like satellites, planes, drones, and phones.\n\n\n\nHere is a video that introduce Remote Sensing.\n\n\n\n1.1.2 Types of Sensors:\nPassive sensors detect reflected energy from the sun, while active sensors emit electromagnetic waves and wait for the reflection.\n\n\n1.1.3 Data Interaction and Scattering:\nInteraction with Earth’s surface and atmospheric scattering (Rayleigh, Mie, Non-selective) affects the data.\nThe interaction of electromagnetic waves with Earth’s surface and atmosphere is fundamental to many processes, including climate regulation, weather patterns, and the global energy balance. Here are how EM waves interact with Specific Atmospheric Components:\n-Water Vapor: Absorbs infrared and microwave radiation, playing a significant role in the Earth’s energy balance.\n-Ozone: Absorbs most of the Sun’s harmful ultraviolet radiation, protecting living organisms.\n-Aerosols and Particulates: Scatter and absorb sunlight, which can cool the surface or contribute to atmospheric warming, depending on their properties."
   },
   {
     "objectID": "Week_1.html#four-resolutions-of-remotely-sensing-data",
     "href": "Week_1.html#four-resolutions-of-remotely-sensing-data",
-    "title": "1  Week_1",
-    "section": "2.2 Four Resolutions of Remotely Sensing Data",
-    "text": "2.2 Four Resolutions of Remotely Sensing Data\n\nSpatial: Size of raster cells varies from 10cm to several kilometers.\nSpectral: Number of bands recorded, influenced by atmospheric windows.\nTemporal: Frequency of sensor revisits, affecting data freshness.\nRadiometric: Sensor’s ability to differentiate small energy differences, measured in bit depth (e.g., 8-bit, 256 values)."
+    "title": "1  Week_1 Introduction to Remote Sensing",
+    "section": "1.2 Four Resolutions of Remotely Sensing Data",
+    "text": "1.2 Four Resolutions of Remotely Sensing Data\n\nSpatial: Size of raster cells varies from 10cm to several kilometers.\nSpectral: Number of bands recorded, influenced by atmospheric windows.\nTemporal: Frequency of sensor revisits, affecting data freshness.\nRadiometric: Sensor’s ability to differentiate small energy differences, measured in bit depth (e.g., 8-bit, 256 values)."
   },
   {
     "objectID": "Week_1.html#practical-applications",
     "href": "Week_1.html#practical-applications",
-    "title": "1  Week_1",
-    "section": "2.3 Practical Applications",
-    "text": "2.3 Practical Applications\n\n2.3.1 Introduction to Tools:\n1. Loading Landsat and Sentinel Data\n\nLandsat and Sentinel are two different Earth observation satellite programs. The Landsat program is managed jointly by the U.S. Geological Survey (USGS) and NASA and has been operational since 1972, making it the longest-running enterprise for acquisition of satellite imagery of Earth. The Sentinel program is part of the European Space Agency (ESA) and supports the European Union’s Copernicus program, providing a wide range of data for environmental and security monitoring.\nLoading the data involves retrieving these satellites’ imagery from databases or storage services. This may include specifying certain criteria like specific dates, areas of interest, cloud cover percentage, etc., to filter the data.\n\n2. Selecting Regions of Interest (ROIs)\n\nSelecting Regions of Interest (ROIs) is the process of identifying areas for focused analysis within the vast amounts of remote sensing data. These areas might be selected based on specific geographic features, ecosystems, urban areas, etc.\nROIs can be selected by manually drawing polygons, entering geographic coordinates, or using existing geographic information data (like vector layers). This step is crucial to ensure that subsequent analyses are concentrated on relevant areas.\n\n3. Plotting Spectral Signatures\n\nSpectral signatures refer to the characteristic pattern of reflection or absorption of light at different wavelengths by objects or materials. In remote sensing, analyzing the spectral reflectance of different terrestrial materials (like vegetation, water bodies, soil, etc.) allows for their identification and classification.\nPlotting spectral signatures involves graphically representing these spectral characteristics, typically showing wavelength (or bands) against reflectance values. This helps in understanding the spectral behavior of different materials, which is vital for applications like material classification, vegetation health analysis, etc.\nApplications of Remote Sensing: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis."
+    "title": "1  Week_1 Introduction to Remote Sensing",
+    "section": "1.3 Practical Applications",
+    "text": "1.3 Practical Applications\n\n1.3.1 Introduction to Tools:\n1. Loading Landsat and Sentinel Data\n\nLandsat and Sentinel are two different Earth observation satellite programs. The Landsat program is managed jointly by the U.S. Geological Survey (USGS) and NASA and has been operational since 1972, making it the longest-running enterprise for acquisition of satellite imagery of Earth. The Sentinel program is part of the European Space Agency (ESA) and supports the European Union’s Copernicus program, providing a wide range of data for environmental and security monitoring.\nLoading the data involves retrieving these satellites’ imagery from databases or storage services. This may include specifying certain criteria like specific dates, areas of interest, cloud cover percentage, etc., to filter the data.\n\n2. Selecting Regions of Interest (ROIs)\n\nSelecting Regions of Interest (ROIs) is the process of identifying areas for focused analysis within the vast amounts of remote sensing data. These areas might be selected based on specific geographic features, ecosystems, urban areas, etc.\nROIs can be selected by manually drawing polygons, entering geographic coordinates, or using existing geographic information data (like vector layers). This step is crucial to ensure that subsequent analyses are concentrated on relevant areas.\n\n3. Plotting Spectral Signatures\n\nSpectral signatures refer to the characteristic pattern of reflection or absorption of light at different wavelengths by objects or materials. In remote sensing, analyzing the spectral reflectance of different terrestrial materials (like vegetation, water bodies, soil, etc.) allows for their identification and classification.\nPlotting spectral signatures involves graphically representing these spectral characteristics, typically showing wavelength (or bands) against reflectance values. This helps in understanding the spectral behavior of different materials, which is vital for applications like material classification, vegetation health analysis, etc.\nApplications of Remote Sensing: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis."
   },
   {
     "objectID": "Week_1.html#summary",
     "href": "Week_1.html#summary",
-    "title": "1  Week_1",
-    "section": "2.4 Summary",
-    "text": "2.4 Summary\nThe field of remote sensing is essential for understanding and managing environmental hazards, especially in the context of urban sustainability and climate change. The module provides comprehensive training in using remote sensing data and tools for environmental analysis and decision-making."
+    "title": "1  Week_1 Introduction to Remote Sensing",
+    "section": "1.4 Summary",
+    "text": "1.4 Summary\nThe field of remote sensing is essential for understanding and managing environmental hazards, especially in the context of urban sustainability and climate change. The module provides comprehensive training in using remote sensing data and tools for environmental analysis and decision-making."
   },
   {
     "objectID": "Week_1.html#further-study",
     "href": "Week_1.html#further-study",
-    "title": "1  Week_1",
-    "section": "2.5 Further Study",
-    "text": "2.5 Further Study\n\n2.5.1 SNAP"
+    "title": "1  Week_1 Introduction to Remote Sensing",
+    "section": "1.5 Further Study",
+    "text": "1.5 Further Study\n\n1.5.1 SNAP"
   },
   {
     "objectID": "Week_2.html",
     "href": "Week_2.html",
-    "title": "2  Week_2",
+    "title": "2  Week_2 Xaringan",
     "section": "",
-    "text": "3 Week 2 - Slides\nThe content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides."
+    "text": "The content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides."
   },
   {
     "objectID": "Week_3.html#notebook",
     "href": "Week_3.html#notebook",
     "title": "3  Week_3 Corrections",
     "section": "3.1 Notebook",
-    "text": "3.1 Notebook\n\n3.1.1 Overview\nWeek 3 focuses on the critical aspects of remote sensing data, including corrections, data joining, and enhancement techniques, providing insights into practical applications and methodologies for processing and improving remote sensing imagery.\n\n\n3.1.2 Key Concepts and Techniques\n\nRemote Sensing Corrections: Essential for removing flaws due to sensor errors, atmospheric conditions, and terrain effects. Key correction types include:\n\nGeometric Correction: Adjusts for distortions due to the satellite’s view angle, Earth’s rotation, and topography.\nAtmospheric Correction: Removes atmospheric effects to improve image clarity and accuracy, crucial for applications requiring precise biophysical parameters.\nRadiometric Calibration: Converts digital numbers (DN) to meaningful spectral radiance values, enabling comparison across different sensors and times.\n\nData Joining and Enhancement: Techniques to merge and enhance remote sensing data for clearer, more accurate representations.\n\nMosaicking and Feathering: Combining multiple images seamlessly, often used to create comprehensive maps from satellite data.\nContrast Enhancement: Adjusting image contrast to highlight features more distinctly.\nImage Enhancement Techniques: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.\n\n\n\n\n3.1.3 Practical Insights\n\nVirginia Norwood’s Contribution: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.\nSensor Technologies: Discussion on “push broom” and “whisk broom” sensors, illustrating the evolution and capabilities of satellite imaging technology.\n\n\n\n\n\n\n\n\n\nCorrecting Image Distortions: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.\nAtmospheric Correction Methods: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.\nEnhancing Image Quality: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.\n\n\n\n3.1.4 Applications and Implications\n\nUrban and Environmental Analysis: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.\n\n\n\n\n\nHouston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)\n\n\n\n\nChallenges in Data Processing: Discusses the complexities involved in pre-processing remotely sensed data, including the need for accurate correction and the potential pitfalls in data interpretation.\nFuture Directions: Encourages critical thinking about the use of remote sensing data in research and policy-making, highlighting the importance of understanding the underlying processes of data correction and enhancement.\n\n\n\n3.1.5 Texture-Analysis\nDefinition and Importance\n\nTexture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.\nIt is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.\n\nTechniques and Measures\n\nGray-Level Co-occurrence Matrix (GLCM): A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.\nFourier Transform: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.\n\nConclusion\n\nTexture analysis provides a valuable complement to spectral analysis in remote sensing, offering additional insights into the physical structure and variation of the Earth’s surface. It underscores the complexity and richness of remotely sensed data, advocating for a nuanced approach to data interpretation and application in various geographical and environmental studies.\n\n\n\n3.1.6 Summary\nThis lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications."
+    "text": "3.1 Notebook\n\n3.1.1 Overview\nWeek 3 focuses on the critical aspects of remote sensing data, including corrections, data joining, and enhancement techniques, providing insights into practical applications and methodologies for processing and improving remote sensing imagery.\n\n\n3.1.2 Key Concepts and Techniques\n\nRemote Sensing Corrections: Essential for removing flaws due to sensor errors, atmospheric conditions, and terrain effects. Key correction types include:\n\nGeometric Correction: Adjusts for distortions due to the satellite’s view angle, Earth’s rotation, and topography.\nAtmospheric Correction: Removes atmospheric effects to improve image clarity and accuracy, crucial for applications requiring precise biophysical parameters.\nRadiometric Calibration: Converts digital numbers (DN) to meaningful spectral radiance values, enabling comparison across different sensors and times.\n\nData Joining and Enhancement: Techniques to merge and enhance remote sensing data for clearer, more accurate representations.\n\nMosaicking and Feathering: Combining multiple images seamlessly, often used to create comprehensive maps from satellite data.\nContrast Enhancement: Adjusting image contrast to highlight features more distinctly.\nImage Enhancement Techniques: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.\n\n\n\n\n3.1.3 Atmospheric Correction\natmospheric corrections\n\n\n3.1.4 Practical Insights\n\nVirginia Norwood’s Contribution: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.\nSensor Technologies: Discussion on “push broom” and “whisk broom” sensors, illustrating the evolution and capabilities of satellite imaging technology.\n\n\n\n\n\n\n\n\n\nCorrecting Image Distortions: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.\nAtmospheric Correction Methods: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.\nEnhancing Image Quality: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.\n\n\n\n3.1.5 Applications and Implications\n\nUrban and Environmental Analysis: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.\n\n\n\n\n\nHouston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)\n\n\n\n\nChallenges in Data Processing: Discusses the complexities involved in pre-processing remotely sensed data, including the need for accurate correction and the potential pitfalls in data interpretation.\nFuture Directions: Encourages critical thinking about the use of remote sensing data in research and policy-making, highlighting the importance of understanding the underlying processes of data correction and enhancement.\n\n\n\n3.1.6 Texture-Analysis\nDefinition and Importance\n\nTexture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.\nIt is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.\n\nTechniques and Measures\n\nGray-Level Co-occurrence Matrix (GLCM): A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.\nFourier Transform: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.\n\nConclusion\n\nTexture analysis provides a valuable complement to spectral analysis in remote sensing, offering additional insights into the physical structure and variation of the Earth’s surface. It underscores the complexity and richness of remotely sensed data, advocating for a nuanced approach to data interpretation and application in various geographical and environmental studies.\n\n\n\n3.1.7 Summary\nThis lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications."
   },
   {
     "objectID": "Week_3.html#further-study",
     "href": "Week_3.html#further-study",
     "title": "3  Week_3 Corrections",
     "section": "3.2 Further Study",
-    "text": "3.2 Further Study"
+    "text": "3.2 Further Study\n\n3.2.1 Reflection\nThis week’s delve into the intricate world of remote sensing corrections, particularly geometric correction, has bolstered my comprehension of the significance of precision in spatial analysis. The meticulous task of identifying Ground Control Points and minimizing the RMSE to align distorted images to a geospatial reference resonates deeply with my penchant for detail and accuracy. It’s a reminder of the delicate balance between the abstract concepts taught in academia and their concrete applications in real-world scenarios. Jensen’s texts offer not only a theoretical framework but also practical solutions that bridge this gap, making the leap from understanding to application less daunting and more attainable. My future endeavors in this field will undoubtedly be influenced by the rich insights gained from this week’s focus, urging me to delve further into geometric corrections to elevate the reliability and utility of spatial data analysis."
   },
   {
     "objectID": "Week_4.html",
@@ -133,104 +133,6 @@
     "text": "5.8 Notebook"
   },
   {
-    "objectID": "Week_4.html#section",
-    "href": "Week_4.html#section",
-    "title": "4  Week_4",
-    "section": "5.9 ",
-    "text": "5.9 \n纽约市：宜居的气候，气候变暖对高原植被的影响\n通过遥感来检测监测气候变化，全球目标C40,\n新加坡热环境，2050年实现0碳 green plan，它相应了\n方法：增加绿地面积，改变建筑布局（减少空调使用）——城市规划解决热效应\n局部气候问题，城市形态+建成环境landcover（分类）\n连续变量，没有必要做这个植被分类变量，单纯分析他们的相关关系\n我们可以做的：通过遥感计算热环境的公式，存在这个变量；LCC和热岛之间的关系\noptional：urban fall和经济效应联合起来，会不会对热岛效应的研究有变化\nps：提出假设（比如高层建筑影响热环境），做出分析，拿着结果去找政策对应，一切研究最终要回归政策，最终呈现的结果要很简单（高层建筑会影响热环境，且响应了政策的某部分（作为reference）\n海岸线侵蚀，植被，预测\n关键词：urban island；\n竞标：做的东西简单——结果又要有效"
-  },
-  {
-    "objectID": "Week_5.html#urban-heat-islanduhi",
-    "href": "Week_5.html#urban-heat-islanduhi",
-    "title": "5  Week_5",
-    "section": "5.1 Urban Heat Island(UHI)",
-    "text": "5.1 Urban Heat Island(UHI)\nUHI is that urban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas. - \nRepresentative Concentration Pathway (RCP): SOURCE:Climate change impacts and adaptation: a Canadian perspective ### Policy"
-  },
-  {
-    "objectID": "Week_5.html#further-study",
-    "href": "Week_5.html#further-study",
-    "title": "5  Week_5",
-    "section": "5.2 Further Study",
-    "text": "5.2 Further Study\nOut of my interests, I read the essay provided by lecturer, Economic Assessment of the Urban Heat Island Effect, and try to figure out the issues raised by UHI.AECON,2012\nFirstly, the heat island effect has a significant impact on the urban environment, especially the increase in temperature, which not only affects the health and quality of life of urban residents, but also increases energy consumption and related economic costs. From a government perspective, taking steps to mitigate the heat island effect would not only help combat climate change, but could also lead to economic savings, such as energy savings through reduced air conditioning use and lower healthcare costs through improved public health.  AECON,2012 Through this article, we have seen more effects of heat island effect on the economy. By combining policy and economic factors, I can reflect and study heat island effect in a more comprehensive way.\nI was pleasantly surprised to find that the government’s approach to global warming from the heat island effect is a win-all strategy. It can not only improve the urban environment and improve the quality of life of residents, but also bring economic savings and benefits, especially in reducing energy consumption, improving public health and promoting green urban planning. Before I came into contact with the direction of environmental protection, I was always confused about the solution to the problem of global warming, because I felt that it was a very general plan, and the government did not know what kind of city-wide measures to improve the greenhouse effect. Therefore, after learning the term UHI, I have more ideas for policy makers and urban planners to incorporate measures to mitigate the heat island effect into urban development and climate change adaptation strategies, start from the comfort of people’s lives, and work up and down to solve the greenhouse effect in a more efficient way."
-  },
-  {
-    "objectID": "Week_5.html#workshop",
-    "href": "Week_5.html#workshop",
-    "title": "5  Week_5",
-    "section": "5.3 Workshop",
-    "text": "5.3 Workshop\nThis week we use GEE to"
-  },
-  {
-    "objectID": "Week_5.html#groupwork-process",
-    "href": "Week_5.html#groupwork-process",
-    "title": "5  Week_5",
-    "section": "5.4 Groupwork Process",
-    "text": "5.4 Groupwork Process"
-  },
-  {
-    "objectID": "Week_6.html#extracurricular-study",
-    "href": "Week_6.html#extracurricular-study",
-    "title": "6  Week_6",
-    "section": "6.1 Extracurricular study",
-    "text": "6.1 Extracurricular study\nIn this week, my group decide the specific city and main topic to study: the Urban Heat Island issues in Hongkung. So here I collect current policy and global policy that could support our study.\n\n6.1.1 Current Policy: Hongkong Climate Action Blueprint 2050\nTo follow up and review the design standards related to public infrastructure and government buildings, which is expected to be substantially completed by 2023. Further promote green building design and sustainable built environment. Promoting urban forestry and increasing afforestation has not helped to reduce urban temperatures and alleviate the heat island effect (Environment and Ecology Bureau, 2023).\n\n\n6.1.2 Global Policy\n\nUnited Nations’ The New Urban Agenda includes a commitment to reduce the financial, environmental and public health costs of the heat island effect.\nBeating the Heat: A Sustainable Cooling Handbook for Cites has made mitigating urban heat island effect one of its goals.\nThe Cool Cities Network proposes to mitigate the urban heat island effect by reducing urban temperatures through the use of cooling surfaces, alternative materials and designs, and green infrastructure.\n\n4.The Paris Agreement aims to combat climate change globally, indirectly supporting efforts to mitigate urban heat island (UHI) effects through its emphasis on reducing greenhouse gas emissions and enhancing adaptation strategies."
-  },
-  {
-    "objectID": "Week_7.html",
-    "href": "Week_7.html",
-    "title": "7  Week_7",
-    "section": "",
-    "text": "8 Week_7 Google Earth Engine"
-  },
-  {
-    "objectID": "Week_7.html#introduction",
-    "href": "Week_7.html#introduction",
-    "title": "7  Week_7",
-    "section": "8.1 Introduction",
-    "text": "8.1 Introduction\n“Geospatial” processing service, which permits geospatial analysis at scale. Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.\ncentered, scale, region"
-  },
-  {
-    "objectID": "Week_7.html#practical",
-    "href": "Week_7.html#practical",
-    "title": "7  Week_7",
-    "section": "8.2 Practical",
-    "text": "8.2 Practical\nPCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.\n\nPCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.\nPCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.\nAlthough PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data."
-  },
-  {
-    "objectID": "Week_7.html#feedback",
-    "href": "Week_7.html#feedback",
-    "title": "7  Week_7",
-    "section": "8.3 Feedback",
-    "text": "8.3 Feedback"
-  },
-  {
-    "objectID": "Week_7.html#extracurricular-study",
-    "href": "Week_7.html#extracurricular-study",
-    "title": "7  Week_7",
-    "section": "8.4 Extracurricular Study",
-    "text": "8.4 Extracurricular Study\nIn this week, to better understand how UHI affect cities and i want to figure out how to deal with that, so here I list several ways toitigate the urban heat island effects.\n\n8.4.1 Action Map\nThe professional articulation of the action plan derived from the dataset informed by remote sensing analysis could be stated as follows:\nSustainable Construction Initiatives:\n\nNewly constructed edifices will integrate eco-friendly design principles, targeting certification under the Green Building Environmental Assessment, known as “BEAM Plus,” to ensure environmental sustainability and operational efficiency.\n\nUrban Retrofitting Strategies:\n\nRevitalization projects will involve retrofitting pedestrian pathways and the external surfaces of structures with high-albedo materials, effectively diminishing the surrounding microclimate temperatures through increased solar reflectance.\n\nPublic Space Enhancement Measures:\n\nInfrastructure in densely populated zones and commercial complexes will be augmented with heat mitigation features, including but not limited to pergolas, water features, expansive waterfront promenades, misting systems, and solar-powered evaporative cooling fans.\n\nCommunity Welfare and Support Services:\n\nThe deployment of sprinkler systems and the provision of public swimming facilities will be instituted as recreational cooling measures. Additionally, a subsidy program will be implemented to offset the cost of air conditioning for eligible individuals, promoting social equity during extreme temperature events.\n\nEnvironmental Conservation and Greening Efforts:\n\nAn increase in the number of verdant thoroughfares will be pursued, enhancing the urban canopy and vegetation density. This will be complemented by an ambitious urban forestry initiative aimed at the establishment and expansion of parklands to foster biodiversity, improve air quality, and enhance the urban dwellers’ quality of life.\n\nThese strategic measures align with contemporary urban resilience and sustainability frameworks, aiming to holistically address the urban heat island phenomenon and promote a healthier, more sustainable urban environment.\nThen I collect them and make one Hazard-Vulnerability Risk Map."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "9  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "Week_9.html#workshop",
-    "href": "Week_9.html#workshop",
-    "title": "8  Week_9",
-    "section": "8.1 Workshop",
-    "text": "8.1 Workshop\nThis week we use GEE to"
-  },
-  {
-    "objectID": "Week_9.html#groupwork-process",
-    "href": "Week_9.html#groupwork-process",
-    "title": "8  Week_9",
-    "section": "8.2 Groupwork Process",
-    "text": "8.2 Groupwork Process"
-  },
-  {
     "objectID": "Week_4.html#urban-heat-islanduhi",
     "href": "Week_4.html#urban-heat-islanduhi",
     "title": "4  Week_4 Policy",
@@ -243,5 +145,68 @@
     "title": "4  Week_4 Policy",
     "section": "5.10 Further Study",
     "text": "5.10 Further Study\nOut of my interests, I read the essay provided by lecturer, Economic Assessment of the Urban Heat Island Effect, and try to figure out the issues raised by UHI.AECON,2012\nFirstly, the heat island effect has a significant impact on the urban environment, especially the increase in temperature, which not only affects the health and quality of life of urban residents, but also increases energy consumption and related economic costs. From a government perspective, taking steps to mitigate the heat island effect would not only help combat climate change, but could also lead to economic savings, such as energy savings through reduced air conditioning use and lower healthcare costs through improved public health.  AECON,2012 Through this article, we have seen more effects of heat island effect on the economy. By combining policy and economic factors, I can reflect and study heat island effect in a more comprehensive way.\nI was pleasantly surprised to find that the government’s approach to global warming from the heat island effect is a win-all strategy. It can not only improve the urban environment and improve the quality of life of residents, but also bring economic savings and benefits, especially in reducing energy consumption, improving public health and promoting green urban planning. Before I came into contact with the direction of environmental protection, I was always confused about the solution to the problem of global warming, because I felt that it was a very general plan, and the government did not know what kind of city-wide measures to improve the greenhouse effect. Therefore, after learning the term UHI, I have more ideas for policy makers and urban planners to incorporate measures to mitigate the heat island effect into urban development and climate change adaptation strategies, start from the comfort of people’s lives, and work up and down to solve the greenhouse effect in a more efficient way.\n纽约市：宜居的气候，气候变暖对高原植被的影响\n通过遥感来检测监测气候变化，全球目标C40,\n新加坡热环境，2050年实现0碳 green plan，它相应了\n方法：增加绿地面积，改变建筑布局（减少空调使用）——城市规划解决热效应\n局部气候问题，城市形态+建成环境landcover（分类）\n连续变量，没有必要做这个植被分类变量，单纯分析他们的相关关系\n我们可以做的：通过遥感计算热环境的公式，存在这个变量；LCC和热岛之间的关系\noptional：urban fall和经济效应联合起来，会不会对热岛效应的研究有变化\nps：提出假设（比如高层建筑影响热环境），做出分析，拿着结果去找政策对应，一切研究最终要回归政策，最终呈现的结果要很简单（高层建筑会影响热环境，且响应了政策的某部分（作为reference）\n海岸线侵蚀，植被，预测\n关键词：urban island；\n竞标：做的东西简单——结果又要有效"
+  },
+  {
+    "objectID": "Week_6.html#extracurricular-study",
+    "href": "Week_6.html#extracurricular-study",
+    "title": "5  Week_6 Introduction to GEE",
+    "section": "5.1 Extracurricular study",
+    "text": "5.1 Extracurricular study\nIn this week, my group decide the specific city and main topic to study: the Urban Heat Island issues in Hongkung. So here I collect current policy and global policy that could support our study.\n\n5.1.1 Current Policy: Hongkong Climate Action Blueprint 2050\nTo follow up and review the design standards related to public infrastructure and government buildings, which is expected to be substantially completed by 2023. Further promote green building design and sustainable built environment. Promoting urban forestry and increasing afforestation has not helped to reduce urban temperatures and alleviate the heat island effect (Environment and Ecology Bureau, 2023).\n\n\n5.1.2 Global Policy\n\nUnited Nations’ The New Urban Agenda includes a commitment to reduce the financial, environmental and public health costs of the heat island effect.\nBeating the Heat: A Sustainable Cooling Handbook for Cites has made mitigating urban heat island effect one of its goals.\nThe Cool Cities Network proposes to mitigate the urban heat island effect by reducing urban temperatures through the use of cooling surfaces, alternative materials and designs, and green infrastructure.\n\n4.The Paris Agreement aims to combat climate change globally, indirectly supporting efforts to mitigate urban heat island (UHI) effects through its emphasis on reducing greenhouse gas emissions and enhancing adaptation strategies."
+  },
+  {
+    "objectID": "Week_7.html",
+    "href": "Week_7.html",
+    "title": "6  Week_7 Classification",
+    "section": "",
+    "text": "7 Week_7 Google Earth Engine"
+  },
+  {
+    "objectID": "Week_7.html#introduction",
+    "href": "Week_7.html#introduction",
+    "title": "6  Week_7 Classification",
+    "section": "6.1 Introduction",
+    "text": "6.1 Introduction\n“Geospatial” processing service, which permits geospatial analysis at scale. Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.\ncentered, scale, region"
+  },
+  {
+    "objectID": "Week_7.html#practical",
+    "href": "Week_7.html#practical",
+    "title": "6  Week_7 Classification",
+    "section": "6.2 Practical",
+    "text": "6.2 Practical\nPCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.\n\nPCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.\nPCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.\nAlthough PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data."
+  },
+  {
+    "objectID": "Week_7.html#feedback",
+    "href": "Week_7.html#feedback",
+    "title": "6  Week_7 Classification",
+    "section": "6.3 Feedback",
+    "text": "6.3 Feedback"
+  },
+  {
+    "objectID": "Week_7.html#extracurricular-study",
+    "href": "Week_7.html#extracurricular-study",
+    "title": "6  Week_7 Classification",
+    "section": "6.4 Extracurricular Study",
+    "text": "6.4 Extracurricular Study\nIn this week, to better understand how UHI affect cities and i want to figure out how to deal with that, so here I list several ways toitigate the urban heat island effects.\n\n6.4.1 Action Map\nThe professional articulation of the action plan derived from the dataset informed by remote sensing analysis could be stated as follows:\nSustainable Construction Initiatives:\n\nNewly constructed edifices will integrate eco-friendly design principles, targeting certification under the Green Building Environmental Assessment, known as “BEAM Plus,” to ensure environmental sustainability and operational efficiency.\n\nUrban Retrofitting Strategies:\n\nRevitalization projects will involve retrofitting pedestrian pathways and the external surfaces of structures with high-albedo materials, effectively diminishing the surrounding microclimate temperatures through increased solar reflectance.\n\nPublic Space Enhancement Measures:\n\nInfrastructure in densely populated zones and commercial complexes will be augmented with heat mitigation features, including but not limited to pergolas, water features, expansive waterfront promenades, misting systems, and solar-powered evaporative cooling fans.\n\nCommunity Welfare and Support Services:\n\nThe deployment of sprinkler systems and the provision of public swimming facilities will be instituted as recreational cooling measures. Additionally, a subsidy program will be implemented to offset the cost of air conditioning for eligible individuals, promoting social equity during extreme temperature events.\n\nEnvironmental Conservation and Greening Efforts:\n\nAn increase in the number of verdant thoroughfares will be pursued, enhancing the urban canopy and vegetation density. This will be complemented by an ambitious urban forestry initiative aimed at the establishment and expansion of parklands to foster biodiversity, improve air quality, and enhance the urban dwellers’ quality of life.\n\nThese strategic measures align with contemporary urban resilience and sustainability frameworks, aiming to holistically address the urban heat island phenomenon and promote a healthier, more sustainable urban environment.\nThen I collect them and make one Hazard-Vulnerability Risk Map."
+  },
+  {
+    "objectID": "Week_9.html#workshop",
+    "href": "Week_9.html#workshop",
+    "title": "8  Week_9 SAR",
+    "section": "8.1 Workshop",
+    "text": "8.1 Workshop\nThis week we use GEE to"
+  },
+  {
+    "objectID": "Week_9.html#groupwork-process",
+    "href": "Week_9.html#groupwork-process",
+    "title": "8  Week_9 SAR",
+    "section": "8.2 Groupwork Process",
+    "text": "8.2 Groupwork Process"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "9  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
   }
 ]

@@ -1,8 +1,8 @@
 ---
-title: "Week_7"
+title: "Week_7 Classification"
 ---
 
-# Week_7 Google Earth Engine
+
 
 ## Introduction
 

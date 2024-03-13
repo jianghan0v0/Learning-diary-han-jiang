@@ -1,5 +1,5 @@
 ---
-title: "Week_6"
+title: "Week_6 Introduction to GEE"
 ---
 
 ## Extracurricular study
