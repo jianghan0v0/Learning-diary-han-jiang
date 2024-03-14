@@ -8,7 +8,7 @@ title: "Week_1 Introduction to Remote Sensing"
 
 NASA defines it as acquiring information from a distance, using sensors mounted on platforms like satellites, planes, drones, and phones.
 
--   ![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1scan.jpg)
+-   ![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1-scan.jpg)
 
 Here is a video that introduce Remote Sensing.
 
@@ -64,10 +64,8 @@ The interaction of electromagnetic waves with Earth's surface and atmosphere is 
 
 -   **Applications of Remote Sensing**: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis.
 
-## Summary
 
-The field of remote sensing is essential for understanding and managing environmental hazards, especially in the context of urban sustainability and climate change. The module provides comprehensive training in using remote sensing data and tools for environmental analysis and decision-making.
 
 ## Further Study
 
-### SNAP
+
