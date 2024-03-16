@@ -1,5 +1,5 @@
 ---
-title: "Week_9 SAR"
+title: "Week_9 Temperature"
 ---
 ### LULC
 
@@ -30,7 +30,13 @@ LULC stands for Land Use and Land Cover. It refers to the classification of the 
 -   HH = emitted in horizontal (H) and received in horizontal (H)
 
 
-## Workshop
+## Workshop-Temperature
 This week we use GEE to 
 
-## Groupwork Process
+## Further Practice-Flood Detection
+
+
+::: {style="display: flex; justify-content: space-around; align-items: center;"}
+<img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood1.png" width="29%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood2.png" width="30%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood3.png" width="29%"/>
+:::
+
