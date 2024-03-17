@@ -22,34 +22,4 @@ centered, scale, region
 
 ## Feedback
 
-## Extracurricular Study
 
-In this week, to better understand how UHI affect cities and i want to figure out how to deal with that, so here I list several ways toitigate the urban heat island effects.
-
-### Action Map
-
-The professional articulation of the action plan derived from the dataset informed by remote sensing analysis could be stated as follows:
-
-**Sustainable Construction Initiatives**:
-
--   Newly constructed edifices will integrate eco-friendly design principles, targeting certification under the Green Building Environmental Assessment, known as "BEAM Plus," to ensure environmental sustainability and operational efficiency.
-
-**Urban Retrofitting Strategies**:
-
--   Revitalization projects will involve retrofitting pedestrian pathways and the external surfaces of structures with high-albedo materials, effectively diminishing the surrounding microclimate temperatures through increased solar reflectance.
-
-**Public Space Enhancement Measures**:
-
--   Infrastructure in densely populated zones and commercial complexes will be augmented with heat mitigation features, including but not limited to pergolas, water features, expansive waterfront promenades, misting systems, and solar-powered evaporative cooling fans.
-
-**Community Welfare and Support Services**:
-
--   The deployment of sprinkler systems and the provision of public swimming facilities will be instituted as recreational cooling measures. Additionally, a subsidy program will be implemented to offset the cost of air conditioning for eligible individuals, promoting social equity during extreme temperature events.
-
-**Environmental Conservation and Greening Efforts**:
-
--   An increase in the number of verdant thoroughfares will be pursued, enhancing the urban canopy and vegetation density. This will be complemented by an ambitious urban forestry initiative aimed at the establishment and expansion of parklands to foster biodiversity, improve air quality, and enhance the urban dwellers' quality of life.
-
-These strategic measures align with contemporary urban resilience and sustainability frameworks, aiming to holistically address the urban heat island phenomenon and promote a healthier, more sustainable urban environment.
-
-Then I collect them and make one **Hazard-Vulnerability Risk** Map.

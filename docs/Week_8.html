@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week_9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_9 SAR</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_9 Temperature/SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -171,7 +171,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#practical" id="toc-practical" class="nav-link active" data-scroll-target="#practical"><span class="header-section-number">7.1</span> Practical</a></li>
+  <li><a href="#further-study-segmentation" id="toc-further-study-segmentation" class="nav-link" data-scroll-target="#further-study-segmentation"><span class="header-section-number">7.2</span> Further study-Segmentation</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -193,8 +200,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="practical" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="practical"><span class="header-section-number">7.1</span> Practical</h2>
+<p>GAUL</p>
+</section>
+<section id="further-study-segmentation" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="further-study-segmentation"><span class="header-section-number">7.2</span> Further study-Segmentation</h2>
+<p><a href="https://www.youtube.com/watch?v=2R0aTaMtYTY">Segmentation</a></p>
+<p>In a further exploration of image segmentation techniques, I delved into two very interesting techniques by reading the literature: Simple Linear Iterative Clustering (SLIC) and its improved version, Simple Non-Iterative Clustering<a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Achanta_Superpixels_and_Polygons_CVPR_2017_paper.pdf">(SNIC)</a>.</p>
+<p>SLIC was the first superpixel segmentation algorithm I came across. It clusters pixels by performing local K-means optimization within a five-dimensional space (color and spatial coordinates). The charm of SLIC is that it is simple and efficient, requiring only two input parameters: the number of superpixels required and the compactness factor that controls the compactness of the superpixels. However, the difficulty of learning SLIC lies in understanding its iterative process and how to select the appropriate parameters to achieve the best segmentation effect. In addition, SLIC requires multiple iterations to converge during processing, which means that time efficiency can be a challenge when working with very large image sets.</p>
+<p>However, SNIC offers a faster and less memory-intensive segmentation method than SLIC. By updating the center of mass directly in a single iteration and explicitly enforcing connectivity from the start, SNIC effectively addresses some of the limitations that exist with SLIC. I think the main difficulty in learning SNIC is to understand how it uses the priority queue to select the next pixel to be added to the cluster, and the process of updating the center of mass online.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -438,7 +456,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./Week_9.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_9 SAR</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_9 Temperature/SAR</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

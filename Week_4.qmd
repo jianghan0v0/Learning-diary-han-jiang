@@ -2,206 +2,114 @@
 title: "Week_4 Policy"
 ---
 
-# **Project Proposal - River Witham Ecological Enhancement Works Tender**
-
-## **Introduction**
-
-We are pleased to submit our proposal for the River Witham Ecological Enhancement Works Tender. Our company is eager to take part in this important project and contribute to the ecological improvement of the River Witham in Grantham.
+## **Project Proposal - UHI problems in HONG KONG**
+This project aims to address the growing concern of the Urban Heat Island (UHI) effect in Hong Kong and its contribution to social inequality. By implementing sustainable urban designs and green infrastructure, our goal is to create cooler urban areas, improve air quality, and offer equitable climate resilience across all communities.
 
 ## **Company Overview**
 
 ### **Background**
 
-Oreooo is a reputable environmental services provider with a proven track record of successfully delivering similar projects. We are committed to sustainable practices and environmental conservation.
+Oreooo has been at the forefront of sustainable urban planning and environmental solutions, with a proven track record in delivering projects that blend innovative technology with community well-being. Our multidisciplinary team is dedicated to creating impactful environmental changes that foster social equity.
 
 ### **Expertise**
 
 Our team consists of highly skilled professionals with expertise in habitat restoration, river channel improvements, and ecological enhancements. We have successfully completed projects that align with the objectives outlined in the tender.
 
-## **Proposed Approach**
+## Urban Heat Island(UHI)
 
-### **Lot 1: River Witham Ecological Enhancement**
+UHI is that urban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas. - 
 
-**Objective:** To enhance the ecological value along the River Witham at Stonebridge Close and Sedgwick Meadows, Grantham.
+```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
 
-**Proposed Works:**
+knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/uhi.jpg')
+```
 
--   Creation of berms
+Representative Concentration Pathway (RCP):
+[SOURCE:Climate change impacts and adaptation: a Canadian perspective](https://ostrnrcan-dostrncan.canada.ca/entities/publication/af4fa3fb-e57b-412b-b88f-cec65fbc52e7) 
 
--   Installation of coir rolls
+### Current Policy: Hongkong Climate Action Blueprint 2050
 
--   Installation of woody deflectors
+To follow up and review the design standards related to public infrastructure and government buildings, which is expected to be substantially completed by 2023. Further promote green building design and sustainable built environment. Promoting urban forestry and increasing afforestation has not helped to reduce urban temperatures and alleviate the heat island effect (Environment and Ecology Bureau, 2023).
 
--   Introduction of gravel
+### Global Policy
 
--   Berm repair and planting
+1.  United Nations' The New Urban Agenda includes a commitment to reduce the financial, environmental and public health costs of the heat island effect.
 
--   Volunteer engagement
+2.  Beating the Heat: A Sustainable Cooling Handbook for Cites has made mitigating urban heat island effect one of its goals.
 
-### **Lot 2: Environmental Improvements and Increased Accessibility**
+3.  The Cool Cities Network proposes to mitigate the urban heat island effect by reducing urban temperatures through the use of cooling surfaces, alternative materials and designs, and green infrastructure.
 
-**Objective:** To enhance the ecological value along the River Witham through floodplain reconnection at Belton Parkland, Grantham.
+4.  The Paris Agreement aims to combat climate change globally, indirectly supporting efforts to mitigate urban heat island (UHI) effects through its emphasis on reducing greenhouse gas emissions and enhancing adaptation strategies.
 
-**Proposed Works:**
+::: {style="display: flex; justify-content: space-around; align-items: center;"}
+<img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%201.jpg" width="29%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%202.jpg" width="30%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%203.jpg" width="29%"/>
+:::
+### Project Objectives
 
--   Tree hinging
+Reduce surface and atmospheric temperatures in densely populated areas.
+Enhance greenery and open spaces using vertical gardens, green roofs, and urban forests.
+Implement reflective materials in construction to reduce heat absorption.
+Increase community awareness and involvement in UHI mitigation strategies.
 
--   Bank lowering
+### Action Map
 
--   Installation of in-channel woody materials
+The professional articulation of the action plan derived from the dataset informed by remote sensing analysis could be stated as follows:
 
--   Placement of floodplain woody materials
+**Sustainable Construction Initiatives**:
 
--   Creation of beaver dam analogues using posts and faggots
+-   Newly constructed edifices will integrate eco-friendly design principles, targeting certification under the Green Building Environmental Assessment, known as "BEAM Plus," to ensure environmental sustainability and operational efficiency.
 
--   Scrape creation
+**Urban Retrofitting Strategies**:
 
-## Project Process
+-   Revitalization projects will involve retrofitting pedestrian pathways and the external surfaces of structures with high-albedo materials, effectively diminishing the surrounding microclimate temperatures through increased solar reflectance.
+
+**Public Space Enhancement Measures**:
+
+-   Infrastructure in densely populated zones and commercial complexes will be augmented with heat mitigation features, including but not limited to pergolas, water features, expansive waterfront promenades, misting systems, and solar-powered evaporative cooling fans.
+
+**Community Welfare and Support Services**:
+
+-   The deployment of sprinkler systems and the provision of public swimming facilities will be instituted as recreational cooling measures. Additionally, a subsidy program will be implemented to offset the cost of air conditioning for eligible individuals, promoting social equity during extreme temperature events.
+
+**Environmental Conservation and Greening Efforts**:
+
+-   An increase in the number of verdant thoroughfares will be pursued, enhancing the urban canopy and vegetation density. This will be complemented by an ambitious urban forestry initiative aimed at the establishment and expansion of parklands to foster biodiversity, improve air quality, and enhance the urban dwellers' quality of life.
+
+These strategic measures align with contemporary urban resilience and sustainability frameworks, aiming to holistically address the urban heat island phenomenon and promote a healthier, more sustainable urban environment.
+
+Then we will collect them and make one **Hazard-Vulnerability Risk** Map.
+
+
+## Timeline
 
 ```{r echo=FALSE, out.width = "60%", fig.align='center', cache=FALSE}
 
 knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/gantt-test.jpg')
 ```
 
-### **Step 1: Project Initiation (6 weeks)**
-
-#### Week 1-2: Project Inception and Team Formation
-
--   Define project requirements and objectives
-
--   Appoint a project manager and team members
-
--   Identify key success factors for the project
-
-#### Week 3-4: Preparation of Project Documents and Contract Agreements
-
--   Develop project plan and Work Breakdown Structure (WBS)
-
--   Prepare tender documents and contract drafts
-
--   Review contract details, including schedules and milestones
-
-#### Week 5-6: Tender Announcement and Supplier Registration
-
--   Publish tender announcement
-
--   Accept registration applications from potential suppliers
-
--   Prepare supplier information packages
-
-### **Step 2: Supplier Evaluation and Selection (8 weeks)**
-
-#### Week 7-8: Tender Submission and Evaluation
-
--   Collect supplier bids
-
--   Evaluate bids, including technical and financial assessments
-
--   Identify qualified suppliers who meet the criteria
-
-### **Step 3: Project Execution (12 months)**
-
-#### Month 1-2: Contractor Preparation and Material Procurement
-
--   Finalize the selection of the supplier
-
--   Contractor prepares a work plan and allocates resources
-
--   Commence material procurement and equipment setup
-
-#### Month 3-6: Engineering Construction
-
--   Contractor carries out River Witham habitat improvement works
-
--   Monitor progress of the construction and ensure quality control
-
-#### Month 7-9: Volunteer Engagement (if applicable)
-
--   Conduct volunteer training and recruitment
-
--   Assist volunteers in participating in ecological improvement projects
-
-#### Month 10-12: Project Completion and Acceptance
-
--   Complete the construction work
-
--   Conduct final acceptance and quality review
-
--   Prepare project reports and documentation
-
-### **Step 4: Project Delivery and Acceptance (4 weeks)**
-
-#### Week 1-2: Final Acceptance and Document Submission
-
--   Conduct final acceptance of the project results
-
--   Submit project reports and documentation
-
--   Organize project documents to meet audit requirements
-
-#### Week 3-4: Project Acceptance and Settlement
-
--   Complete project acceptance procedures
-
--   Final settlement and payment to the supplier
-
--   Complete project closure and archive documentation
-
-## **Budget and Timeline**
-
-### **Budget**
-
-The total budget is £500,000.
 
 ## **Project Management**
 
-We will employ a dedicated project manager to oversee all project activities, coordinate with subcontractors, ensure quality control, and adhere to the project schedule. We will use Gantt charts to monitor and manage project progress effectively.
+We will employ a dedicated project manager to oversee all project activities, 2 Senior Data Analyst, 4 geographic analyst, 1 Hongkong officials and 1 environmental consultant, coordinate with subcontractors, ensure quality control, and adhere to the project schedule. We will use Gantt charts to monitor and manage project progress effectively.
 
-## **Value Proposition**
-
-Our proposal aligns with the objectives of enhancing the ecological value of the River Witham in Grantham, as outlined in the tender. We are committed to delivering high-quality work that meets the European Structural Investment Fund's funding requirements, contributes to sustainable development goals, and addresses the environmental improvement needs of the region.
-
-## Notebook
-
-## Urban Heat Island(UHI)
-
-UHI is that urban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas. - ![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/uhi.jpg)
-
-Representative Concentration Pathway (RCP):
-[SOURCE:Climate change impacts and adaptation: a Canadian perspective](https://ostrnrcan-dostrncan.canada.ca/entities/publication/af4fa3fb-e57b-412b-b88f-cec65fbc52e7) 
-### Policy
 
 ## Further Study 
 Out of my interests, I read the essay provided by lecturer, *Economic Assessment of the Urban Heat Island Effect*, and try to figure out the issues raised by UHI.[AECON,2012](https://www.melbourne.vic.gov.au/sitecollectiondocuments/eco-assessment-of-urban-heat-island-effect.pdf)
 
-Firstly, the heat island effect has a significant impact on the urban environment, especially the increase in temperature, which not only affects the health and quality of life of urban residents, but also increases energy consumption and related economic costs. From a government perspective, taking steps to mitigate the heat island effect would not only help combat climate change, but could also lead to economic savings, such as energy savings through reduced air conditioning use and lower healthcare costs through improved public health.
-![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/UHI-I.jpg)
+Firstly, the heat island effect has a significant impact on the urban environment, especially the increase in temperature, which not only affects the health and quality of life of urban residents, but also increases energy consumption and related economic costs. From a government perspective, taking steps to mitigate the heat island effect would not only help combat climate change, but could also lead to economic savings, such as energy savings through reduced air conditioning use and
+
+```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
+
+knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/UHI-I.jpg')
+```
 [AECON,2012](https://www.melbourne.vic.gov.au/sitecollectiondocuments/eco-assessment-of-urban-heat-island-effect.pdf)
+
 Through this article, we have seen more effects of heat island effect on the economy. By combining policy and economic factors, I can reflect and study heat island effect in a more comprehensive way.
+
+
+## Reflection
+
+In this week, to better understand how UHI affect cities and i want to figure out how to deal with that, so here I list several ways toitigate the urban heat island effects.
 
 I was pleasantly surprised to find that the government's approach to global warming from the heat island effect is a win-all strategy. It can not only improve the urban environment and improve the quality of life of residents, but also bring economic savings and benefits, especially in reducing energy consumption, improving public health and promoting green urban planning. Before I came into contact with the direction of environmental protection, I was always confused about the solution to the problem of global warming, because I felt that it was a very general plan, and the government did not know what kind of city-wide measures to improve the greenhouse effect. Therefore, after learning the term UHI, I have more ideas for policy makers and urban planners to incorporate measures to mitigate the heat island effect into urban development and climate change adaptation strategies, start from the comfort of people's lives, and work up and down to solve the greenhouse effect in a more efficient way.
 
-
-纽约市：宜居的气候，气候变暖对高原植被的影响
-
-通过遥感来检测监测气候变化，全球目标C40,
-
-新加坡热环境，2050年实现0碳 green plan，它相应了
-
-方法：增加绿地面积，改变建筑布局（减少空调使用）------城市规划解决热效应
-
-局部气候问题，城市形态+建成环境landcover（分类）
-
-连续变量，没有必要做这个植被分类变量，单纯分析他们的相关关系
-
-我们可以做的：通过遥感计算热环境的公式，存在这个变量；LCC和热岛之间的关系
-
-optional：urban fall和经济效应联合起来，会不会对热岛效应的研究有变化
-
-ps：提出假设（比如高层建筑影响热环境），做出分析，拿着结果去找政策对应，一切研究最终要回归政策，最终呈现的结果要很简单（高层建筑会影响热环境，且响应了政策的某部分（作为reference）
-
-海岸线侵蚀，植被，预测
-
-关键词：urban island；
-
-竞标：做的东西简单------结果又要有效

@@ -1,3 +1,17 @@
 ---
 title: "Week_8 Classification 2"
 ---
+
+## Practical
+
+GAUL
+
+## Further study-Segmentation
+
+[Segmentation](https://www.youtube.com/watch?v=2R0aTaMtYTY)
+
+In a further exploration of image segmentation techniques, I delved into two very interesting techniques by reading the literature: Simple Linear Iterative Clustering (SLIC) and its improved version, Simple Non-Iterative Clustering[(SNIC)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Achanta_Superpixels_and_Polygons_CVPR_2017_paper.pdf).
+
+SLIC was the first superpixel segmentation algorithm I came across. It clusters pixels by performing local K-means optimization within a five-dimensional space (color and spatial coordinates). The charm of SLIC is that it is simple and efficient, requiring only two input parameters: the number of superpixels required and the compactness factor that controls the compactness of the superpixels. However, the difficulty of learning SLIC lies in understanding its iterative process and how to select the appropriate parameters to achieve the best segmentation effect. In addition, SLIC requires multiple iterations to converge during processing, which means that time efficiency can be a challenge when working with very large image sets.
+
+However, SNIC offers a faster and less memory-intensive segmentation method than SLIC. By updating the center of mass directly in a single iteration and explicitly enforcing connectivity from the start, SNIC effectively addresses some of the limitations that exist with SLIC. I think the main difficulty in learning SNIC is to understand how it uses the priority queue to select the next pixel to be added to the cluster, and the process of updating the center of mass online.
