@@ -8,15 +8,9 @@ title: "Week_1 Introduction to Remote Sensing"
 
 NASA defines it as acquiring information from a distance, using sensors mounted on platforms like satellites, planes, drones, and phones.
 
--   ![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1-scan.jpg)
-
 Here is a video that introduce Remote Sensing.
 
 {{< video https://www.youtube.com/watch?v=N49PzLDUIFQ >}}
-
-### **Types of Sensors**:
-
-**Passive sensors** detect reflected energy from the sun, while **active sensors** emit electromagnetic waves and wait for the reflection.
 
 ### **Data Interaction and Scattering**:
 
@@ -30,7 +24,7 @@ The interaction of electromagnetic waves with Earth's surface and atmosphere is 
 
 -Aerosols and Particulates: Scatter and absorb sunlight, which can cool the surface or contribute to atmospheric warming, depending on their properties.
 
-## Four Resolutions of Remotely Sensing Data
+### Four Resolutions of Remotely Sensing Data
 
 -   **Spatial**: Size of raster cells varies from 10cm to several kilometers.
 
@@ -41,6 +35,13 @@ The interaction of electromagnetic waves with Earth's surface and atmosphere is 
 -   **Radiometric**: Sensor's ability to differentiate small energy differences, measured in bit depth (e.g., 8-bit, 256 values).
 
 ## Practical Applications
+### **Types of Sensors**:
+
+**Passive sensors** detect reflected energy from the sun, while **active sensors** emit electromagnetic waves and wait for the reflection.
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1-scan.jpg')
+```
 
 ### **Introduction to Tools**:
 
@@ -64,8 +65,7 @@ The interaction of electromagnetic waves with Earth's surface and atmosphere is 
 
 -   **Applications of Remote Sensing**: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis.
 
-
-
 ## Further Study
+## Reflection
 
 

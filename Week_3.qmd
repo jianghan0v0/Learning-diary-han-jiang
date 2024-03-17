@@ -26,20 +26,15 @@ Week 3 focuses on the critical aspects of remote sensing data, including correct
 
     -   **Image Enhancement Techniques**: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.
 
-### Atmospheric Correction
-
-[atmospheric corrections](https://www.youtube.com/watch?v=DxeiP4b9OxE)
-
 ### Practical Insights
 
 -   **Virginia Norwood's Contribution**: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.
 
 -   **Sensor Technologies**: Discussion on "push broom" and "whisk broom" sensors, illustrating the evolution and capabilities of satellite imaging technology.
 
-    ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
-    knitr::include_graphics('https://github.com/YNVY7/diary/raw/main/week3scan.jpg')
-
-    ```
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+    knitr::include_graphics('https://github.com/YNVY7/diary/raw/main/wk3scan.jpg')
+```
 
 -   **Correcting Image Distortions**: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.
 
@@ -81,7 +76,10 @@ Week 3 focuses on the critical aspects of remote sensing data, including correct
 
 This lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications.
 
-## Further Study
+### Further Study: Atmospheric Correction
+
+[atmospheric corrections](https://www.youtube.com/watch?v=DxeiP4b9OxE)
+
 
 ### Reflection
 
