@@ -26,29 +26,26 @@ Week 3 focuses on the critical aspects of remote sensing data, including correct
 
     -   **Image Enhancement Techniques**: Including band ratioing, filtering, and principal component analysis (PCA) to highlight specific aspects of the imagery.
 
-### Practical Insights
+## Practical Insights
 
 -   **Virginia Norwood's Contribution**: The lecture highlights the pioneering work of Virginia Norwood in developing the multispectral scanner for Landsat, setting the foundation for modern remote sensing.
 
 -   **Sensor Technologies**: Discussion on "push broom" and "whisk broom" sensors, illustrating the evolution and capabilities of satellite imaging technology.
 
 ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
-    knitr::include_graphics('https://github.com/YNVY7/diary/raw/main/wk3scan.jpg')
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk3scan.jpg')
 ```
 
 -   **Correcting Image Distortions**: Detailed explanations on correcting geometric distortions using Ground Control Points (GCPs) and algorithms to align images accurately with geographic features.
 
--   **Atmospheric Correction Methods**: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.
+-   **Atmospheric Correction Methods**: Explores various techniques, from simple Dark Object Subtraction (DOS) to advanced radiative transfer models, for removing atmospheric effects from imagery.[(atmospheric corrections)](https://www.youtube.com/watch?v=DxeiP4b9OxE)
 
 -   **Enhancing Image Quality**: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.
 
+## Further study
 ### Applications and Implications
 
 -   **Urban and Environmental Analysis**: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.
-
-    ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Houston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)"}
-    knitr::include_graphics('https://github.com/YNVY7/diary/raw/main/atcor.png')
-    ```
 
 -   **Challenges in Data Processing**: Discusses the complexities involved in pre-processing remotely sensed data, including the need for accurate correction and the potential pitfalls in data interpretation.
 
@@ -76,11 +73,6 @@ Week 3 focuses on the critical aspects of remote sensing data, including correct
 
 This lecture provides a comprehensive overview of the techniques and challenges involved in processing remote sensing data. Through detailed explanations of correction methods, data joining techniques, and enhancements, students gain insights into the meticulous work required to transform raw satellite imagery into valuable information for a wide range of applications.
 
-### Further Study: Atmospheric Correction
-
-[atmospheric corrections](https://www.youtube.com/watch?v=DxeiP4b9OxE)
-
-
-### Reflection
+## Reflection
 
 This week's delve into the intricate world of remote sensing corrections, particularly geometric correction, has bolstered my comprehension of the significance of precision in spatial analysis. The meticulous task of identifying Ground Control Points and minimizing the RMSE to align distorted images to a geospatial reference resonates deeply with my penchant for detail and accuracy. It's a reminder of the delicate balance between the abstract concepts taught in academia and their concrete applications in real-world scenarios. Jensen's texts offer not only a theoretical framework but also practical solutions that bridge this gap, making the leap from understanding to application less daunting and more attainable. My future endeavors in this field will undoubtedly be influenced by the rich insights gained from this week's focus, urging me to delve further into geometric corrections to elevate the reliability and utility of spatial data analysis.

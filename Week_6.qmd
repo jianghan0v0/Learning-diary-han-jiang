@@ -2,7 +2,17 @@
 title: "Week_6 Introduction to GEE"
 ---
 
+## Notebook
+
+**PCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.**
+
+1.  PCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.
+
+2.  PCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.
+
+3.  Although PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.
 
 ::: {style="display: flex; justify-content: space-around; align-items: center;"}
 <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%201.jpg" width="29%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%202.jpg" width="30%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%203.jpg" width="29%"/>
 :::
+## Further Study
