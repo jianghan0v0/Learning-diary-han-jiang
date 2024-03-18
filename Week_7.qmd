@@ -4,38 +4,61 @@ title: "Week_7 Classification"
 
 ## Introduction
 
-"Geospatial" processing service, which permits geospatial analysis **at scale.** Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed "proxy objects". In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.
+In this week, we delved into how classified data is utilized and the various methods for classifying remotely sensed data.
 
-centered, scale, region
+Here are some common indicators: 
 
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Houston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)"}
-    knitr::include_graphics('https://github.com/YNVY7/diary/raw/main/atcor.png')
+* **LULC**: Land Use/Land Cover LULC impacts air pollution levels through various pathways, with different land cover types affecting the atmospheric conditions in distinct ways. For instance, urban areas, with their dense construction and reduced green spaces, tend to have higher levels of air pollution. Construction lands, in particular, are associated with increased levels of fine particulate matter (PM2.5) due to both the nature of construction activities and the increased vehicular traffic they attract.[(Int. J,2021)](https://www.mdpi.com/1660-4601/18/3/1132)
+
+* **CART**: The Classification and Regression Tree (CART) algorithm is a decision tree learning technique that can be used for both classification and regression predictive modeling problems. It works by repeatedly splitting the data into two child datasets, which form the branches of the tree, based on the feature that results in the highest reduction of impurity. Impurity is measured using criteria such as the Gini index for classification tasks or mean squared error for regression tasks.
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-1.png')
+```
+
+CART is known for its versatility, as it handles both categorical and continuous data types and automatically selects the most informative features. However, it is sensitive to changes in the data, can overfit if not properly pruned, and its binary splits may not always be the most efficient representation, especially for categorical data with multiple levels.[(Krzywinski, M., Altman, N,2017)](https://www.nature.com/articles/nmeth.4370)
+
+* **Image classification**: Remote Sensing Classification involves converting every pixel in an image to a pre-defined category through supervised (pattern recognition or machine learning) or unsupervised (clustering) procedures.
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Sumit Singh,2023)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-2.png')
 ```
 
 ## Practical
-
-
 
 ## Further study: Classification on NDVI
 
 **NDVI Visualization**: The first image shows a color-coded NDVI representation where different shades of green likely indicate vegetation health, with darker greens representing healthier or denser vegetation. This visualization can help identify vegetated areas and assess their condition.
 
-```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE}
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Noel Gorelick, 2018)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi1.png')
 ```
 
 **NDVI Thresholding**: The second image, displaying NDVI thresholds, likely applies a grayscale where the intensity corresponds to NDVI values. An accompanying histogram shows the distribution of these values, which can be used to set thresholds for categorizing land cover into vegetation types or health classes.
 
-```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE}
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Noel Gorelick, 2018)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi2.png')
 ```
 
 **NDVI Gradient**: The third image shows the gradient of NDVI, highlighting areas of significant change between adjacent pixels. This can be used to detect edges and transitions between different land covers, which is particularly useful in defining boundaries in the classification process.
 
-```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE}
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Noel Gorelick, 2018)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi3.png')
 ```
 
 Together, these images usually form an analytical approach to classify land cover based on vegetation presence and health, utilizing NDVI as a key index for differentiating between vegetation types and conditions.
 
 ## Reflection
+
+## Reference
+
+Int. J. Environ. Res. Public Health 2021, 18(3), 1132; https://doi.org/10.3390/ijerph18031132
+
+Noel Gorelick. EEUS 2018- Image Segmentation and object based methods, 2018. https://youtu.be/2R0aTaMtYTY?si=5YYh0AO32nEeD7ty
+
+How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/ 
+
+Sumit Singh,2023. Supervised vs. Unsupervised Learning: Choosing the Right Path for Your Data Analysis. 
+
+Krzywinski, M., Altman, N. Classification and regression trees. Nat Methods 14, 757–758 (2017). https://doi.org/10.1038/nmeth.4370

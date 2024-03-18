@@ -179,6 +179,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#practical" id="toc-practical" class="nav-link" data-scroll-target="#practical"><span class="header-section-number">6.2</span> Practical</a></li>
   <li><a href="#further-study-classification-on-ndvi" id="toc-further-study-classification-on-ndvi" class="nav-link" data-scroll-target="#further-study-classification-on-ndvi"><span class="header-section-number">6.3</span> Further study: Classification on NDVI</a></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.4</span> Reflection</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">6.5</span> Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -204,14 +205,32 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">6.1</span> Introduction</h2>
-<p>“Geospatial” processing service, which permits geospatial analysis <strong>at scale.</strong> Where scale means massive datasets, planetary sclae analysis and fast. GEE stores data on servers so that it can be used to make queryable online applications. Literally, anything that has ee in front of it is stored on the server, which termed “proxy objects”. In addition, techniques for loading and filtering image collections, geometries, and features are covered. Methods for reducing images (including zonal statistics), applying regression over time, and using joins to combine datasets are explored.</p>
-<p>centered, scale, region</p>
+<p>In this week, we delved into how classified data is utilized and the various methods for classifying remotely sensed data.</p>
+<p>Here are some common indicators:</p>
+<ul>
+<li><p><strong>LULC</strong>: Land Use/Land Cover LULC impacts air pollution levels through various pathways, with different land cover types affecting the atmospheric conditions in distinct ways. For instance, urban areas, with their dense construction and reduced green spaces, tend to have higher levels of air pollution. Construction lands, in particular, are associated with increased levels of fine particulate matter (PM2.5) due to both the nature of construction activities and the increased vehicular traffic they attract.<a href="https://www.mdpi.com/1660-4601/18/3/1132">(Int. J,2021)</a></p></li>
+<li><p><strong>CART</strong>: The Classification and Regression Tree (CART) algorithm is a decision tree learning technique that can be used for both classification and regression predictive modeling problems. It works by repeatedly splitting the data into two child datasets, which form the branches of the tree, based on the feature that results in the highest reduction of impurity. Impurity is measured using criteria such as the Gini index for classification tasks or mean squared error for regression tasks.</p></li>
+</ul>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/YNVY7/diary/raw/main/atcor.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption class="figure-caption">Houston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)</figcaption>
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-1.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>CART is known for its versatility, as it handles both categorical and continuous data types and automatically selects the most informative features. However, it is sensitive to changes in the data, can overfit if not properly pruned, and its binary splits may not always be the most efficient representation, especially for categorical data with multiple levels.<a href="https://www.nature.com/articles/nmeth.4370">(Krzywinski, M., Altman, N,2017)</a></p>
+<ul>
+<li><strong>Image classification</strong>: Remote Sensing Classification involves converting every pixel in an image to a pre-defined category through supervised (pattern recognition or machine learning) or unsupervised (clustering) procedures.</li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-2.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: Sumit Singh,2023)</figcaption>
 </figure>
 </div>
 </div>
@@ -228,6 +247,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi1.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: Noel Gorelick, 2018)</figcaption>
 </figure>
 </div>
 </div>
@@ -238,6 +258,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi2.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: Noel Gorelick, 2018)</figcaption>
 </figure>
 </div>
 </div>
@@ -248,6 +269,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi3.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: Noel Gorelick, 2018)</figcaption>
 </figure>
 </div>
 </div>
@@ -256,6 +278,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="reflection" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.4</span> Reflection</h2>
+</section>
+<section id="reference" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="reference"><span class="header-section-number">6.5</span> Reference</h2>
+<p>Int. J. Environ. Res. Public Health 2021, 18(3), 1132; https://doi.org/10.3390/ijerph18031132</p>
+<p>Noel Gorelick. EEUS 2018- Image Segmentation and object based methods, 2018. https://youtu.be/2R0aTaMtYTY?si=5YYh0AO32nEeD7ty</p>
+<p>How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/</p>
+<p>Sumit Singh,2023. Supervised vs.&nbsp;Unsupervised Learning: Choosing the Right Path for Your Data Analysis.</p>
+<p>Krzywinski, M., Altman, N. Classification and regression trees. Nat Methods 14, 757–758 (2017). https://doi.org/10.1038/nmeth.4370</p>
 
 
 </section>
