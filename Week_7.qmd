@@ -1,5 +1,5 @@
 ---
-title: "Week_7 Classification"
+title: "Week_7 Classification 1"
 ---
 
 ## Introduction
@@ -24,7 +24,18 @@ CART is known for its versatility, as it handles both categorical and continuous
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-2.png')
 ```
 
-## Practical
+* **Support Vector Machine**: SVM is a powerful supervised machine learning algorithm widely used for classification and regression tasks. Developed at AT&T Bell Laboratories by Vladimir Vapnik and colleagues, SVMs operate on the principle of finding the optimal hyperplane that maximizes the margin between different classes in the feature space. This is achieved through a process known as the kernel trick, which allows SVM to perform non-linear classification by implicitly mapping inputs into high-dimensional feature spaces.
+
+## Application
+Remote sensing technologies have significantly advanced agricultural applications, providing critical data for managing crops, assessing soil conditions, and improving overall farm productivity. Here I list some applications in agriculture that leverage remote sensing technologies.
+
+Remote sensing aids in the accurate mapping of cropland areas and estimating crop acreage. This information is crucial for planning and resource allocation, as well as for monitoring land use changes over time. For instance, the example maps showing satellite-derived phenological indicators.
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Remote Sens. 2013)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-3.png')
+```
+
+
+Meanwhile, the spectral reflectance or emission characteristics of plants change when they undergo stress from diseases or pests. Remote sensing can detect these changes, providing early warnings and allowing for timely intervention to protect crops.
 
 ## Further study: Classification on NDVI
 
@@ -50,6 +61,11 @@ CART is known for its versatility, as it handles both categorical and continuous
 Together, these images usually form an analytical approach to classify land cover based on vegetation presence and health, utilizing NDVI as a key index for differentiating between vegetation types and conditions.
 
 ## Reflection
+This week i learned many interesting concepts on remote sensing data classification technologies. Grasping these concepts has significantly deepened my understanding of how machine learning algorithms can be applied to analyze and interpret complex remote sensing datasets for agricultural applications and beyond.
+
+However, combining these concepts with GEE and machine learning really chanllenges me, espectially SVM and CART. So i read some articles and case study to figure it out. For application, I chose the direction of agriculture out of interest, and learned the application of NDVI deeply, which is a very common index to measure crop yield. I am very interested in this field.
+
+After all, these insights, I believe, will serve me well in my future endeavors in the field of remote sensing and beyond.
 
 ## Reference
 
@@ -62,3 +78,5 @@ How the CART Algorithm Powers Decision Trees in Data Science https://dataaspiran
 Sumit Singh,2023. Supervised vs. Unsupervised Learning: Choosing the Right Path for Your Data Analysis. 
 
 Krzywinski, M., Altman, N. Classification and regression trees. Nat Methods 14, 757–758 (2017). https://doi.org/10.1038/nmeth.4370
+
+Remote Sens. 2013, 5(2), 949-981; https://doi.org/10.3390/rs5020949
