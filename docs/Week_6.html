@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week_7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_7 Classification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_7 Classification 1</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -175,8 +175,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#notebook" id="toc-notebook" class="nav-link active" data-scroll-target="#notebook"><span class="header-section-number">5.1</span> Notebook</a></li>
-  <li><a href="#further-study" id="toc-further-study" class="nav-link" data-scroll-target="#further-study"><span class="header-section-number">5.2</span> Further Study</a></li>
+  <li><a href="#notebook" id="toc-notebook" class="nav-link active" data-scroll-target="#notebook"><span class="header-section-number">5.1</span> Notebook</a>
+  <ul class="collapse">
+  <li><a href="#pca" id="toc-pca" class="nav-link" data-scroll-target="#pca"><span class="header-section-number">5.1.1</span> PCA</a></li>
+  </ul></li>
+  <li><a href="#pracrical" id="toc-pracrical" class="nav-link" data-scroll-target="#pracrical"><span class="header-section-number">5.2</span> Pracrical</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">5.3</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">5.4</span> Reflection</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">5.5</span> Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -202,18 +208,87 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="notebook" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="notebook"><span class="header-section-number">5.1</span> Notebook</h2>
+<p>This week we begin to learn Google Earth Engine (GEE), a cutting-edge cloud-based platform for planetary-scale environmental data analysis. Comparing to SNAP and QGIS, GEE is really efficieny and helpful cause it doesn’t need download and process images, which is really annoying. ### Introduction Google Earth Engine (GEE) is a cutting-edge cloud-based platform for planetary-scale environmental data analysis. By offering an extensive archive of satellite imagery and geospatial datasets, coupled with powerful computing resources, GEE enables scientists, researchers, and developers to conduct analyses at unprecedented scales.</p>
+<p><strong>GEE Guidance</strong></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/XHH5MBvnSkg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="pca" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="pca"><span class="header-section-number">5.1.1</span> PCA</h3>
 <p><strong>PCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.</strong></p>
 <ol type="1">
 <li><p>PCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.</p></li>
 <li><p>PCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.</p></li>
-<li><p>Although PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.</p></li>
 </ol>
-<div style="display: flex; justify-content: space-around; align-items: center;">
-<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%201.jpg" width="29%"> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%202.jpg" width="30%"> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%203.jpg" width="29%"></p>
+<p>Although PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.</p>
+</section>
+</section>
+<section id="pracrical" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="pracrical"><span class="header-section-number">5.2</span> Pracrical</h2>
+<p>In the practical part, our data is from New Delhi, the capital of India. The follows are the primitive landform.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-3.png" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>And here is the GLCM texture measure from the same imagery – this looks to be highlighting high reflectance areas, especially the red line in the east arean.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-2.png" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Here we generate 21 pc and this is the final principal component from PCA:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-1.png" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
 </div>
 </section>
-<section id="further-study" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="further-study"><span class="header-section-number">5.2</span> Further Study</h2>
+<section id="application" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="application"><span class="header-section-number">5.3</span> Application</h2>
+<p>Forest Cover and Deforestation Analysis</p>
+<p>One practical application of GEE is monitoring forest cover changes and detecting deforestation activities over time. By utilizing Landsat imagery available on GEE, researchers can analyze forest cover changes at global, regional, and local scales. This allows for the identification of deforestation hotspots, facilitating targeted conservation efforts.</p>
+<p>In this area, I find a report from the Conflict and Environment Observatory assesses forest loss in conflict areas using Google Earth Engine. It reviews forest change hotspots during the pandemic, combining global forest loss maps, deforestation alerts, and high-resolution imagery.</p>
+<p>Key findings indicate an increase in forest loss in 2020 across conflict regions, with factors including weak governance and possibly COVID-19 effects. The report highlights areas like Myanmar and DRC, suggesting increased deforestation rates and the urgent need for in-depth research to understand the conflict-deforestation link better. This showcases GEE’s use in monitoring deforestation trends crucial for environmental conservation and conflict analysis.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/drc.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">(Source: Shrestha S,2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>And the interface of this application is very clear and powerful.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/drc_1.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">(Source: Shrestha S,2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="reflection" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">5.4</span> Reflection</h2>
+<p>Reflecting on my experience with Google Earth Engine (GEE), I am truly impressed by its efficiency and user-friendliness. The convenience of not having to worry about setup or downloading resources has streamlined my work. However, I’ve noticed that having to run the entire script again for any change can be time-consuming and occasionally cause the system to hang. Despite this, the ability to build interfaces with JavaScript for GEE applications adds a layer of excitement to the learning process. There’s still much to learn, and I’m looking forward to diving deeper into GEE’s capabilities and discovering more of its applications in geospatial analysis. The journey ahead with GEE is indeed promising!</p>
+</section>
+<section id="reference" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="reference"><span class="header-section-number">5.5</span> Reference</h2>
+<p>Shrestha S, Shrestha UB, Bawa K. 2018. Socio-economic factors and management regimes as drivers of tree cover change in Nepal. PeerJ 6:e4855 https://doi.org/10.7717/peerj.4855</p>
 
 
 </section>
@@ -460,7 +535,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./Week_7.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_7 Classification</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_7 Classification 1</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
