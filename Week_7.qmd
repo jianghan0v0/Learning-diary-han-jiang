@@ -6,11 +6,11 @@ title: "Week_7 Classification 1"
 
 In this week, we delved into how classified data is utilized and the various methods for classifying remotely sensed data.
 
-Here are some common indicators: 
+Here are some common indicators:
 
-* **LULC**: Land Use/Land Cover LULC impacts air pollution levels through various pathways, with different land cover types affecting the atmospheric conditions in distinct ways. For instance, urban areas, with their dense construction and reduced green spaces, tend to have higher levels of air pollution. Construction lands, in particular, are associated with increased levels of fine particulate matter (PM2.5) due to both the nature of construction activities and the increased vehicular traffic they attract.[(Int. J,2021)](https://www.mdpi.com/1660-4601/18/3/1132)
+-   **LULC**: Land Use/Land Cover LULC impacts air pollution levels through various pathways, with different land cover types affecting the atmospheric conditions in distinct ways. For instance, urban areas, with their dense construction and reduced green spaces, tend to have higher levels of air pollution. Construction lands, in particular, are associated with increased levels of fine particulate matter (PM2.5) due to both the nature of construction activities and the increased vehicular traffic they attract.[(Int. J,2021)](https://www.mdpi.com/1660-4601/18/3/1132)
 
-* **CART**: The Classification and Regression Tree (CART) algorithm is a decision tree learning technique that can be used for both classification and regression predictive modeling problems. It works by repeatedly splitting the data into two child datasets, which form the branches of the tree, based on the feature that results in the highest reduction of impurity. Impurity is measured using criteria such as the Gini index for classification tasks or mean squared error for regression tasks.
+-   **CART**: The Classification and Regression Tree (CART) algorithm is a decision tree learning technique that can be used for both classification and regression predictive modeling problems. It works by repeatedly splitting the data into two child datasets, which form the branches of the tree, based on the feature that results in the highest reduction of impurity. Impurity is measured using criteria such as the Gini index for classification tasks or mean squared error for regression tasks.
 
 ```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-1.png')
@@ -18,29 +18,29 @@ Here are some common indicators:
 
 CART is known for its versatility, as it handles both categorical and continuous data types and automatically selects the most informative features. However, it is sensitive to changes in the data, can overfit if not properly pruned, and its binary splits may not always be the most efficient representation, especially for categorical data with multiple levels.[(Krzywinski, M., Altman, N,2017)](https://www.nature.com/articles/nmeth.4370)
 
-* **Image classification**: Remote Sensing Classification involves converting every pixel in an image to a pre-defined category through supervised (pattern recognition or machine learning) or unsupervised (clustering) procedures.
+-   **Image classification**: Remote Sensing Classification involves converting every pixel in an image to a pre-defined category through supervised (pattern recognition or machine learning) or unsupervised (clustering) procedures.
 
 ```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Sumit Singh,2023)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-2.png')
 ```
 
-* **Support Vector Machine**: SVM is a powerful supervised machine learning algorithm widely used for classification and regression tasks. Developed at AT&T Bell Laboratories by Vladimir Vapnik and colleagues, SVMs operate on the principle of finding the optimal hyperplane that maximizes the margin between different classes in the feature space. This is achieved through a process known as the kernel trick, which allows SVM to perform non-linear classification by implicitly mapping inputs into high-dimensional feature spaces.
+-   **Support Vector Machine**: SVM is a powerful supervised machine learning algorithm widely used for classification and regression tasks. Developed at AT&T Bell Laboratories by Vladimir Vapnik and colleagues, SVMs operate on the principle of finding the optimal hyperplane that maximizes the margin between different classes in the feature space. This is achieved through a process known as the kernel trick, which allows SVM to perform non-linear classification by implicitly mapping inputs into high-dimensional feature spaces.
 
 ## Application
+
 Remote sensing technologies have significantly advanced agricultural applications, providing critical data for managing crops, assessing soil conditions, and improving overall farm productivity. Here I list some applications in agriculture that leverage remote sensing technologies.
 
 Remote sensing aids in the accurate mapping of cropland areas and estimating crop acreage. This information is crucial for planning and resource allocation, as well as for monitoring land use changes over time. For instance, the example maps showing satellite-derived phenological indicators.
+
 ```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Remote Sens. 2013)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-3.png')
 ```
-
 
 Meanwhile, the spectral reflectance or emission characteristics of plants change when they undergo stress from diseases or pests. Remote sensing can detect these changes, providing early warnings and allowing for timely intervention to protect crops.
 
 ## Further study: Classification on NDVI
 
 **NDVI Visualization**: The first image shows a color-coded NDVI representation where different shades of green likely indicate vegetation health, with darker greens representing healthier or denser vegetation. This visualization can help identify vegetated areas and assess their condition.
-
 
 ```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Noel Gorelick, 2018)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi1.png')
@@ -61,6 +61,7 @@ Meanwhile, the spectral reflectance or emission characteristics of plants change
 Together, these images usually form an analytical approach to classify land cover based on vegetation presence and health, utilizing NDVI as a key index for differentiating between vegetation types and conditions.
 
 ## Reflection
+
 This week i learned many interesting concepts on remote sensing data classification technologies. Grasping these concepts has significantly deepened my understanding of how machine learning algorithms can be applied to analyze and interpret complex remote sensing datasets for agricultural applications and beyond.
 
 However, combining these concepts with GEE and machine learning really chanllenges me, espectially SVM and CART. So i read some articles and case study to figure it out. For application, I chose the direction of agriculture out of interest, and learned the application of NDVI deeply, which is a very common index to measure crop yield. I am very interested in this field.
@@ -73,10 +74,10 @@ Int. J. Environ. Res. Public Health 2021, 18(3), 1132; https://doi.org/10.3390/i
 
 Noel Gorelick. EEUS 2018- Image Segmentation and object based methods, 2018. https://youtu.be/2R0aTaMtYTY?si=5YYh0AO32nEeD7ty
 
-How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/ 
+How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/
 
-Sumit Singh,2023. Supervised vs. Unsupervised Learning: Choosing the Right Path for Your Data Analysis. 
+Sumit Singh,2023. Supervised vs. Unsupervised Learning: Choosing the Right Path for Your Data Analysis.
 
-Krzywinski, M., Altman, N. Classification and regression trees. Nat Methods 14, 757–758 (2017). https://doi.org/10.1038/nmeth.4370
+Krzywinski, M., Altman, N. Classification and regression trees. Nat Methods 14, 757--758 (2017). https://doi.org/10.1038/nmeth.4370
 
 Remote Sens. 2013, 5(2), 949-981; https://doi.org/10.3390/rs5020949
