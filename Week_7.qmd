@@ -2,14 +2,60 @@
 title: "Week_7 Classification 2"
 ---
 
-## Practical
+## NOTEBOOK
 
-GAUL
+This week we further study the remote sensing classification, including land cover classification methods, sub-pixel analysis, accuracy assessment, and cross-validation techniques.
+
+### Sub-pixel Classification
+
+**Sub-pixel classification**, also known as **Spectral Mixture Analysis (SMA)** or Linear spectral unmixing, aims to identify the proportion of different land cover types within a single pixel, offering a more detailed understanding of pixel composition beyond the dominant land cover class. This technique relies on the premise that the observed reflectance of a pixel is a linear combination of the reflectances of pure land cover classes (endmembers), weighted by their fractional coverage within the pixel.
+
+### Object-Based Image Analysis
+**Object-Based Image Analysis(OBIA)** aims to segment image into a series of objects or regions for analysis, taking into account the shape, texture and context information of the object. OBIA is suitable for high-resolution images and can better handle complex structures and boundaries in images.
+
+### Accuracy Assessment 
+
+Accuracy assessment is crucial for evaluating the performance of land cover classification models. It involves comparing the classification output against a reference dataset (ground truth) to compute various accuracy metrics:
+
+-   Producer's Accuracy (Recall): Indicates how well the classification matches the reference data from the perspective of the data producer.
+
+-   User's Accuracy (Precision): Reflects the reliability of the classification from the user's point of view, showing how often the classified land cover type matches the reference data.
+
+-   Overall Accuracy: The fraction of correctly classified pixels across all land cover types.
+
+-   Kappa Coefficient: Measures agreement between the classification and the reference data, accounting for chance agreement.
+
+### Cross-validation 
+
+-   Cross-validation is a robust method for assessing the generalizability of a classification model by partitioning the data into complementary subsets, training the model on one subset, and validating it on the other. **Spatial cross-validation** addresses the spatial autocorrelation between training and test sets by ensuring that spatially close observations are included in the same fold. This method is particularly relevant for geographic data, where spatial autocorrelation can artificially inflate model performance metrics.
+
+This week emphasizes the importance of considering spatial autocorrelation in model training and validation. Spatially close data points are likely to have similar values, which can influence the model's accuracy assessment if not properly addressed through techniques like spatial cross-validation​​.
+
+## Application
+### OBIA
+1. 
+### Pixel-Based Analysis
+
+[Schmidt, C.; McCullum, A. (2018).](https://appliedsciences.nasa.gov/sites/default/files/s2-final.pdf)
+
 
 ## Further study-Segmentation
 
-{{< video https://www.youtube.com/watch?v=2R0aTaMtYTY >}} In a further exploration of image segmentation techniques, I delved into two very interesting techniques by reading the literature: Simple Linear Iterative Clustering (SLIC) and its improved version, Simple Non-Iterative Clustering[(SNIC)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Achanta_Superpixels_and_Polygons_CVPR_2017_paper.pdf).
+{{< video https://www.youtube.com/watch?v=2R0aTaMtYTY >}}
+
+In a further exploration of image segmentation techniques, I delved into two very interesting techniques by reading the literature: Simple Linear Iterative Clustering (SLIC) and its improved version, Simple Non-Iterative Clustering[(SNIC)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Achanta_Superpixels_and_Polygons_CVPR_2017_paper.pdf).
 
 SLIC was the first superpixel segmentation algorithm I came across. It clusters pixels by performing local K-means optimization within a five-dimensional space (color and spatial coordinates). The charm of SLIC is that it is simple and efficient, requiring only two input parameters: the number of superpixels required and the compactness factor that controls the compactness of the superpixels. However, the difficulty of learning SLIC lies in understanding its iterative process and how to select the appropriate parameters to achieve the best segmentation effect. In addition, SLIC requires multiple iterations to converge during processing, which means that time efficiency can be a challenge when working with very large image sets.
 
 However, SNIC offers a faster and less memory-intensive segmentation method than SLIC. By updating the center of mass directly in a single iteration and explicitly enforcing connectivity from the start, SNIC effectively addresses some of the limitations that exist with SLIC. I think the main difficulty in learning SNIC is to understand how it uses the priority queue to select the next pixel to be added to the cluster, and the process of updating the center of mass online.
+
+## Reference
+Duro, D. C., Franklin, S. E., & Dubé, M. G. (2012). Multi-scale Object-Based Image Analysis and Feature Selection of Multi-sensor Earth Observation Imagery Using Random Forests. International Journal of Remote Sensing, 33(14), 4502-4526.
+
+Wang, F., Wang, M., & Liu, Z. (2015). Wetland Change Detection Using Object-Based Image Analysis and Open-Source Remote Sensing Data in the Niger Delta, Nigeria. Wetlands, 35(1), 11-23.
+
+Hansen, M. C., Potapov, P. V., Moore, R., Hancher, M., Turubanova, S. A., Tyukavina, A., Thau, D., Stehman, S. V., Goetz, S. J., Loveland, T. R., Kommareddy, A., Egorov, A., Chini, L., Justice, C. O., & Townshend, J. R. G. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science, 342(6160), 850-853.
+
+Friedl, M. A., Sulla-Menashe, D., Tan, B., Schneider, A., Ramankutty, N., Sibley, A., & Huang, X. (2010). MODIS Collection 5 Global Land Cover: Algorithm Refinements and Characterization of New Datasets. Remote Sensing of Environment, 114(1), 168-182.
+
+Schmidt, C.; McCullum, A. (2018). *Accuracy Assessment of a Land Cover Classification*. NASA Applied Remote Sensing Training Program (ARSET). <https://appliedsciences.nasa.gov/join-mission/training/english/arset-accuracy-assessment-land-cover-classification>

@@ -169,8 +169,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#practical" id="toc-practical" class="nav-link active" data-scroll-target="#practical"><span class="header-section-number">7.1</span> Practical</a></li>
-  <li><a href="#further-study-segmentation" id="toc-further-study-segmentation" class="nav-link" data-scroll-target="#further-study-segmentation"><span class="header-section-number">7.2</span> Further study-Segmentation</a></li>
+  <li><a href="#notebook" id="toc-notebook" class="nav-link active" data-scroll-target="#notebook"><span class="header-section-number">7.1</span> NOTEBOOK</a>
+  <ul class="collapse">
+  <li><a href="#sub-pixel-classification" id="toc-sub-pixel-classification" class="nav-link" data-scroll-target="#sub-pixel-classification"><span class="header-section-number">7.1.1</span> Sub-pixel Classification</a></li>
+  <li><a href="#object-based-image-analysis" id="toc-object-based-image-analysis" class="nav-link" data-scroll-target="#object-based-image-analysis"><span class="header-section-number">7.1.2</span> Object-Based Image Analysis</a></li>
+  <li><a href="#accuracy-assessment" id="toc-accuracy-assessment" class="nav-link" data-scroll-target="#accuracy-assessment"><span class="header-section-number">7.1.3</span> Accuracy Assessment</a></li>
+  <li><a href="#cross-validation" id="toc-cross-validation" class="nav-link" data-scroll-target="#cross-validation"><span class="header-section-number">7.1.4</span> Cross-validation</a></li>
+  </ul></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">7.2</span> Application</a>
+  <ul class="collapse">
+  <li><a href="#obia" id="toc-obia" class="nav-link" data-scroll-target="#obia"><span class="header-section-number">7.2.1</span> OBIA</a></li>
+  </ul></li>
+  <li><a href="#further-study-segmentation" id="toc-further-study-segmentation" class="nav-link" data-scroll-target="#further-study-segmentation"><span class="header-section-number">7.3</span> Further study-Segmentation</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">7.4</span> Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -194,15 +205,59 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="practical" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="practical"><span class="header-section-number">7.1</span> Practical</h2>
-<p>GAUL</p>
+<section id="notebook" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="notebook"><span class="header-section-number">7.1</span> NOTEBOOK</h2>
+<p>This week we further study the remote sensing classification, including land cover classification methods, sub-pixel analysis, accuracy assessment, and cross-validation techniques.</p>
+<section id="sub-pixel-classification" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="sub-pixel-classification"><span class="header-section-number">7.1.1</span> Sub-pixel Classification</h3>
+<p><strong>Sub-pixel classification</strong>, also known as <strong>Spectral Mixture Analysis (SMA)</strong> or Linear spectral unmixing, aims to identify the proportion of different land cover types within a single pixel, offering a more detailed understanding of pixel composition beyond the dominant land cover class. This technique relies on the premise that the observed reflectance of a pixel is a linear combination of the reflectances of pure land cover classes (endmembers), weighted by their fractional coverage within the pixel.</p>
 </section>
-<section id="further-study-segmentation" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="further-study-segmentation"><span class="header-section-number">7.2</span> Further study-Segmentation</h2>
-<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/2R0aTaMtYTY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> In a further exploration of image segmentation techniques, I delved into two very interesting techniques by reading the literature: Simple Linear Iterative Clustering (SLIC) and its improved version, Simple Non-Iterative Clustering<a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Achanta_Superpixels_and_Polygons_CVPR_2017_paper.pdf">(SNIC)</a>.<p></p>
+<section id="object-based-image-analysis" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="object-based-image-analysis"><span class="header-section-number">7.1.2</span> Object-Based Image Analysis</h3>
+<p><strong>Object-Based Image Analysis(OBIA)</strong> aims to segment image into a series of objects or regions for analysis, taking into account the shape, texture and context information of the object. OBIA is suitable for high-resolution images and can better handle complex structures and boundaries in images.</p>
+</section>
+<section id="accuracy-assessment" class="level3" data-number="7.1.3">
+<h3 data-number="7.1.3" class="anchored" data-anchor-id="accuracy-assessment"><span class="header-section-number">7.1.3</span> Accuracy Assessment</h3>
+<p>Accuracy assessment is crucial for evaluating the performance of land cover classification models. It involves comparing the classification output against a reference dataset (ground truth) to compute various accuracy metrics:</p>
+<ul>
+<li><p>Producer’s Accuracy (Recall): Indicates how well the classification matches the reference data from the perspective of the data producer.</p></li>
+<li><p>User’s Accuracy (Precision): Reflects the reliability of the classification from the user’s point of view, showing how often the classified land cover type matches the reference data.</p></li>
+<li><p>Overall Accuracy: The fraction of correctly classified pixels across all land cover types.</p></li>
+<li><p>Kappa Coefficient: Measures agreement between the classification and the reference data, accounting for chance agreement.</p></li>
+</ul>
+</section>
+<section id="cross-validation" class="level3" data-number="7.1.4">
+<h3 data-number="7.1.4" class="anchored" data-anchor-id="cross-validation"><span class="header-section-number">7.1.4</span> Cross-validation</h3>
+<ul>
+<li>Cross-validation is a robust method for assessing the generalizability of a classification model by partitioning the data into complementary subsets, training the model on one subset, and validating it on the other. <strong>Spatial cross-validation</strong> addresses the spatial autocorrelation between training and test sets by ensuring that spatially close observations are included in the same fold. This method is particularly relevant for geographic data, where spatial autocorrelation can artificially inflate model performance metrics.</li>
+</ul>
+<p>This week emphasizes the importance of considering spatial autocorrelation in model training and validation. Spatially close data points are likely to have similar values, which can influence the model’s accuracy assessment if not properly addressed through techniques like spatial cross-validation​​.</p>
+</section>
+</section>
+<section id="application" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="application"><span class="header-section-number">7.2</span> Application</h2>
+<section id="obia" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="obia"><span class="header-section-number">7.2.1</span> OBIA</h3>
+<ol type="1">
+<li><h3 id="pixel-based-analysis" data-number="7.2.2" class="anchored"><span class="header-section-number">7.2.2</span> Pixel-Based Analysis</h3></li>
+</ol>
+<p><a href="https://appliedsciences.nasa.gov/sites/default/files/s2-final.pdf">Schmidt, C.; McCullum, A. (2018).</a></p>
+</section>
+</section>
+<section id="further-study-segmentation" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="further-study-segmentation"><span class="header-section-number">7.3</span> Further study-Segmentation</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/2R0aTaMtYTY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>In a further exploration of image segmentation techniques, I delved into two very interesting techniques by reading the literature: Simple Linear Iterative Clustering (SLIC) and its improved version, Simple Non-Iterative Clustering<a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Achanta_Superpixels_and_Polygons_CVPR_2017_paper.pdf">(SNIC)</a>.</p>
 <p>SLIC was the first superpixel segmentation algorithm I came across. It clusters pixels by performing local K-means optimization within a five-dimensional space (color and spatial coordinates). The charm of SLIC is that it is simple and efficient, requiring only two input parameters: the number of superpixels required and the compactness factor that controls the compactness of the superpixels. However, the difficulty of learning SLIC lies in understanding its iterative process and how to select the appropriate parameters to achieve the best segmentation effect. In addition, SLIC requires multiple iterations to converge during processing, which means that time efficiency can be a challenge when working with very large image sets.</p>
 <p>However, SNIC offers a faster and less memory-intensive segmentation method than SLIC. By updating the center of mass directly in a single iteration and explicitly enforcing connectivity from the start, SNIC effectively addresses some of the limitations that exist with SLIC. I think the main difficulty in learning SNIC is to understand how it uses the priority queue to select the next pixel to be added to the cluster, and the process of updating the center of mass online.</p>
+</section>
+<section id="reference" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="reference"><span class="header-section-number">7.4</span> Reference</h2>
+<p>Duro, D. C., Franklin, S. E., &amp; Dubé, M. G. (2012). Multi-scale Object-Based Image Analysis and Feature Selection of Multi-sensor Earth Observation Imagery Using Random Forests. International Journal of Remote Sensing, 33(14), 4502-4526.</p>
+<p>Wang, F., Wang, M., &amp; Liu, Z. (2015). Wetland Change Detection Using Object-Based Image Analysis and Open-Source Remote Sensing Data in the Niger Delta, Nigeria. Wetlands, 35(1), 11-23.</p>
+<p>Hansen, M. C., Potapov, P. V., Moore, R., Hancher, M., Turubanova, S. A., Tyukavina, A., Thau, D., Stehman, S. V., Goetz, S. J., Loveland, T. R., Kommareddy, A., Egorov, A., Chini, L., Justice, C. O., &amp; Townshend, J. R. G. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science, 342(6160), 850-853.</p>
+<p>Friedl, M. A., Sulla-Menashe, D., Tan, B., Schneider, A., Ramankutty, N., Sibley, A., &amp; Huang, X. (2010). MODIS Collection 5 Global Land Cover: Algorithm Refinements and Characterization of New Datasets. Remote Sensing of Environment, 114(1), 168-182.</p>
+<p>Schmidt, C.; McCullum, A. (2018).&nbsp;<em>Accuracy Assessment of a Land Cover Classification</em>. NASA Applied Remote Sensing Training Program (ARSET).&nbsp;<a href="https://appliedsciences.nasa.gov/join-mission/training/english/arset-accuracy-assessment-land-cover-classification" class="uri">https://appliedsciences.nasa.gov/join-mission/training/english/arset-accuracy-assessment-land-cover-classification</a></p>
 
 
 </section>

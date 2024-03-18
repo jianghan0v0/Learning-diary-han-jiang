@@ -45,15 +45,23 @@ According to practical case study([Google Earth Engine: Analyzing Land Surface T
 To further study the use of GEE, I analyzed a flood detection algorithm with SAR imagry([Flood-Detection](https://github.com/Mahyarona/Flood-Detection-Algorithm-using-GEE/blob/master/README.pdf)).
 
 ::: {style="display: flex; justify-content: space-around; align-items: center;"}
-<img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood1.png" width="45%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood2.png" width="45%"/>
+<figure style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood1.png" width="45%"/>
+  <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood2.png" width="45%"/>
+</figure>
 :::
+<figcaption>Source: Mahyarona, 2019</figcaption>
 
 The visuals display different areas affected by flooding and their impact on populations, with colors indicating the severity. This case study, like the LST one, demonstrates the power of GEE in analyzing environmental phenomena. It's intriguing to see how satellite data can be used to inform on ground conditions that directly affect people's lives. While processing and interpreting this data requires careful attention to ensure accuracy, the potential applications in disaster management and planning are profound. The histogram represents backscatter values from SAR imagery, crucial in distinguishing flooded areas.
 
 ::: {style="display: flex; justify-content: space-around; align-items: center;"}
 <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood3.png" width="45%"/><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood4.png" width="45%"/>
 :::
+<figcaption>Source: Mahyarona, 2019</figcaption>
 
 ## Reflection
 
 This week, I delved into analyzing LST data and SAR imagery for flood detection. I encountered challenges in discerning accurate temperature readings amidst urban heat islands and interpreting backscatter variations in SAR data to identify flood extents. Through this process, I've learned the intricacies of remote sensing applications and the value of integrating different data sources for environmental monitoring. Both exercises deepen my understanding of remote sensing's capabilities in environmental monitoring. It was enlightening to see the contrast between the thermal data provided by LST and the structural details from SAR, enhancing my understanding of how multifaceted Earth observation can be.
+
+## Reference
+
