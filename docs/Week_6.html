@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diary_hanjiang - 5&nbsp; Week_6 Introduction to GEE</title>
+<title>Diary_hanjiang - 6&nbsp; Week_6 Classification 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./Week_7.html" rel="next">
-<link href="./Week_4.html" rel="prev">
+<link href="./Week_5.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week_6.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week_6 Introduction to GEE</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week_6.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_6 Classification 1</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -131,32 +131,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./Week_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week_5 Introduction to GEE</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./Week_6.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week_6 Introduction to GEE</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_6 Classification 1</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week_7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_7 Classification 1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week_7 Classification 2</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week_8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week_8 Classification 2</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Week_9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_9 Temperature/SAR</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_8 Temperature/SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -175,14 +169,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#notebook" id="toc-notebook" class="nav-link active" data-scroll-target="#notebook"><span class="header-section-number">5.1</span> Notebook</a>
-  <ul class="collapse">
-  <li><a href="#pca" id="toc-pca" class="nav-link" data-scroll-target="#pca"><span class="header-section-number">5.1.1</span> PCA</a></li>
-  </ul></li>
-  <li><a href="#pracrical" id="toc-pracrical" class="nav-link" data-scroll-target="#pracrical"><span class="header-section-number">5.2</span> Pracrical</a></li>
-  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">5.3</span> Application</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">5.4</span> Reflection</a></li>
-  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">5.5</span> Reference</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">6.1</span> Introduction</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a></li>
+  <li><a href="#further-study-classification-on-ndvi" id="toc-further-study-classification-on-ndvi" class="nav-link" data-scroll-target="#further-study-classification-on-ndvi"><span class="header-section-number">6.3</span> Further study: Classification on NDVI</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.4</span> Reflection</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">6.5</span> Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -191,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week_6 Introduction to GEE</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_6 Classification 1</span></h1>
 </div>
 
 
@@ -206,89 +197,109 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="notebook" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="notebook"><span class="header-section-number">5.1</span> Notebook</h2>
-<p>This week we begin to learn Google Earth Engine (GEE), a cutting-edge cloud-based platform for planetary-scale environmental data analysis. Comparing to SNAP and QGIS, GEE is really efficieny and helpful cause it doesn’t need download and process images, which is really annoying. ### Introduction Google Earth Engine (GEE) is a cutting-edge cloud-based platform for planetary-scale environmental data analysis. By offering an extensive archive of satellite imagery and geospatial datasets, coupled with powerful computing resources, GEE enables scientists, researchers, and developers to conduct analyses at unprecedented scales.</p>
-<p><strong>GEE Guidance</strong></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/XHH5MBvnSkg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<section id="pca" class="level3" data-number="5.1.1">
-<h3 data-number="5.1.1" class="anchored" data-anchor-id="pca"><span class="header-section-number">5.1.1</span> PCA</h3>
-<p><strong>PCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.</strong></p>
-<ol type="1">
-<li><p>PCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.</p></li>
-<li><p>PCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.</p></li>
-</ol>
-<p>Although PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.</p>
-</section>
-</section>
-<section id="pracrical" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="pracrical"><span class="header-section-number">5.2</span> Pracrical</h2>
-<p>In the practical part, our data is from New Delhi, the capital of India. The follows are the primitive landform.</p>
+<section id="introduction" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">6.1</span> Introduction</h2>
+<p>In this week, we delved into how classified data is utilized and the various methods for classifying remotely sensed data.</p>
+<p>Here are some common indicators:</p>
+<ul>
+<li><p><strong>LULC</strong>: Land Use/Land Cover LULC impacts air pollution levels through various pathways, with different land cover types affecting the atmospheric conditions in distinct ways. For instance, urban areas, with their dense construction and reduced green spaces, tend to have higher levels of air pollution. Construction lands, in particular, are associated with increased levels of fine particulate matter (PM2.5) due to both the nature of construction activities and the increased vehicular traffic they attract.<a href="https://www.mdpi.com/1660-4601/18/3/1132">(Int. J,2021)</a></p></li>
+<li><p><strong>CART</strong>: The Classification and Regression Tree (CART) algorithm is a decision tree learning technique that can be used for both classification and regression predictive modeling problems. It works by repeatedly splitting the data into two child datasets, which form the branches of the tree, based on the feature that results in the highest reduction of impurity. Impurity is measured using criteria such as the Gini index for classification tasks or mean squared error for regression tasks.</p></li>
+</ul>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-3.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-1.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/)</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>And here is the GLCM texture measure from the same imagery – this looks to be highlighting high reflectance areas, especially the red line in the east arean.</p>
+<p>CART is known for its versatility, as it handles both categorical and continuous data types and automatically selects the most informative features. However, it is sensitive to changes in the data, can overfit if not properly pruned, and its binary splits may not always be the most efficient representation, especially for categorical data with multiple levels.<a href="https://www.nature.com/articles/nmeth.4370">(Krzywinski, M., Altman, N,2017)</a></p>
+<ul>
+<li><strong>Image classification</strong>: Remote Sensing Classification involves converting every pixel in an image to a pre-defined category through supervised (pattern recognition or machine learning) or unsupervised (clustering) procedures.</li>
+</ul>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-2.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-2.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: Sumit Singh,2023)</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Here we generate 21 pc and this is the final principal component from PCA:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-1.png" class="img-fluid figure-img" style="width:50.0%"></p>
-</figure>
-</div>
-</div>
-</div>
+<ul>
+<li><strong>Support Vector Machine</strong>: SVM is a powerful supervised machine learning algorithm widely used for classification and regression tasks. Developed at AT&amp;T Bell Laboratories by Vladimir Vapnik and colleagues, SVMs operate on the principle of finding the optimal hyperplane that maximizes the margin between different classes in the feature space. This is achieved through a process known as the kernel trick, which allows SVM to perform non-linear classification by implicitly mapping inputs into high-dimensional feature spaces.</li>
+</ul>
 </section>
-<section id="application" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="application"><span class="header-section-number">5.3</span> Application</h2>
-<p>Forest Cover and Deforestation Analysis</p>
-<p>One practical application of GEE is monitoring forest cover changes and detecting deforestation activities over time. By utilizing Landsat imagery available on GEE, researchers can analyze forest cover changes at global, regional, and local scales. This allows for the identification of deforestation hotspots, facilitating targeted conservation efforts.</p>
-<p>In this area, I find a report from the Conflict and Environment Observatory assesses forest loss in conflict areas using Google Earth Engine. It reviews forest change hotspots during the pandemic, combining global forest loss maps, deforestation alerts, and high-resolution imagery.</p>
-<p>Key findings indicate an increase in forest loss in 2020 across conflict regions, with factors including weak governance and possibly COVID-19 effects. The report highlights areas like Myanmar and DRC, suggesting increased deforestation rates and the urgent need for in-depth research to understand the conflict-deforestation link better. This showcases GEE’s use in monitoring deforestation trends crucial for environmental conservation and conflict analysis.</p>
+<section id="application" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="application"><span class="header-section-number">6.2</span> Application</h2>
+<p>Remote sensing technologies have significantly advanced agricultural applications, providing critical data for managing crops, assessing soil conditions, and improving overall farm productivity. Here I list some applications in agriculture that leverage remote sensing technologies.</p>
+<p>Remote sensing aids in the accurate mapping of cropland areas and estimating crop acreage. This information is crucial for planning and resource allocation, as well as for monitoring land use changes over time. For instance, the example maps showing satellite-derived phenological indicators.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/drc.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption class="figure-caption">(Source: Shrestha S,2018)</figcaption>
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-3.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: Remote Sens. 2013)</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>And the interface of this application is very clear and powerful.</p>
+<p>Meanwhile, the spectral reflectance or emission characteristics of plants change when they undergo stress from diseases or pests. Remote sensing can detect these changes, providing early warnings and allowing for timely intervention to protect crops.</p>
+</section>
+<section id="further-study-classification-on-ndvi" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="further-study-classification-on-ndvi"><span class="header-section-number">6.3</span> Further study: Classification on NDVI</h2>
+<p><strong>NDVI Visualization</strong>: The first image shows a color-coded NDVI representation where different shades of green likely indicate vegetation health, with darker greens representing healthier or denser vegetation. This visualization can help identify vegetated areas and assess their condition.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/drc_1.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption class="figure-caption">(Source: Shrestha S,2018)</figcaption>
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi1.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: Noel Gorelick, 2018)</figcaption>
 </figure>
 </div>
 </div>
 </div>
+<p><strong>NDVI Thresholding</strong>: The second image, displaying NDVI thresholds, likely applies a grayscale where the intensity corresponds to NDVI values. An accompanying histogram shows the distribution of these values, which can be used to set thresholds for categorizing land cover into vegetation types or health classes.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi2.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: Noel Gorelick, 2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>NDVI Gradient</strong>: The third image shows the gradient of NDVI, highlighting areas of significant change between adjacent pixels. This can be used to detect edges and transitions between different land covers, which is particularly useful in defining boundaries in the classification process.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi3.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source: Noel Gorelick, 2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Together, these images usually form an analytical approach to classify land cover based on vegetation presence and health, utilizing NDVI as a key index for differentiating between vegetation types and conditions.</p>
 </section>
-<section id="reflection" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">5.4</span> Reflection</h2>
-<p>Reflecting on my experience with Google Earth Engine (GEE), I am truly impressed by its efficiency and user-friendliness. The convenience of not having to worry about setup or downloading resources has streamlined my work. However, I’ve noticed that having to run the entire script again for any change can be time-consuming and occasionally cause the system to hang. Despite this, the ability to build interfaces with JavaScript for GEE applications adds a layer of excitement to the learning process. There’s still much to learn, and I’m looking forward to diving deeper into GEE’s capabilities and discovering more of its applications in geospatial analysis. The journey ahead with GEE is indeed promising!</p>
+<section id="reflection" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.4</span> Reflection</h2>
+<p>This week i learned many interesting concepts on remote sensing data classification technologies. Grasping these concepts has significantly deepened my understanding of how machine learning algorithms can be applied to analyze and interpret complex remote sensing datasets for agricultural applications and beyond.</p>
+<p>However, combining these concepts with GEE and machine learning really chanllenges me, espectially SVM and CART. So i read some articles and case study to figure it out. For application, I chose the direction of agriculture out of interest, and learned the application of NDVI deeply, which is a very common index to measure crop yield. I am very interested in this field.</p>
+<p>After all, these insights, I believe, will serve me well in my future endeavors in the field of remote sensing and beyond.</p>
 </section>
-<section id="reference" class="level2" data-number="5.5">
-<h2 data-number="5.5" class="anchored" data-anchor-id="reference"><span class="header-section-number">5.5</span> Reference</h2>
-<p>Shrestha S, Shrestha UB, Bawa K. 2018. Socio-economic factors and management regimes as drivers of tree cover change in Nepal. PeerJ 6:e4855 https://doi.org/10.7717/peerj.4855</p>
+<section id="reference" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="reference"><span class="header-section-number">6.5</span> Reference</h2>
+<p>Int. J. Environ. Res. Public Health 2021, 18(3), 1132; https://doi.org/10.3390/ijerph18031132</p>
+<p>Noel Gorelick. EEUS 2018- Image Segmentation and object based methods, 2018. https://youtu.be/2R0aTaMtYTY?si=5YYh0AO32nEeD7ty</p>
+<p>How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/</p>
+<p>Sumit Singh,2023. Supervised vs.&nbsp;Unsupervised Learning: Choosing the Right Path for Your Data Analysis.</p>
+<p>Krzywinski, M., Altman, N. Classification and regression trees. Nat Methods 14, 757–758 (2017). https://doi.org/10.1038/nmeth.4370</p>
+<p>Remote Sens. 2013, 5(2), 949-981; https://doi.org/10.3390/rs5020949</p>
 
 
 </section>
@@ -529,13 +540,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Week_4.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week_4 Policy</span></span>
+      <a href="./Week_5.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week_5 Introduction to GEE</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./Week_7.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_7 Classification 1</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week_7 Classification 2</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

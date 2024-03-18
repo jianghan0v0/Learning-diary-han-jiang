@@ -43,6 +43,7 @@ Week 3 focuses on the critical aspects of remote sensing data, including correct
 -   **Enhancing Image Quality**: Techniques like contrast stretching, filtering, and PCA are discussed for improving image quality and revealing hidden patterns in data.
 
 ## Further study
+
 ### Applications and Implications
 
 -   **Urban and Environmental Analysis**: The lecture emphasizes the application of corrected and enhanced remote sensing data in urban planning, environmental monitoring, and disaster management.

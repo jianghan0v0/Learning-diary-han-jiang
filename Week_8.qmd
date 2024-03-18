@@ -1,17 +1,59 @@
 ---
-title: "Week_8 Classification 2"
+title: "Week_8 Temperature/SAR"
 ---
 
-## Practical
+## NOTE
 
-GAUL
+Week 9 focuses on flood detection using remote sensing and GEE. It explores the utilization of MODIS and SAR data to monitor flood events, emphasizing the interpretation of these datasets to assess flood impact. The lecture covers the importance of understanding spectral signatures associated with floods, especially in terms of backscatter in SAR data, which is key in differentiating flooded from non-flooded areas.
 
-## Further study-Segmentation
+### Backscatter in SAR
 
+**Definition**: Refers to the portion of the radar signal that is reflected back to the SAR satellite from Earth's surface.
 
-{{< video https://www.youtube.com/watch?v=2R0aTaMtYTY >}}
-In a further exploration of image segmentation techniques, I delved into two very interesting techniques by reading the literature: Simple Linear Iterative Clustering (SLIC) and its improved version, Simple Non-Iterative Clustering[(SNIC)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Achanta_Superpixels_and_Polygons_CVPR_2017_paper.pdf).
+1.  **Flood Detection**: Utilizes the contrast in backscatter between water and land; water surfaces typically appear dark in SAR imagery due to low backscatter.
 
-SLIC was the first superpixel segmentation algorithm I came across. It clusters pixels by performing local K-means optimization within a five-dimensional space (color and spatial coordinates). The charm of SLIC is that it is simple and efficient, requiring only two input parameters: the number of superpixels required and the compactness factor that controls the compactness of the superpixels. However, the difficulty of learning SLIC lies in understanding its iterative process and how to select the appropriate parameters to achieve the best segmentation effect. In addition, SLIC requires multiple iterations to converge during processing, which means that time efficiency can be a challenge when working with very large image sets.
+2.  **Surface Interaction**: The intensity of backscatter is influenced by surface roughness and moisture levels; smoother surfaces like water bodies tend to have lower backscatter.
 
-However, SNIC offers a faster and less memory-intensive segmentation method than SLIC. By updating the center of mass directly in a single iteration and explicitly enforcing connectivity from the start, SNIC effectively addresses some of the limitations that exist with SLIC. I think the main difficulty in learning SNIC is to understand how it uses the priority queue to select the next pixel to be added to the cluster, and the process of updating the center of mass online.
+3.  **Advantages of SAR**:
+
+    -   **Cloud Penetration**: Can acquire data in all weather conditions, essential for timely flood monitoring.
+
+    -   **Illumination Independence**: Capable of data collection during both day and night.
+
+### SAR vs. LST
+
+-   LST measures the temperature of the Earth's surface, valuable for studying climate change, urban heat islands, and agriculture.
+
+-   SAR is a form of radar imagery that can penetrate cloud cover and is not dependent on sunlight, making it ideal for monitoring Earth's surface in any weather and lighting conditions. SAR is particularly useful for detecting structural changes, such as deforestation, floods, and earthquakes, due to its ability to measure surface roughness.
+
+The key difference lies in LST providing thermal information, while SAR offers structural details.
+
+## Workshop-Temperature(LST)
+
+In my exploration of the urban temperature analysis practical on the provided webpage, I've engaged with methods for processing temperature data from Landsat and MODIS imagery using Google Earth Engine. This includes converting temperature from Kelvin to Celsius, applying scale factors, and masking out certain values. The complexity of handling large datasets with high temporal resolution, such as MODIS, stands out as a technical challenge. Moreover, ensuring accurate results when merging different data collections and performing time-series analysis adds layers of difficulty.
+
+::: {style="display: flex; justify-content: space-around; align-items: center;"}
+<img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-tem1.png" width="45%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-tem2.png" width="45%"/>
+:::
+
+The hands-on practice with code provided a practical understanding of these remote sensing techniques, with a focus on analyzing temperature variations over time and across different urban areas. This has been an insightful exercise in managing and interpreting complex spatial data to understand urban climates.
+
+## Further Practice: Flood-Detection(SAR)
+
+According to practical case study([Google Earth Engine: Analyzing Land Surface Temperature Data](https://docs.google.com/document/d/1WDxMR5UpxqiTB4GsJcdP9AB0hP-Z8oaX-O9akBg2PZ0/edit#heading=h.tyjcwt)), which focused on analyzing land surface temperature (LST) data using GEE with MODIS imagery, I've learned about the significance of MODIS, which provides images in 36 spectral bands and has been doing so since the year 2000. This tool is essential for understanding LST trends, which can be used for climate change studies and agricultural planning.
+
+To further study the use of GEE, I analyzed a flood detection algorithm with SAR imagry([Flood-Detection](https://github.com/Mahyarona/Flood-Detection-Algorithm-using-GEE/blob/master/README.pdf)).
+
+::: {style="display: flex; justify-content: space-around; align-items: center;"}
+<img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood1.png" width="45%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood2.png" width="45%"/>
+:::
+
+The visuals display different areas affected by flooding and their impact on populations, with colors indicating the severity. This case study, like the LST one, demonstrates the power of GEE in analyzing environmental phenomena. It's intriguing to see how satellite data can be used to inform on ground conditions that directly affect people's lives. While processing and interpreting this data requires careful attention to ensure accuracy, the potential applications in disaster management and planning are profound. The histogram represents backscatter values from SAR imagery, crucial in distinguishing flooded areas.
+
+::: {style="display: flex; justify-content: space-around; align-items: center;"}
+<img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood3.png" width="45%"/><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood4.png" width="45%"/>
+:::
+
+## Reflection
+
+This week, I delved into analyzing LST data and SAR imagery for flood detection. I encountered challenges in discerning accurate temperature readings amidst urban heat islands and interpreting backscatter variations in SAR data to identify flood extents. Through this process, I've learned the intricacies of remote sensing applications and the value of integrating different data sources for environmental monitoring. Both exercises deepen my understanding of remote sensing's capabilities in environmental monitoring. It was enlightening to see the contrast between the thermal data provided by LST and the structural details from SAR, enhancing my understanding of how multifaceted Earth observation can be.

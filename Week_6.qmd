@@ -1,58 +1,83 @@
 ---
-title: "Week_6 Introduction to GEE"
+title: "Week_6 Classification 1"
 ---
 
-## Notebook
-This week we begin to learn Google Earth Engine (GEE), a cutting-edge cloud-based platform for planetary-scale environmental data analysis. Comparing to SNAP and QGIS, GEE is really efficieny and helpful cause it doesn't need download and process images, which is really annoying.
-### Introduction
-Google Earth Engine (GEE) is a cutting-edge cloud-based platform for planetary-scale environmental data analysis. By offering an extensive archive of satellite imagery and geospatial datasets, coupled with powerful computing resources, GEE enables scientists, researchers, and developers to conduct analyses at unprecedented scales.
+## Introduction
 
-**GEE Guidance**
+In this week, we delved into how classified data is utilized and the various methods for classifying remotely sensed data.
 
-{{< video https://www.youtube.com/watch?v=XHH5MBvnSkg >}}
+Here are some common indicators:
 
-### PCA
-**PCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.**
+-   **LULC**: Land Use/Land Cover LULC impacts air pollution levels through various pathways, with different land cover types affecting the atmospheric conditions in distinct ways. For instance, urban areas, with their dense construction and reduced green spaces, tend to have higher levels of air pollution. Construction lands, in particular, are associated with increased levels of fine particulate matter (PM2.5) due to both the nature of construction activities and the increased vehicular traffic they attract.[(Int. J,2021)](https://www.mdpi.com/1660-4601/18/3/1132)
 
-1.  PCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.
+-   **CART**: The Classification and Regression Tree (CART) algorithm is a decision tree learning technique that can be used for both classification and regression predictive modeling problems. It works by repeatedly splitting the data into two child datasets, which form the branches of the tree, based on the feature that results in the highest reduction of impurity. Impurity is measured using criteria such as the Gini index for classification tasks or mean squared error for regression tasks.
 
-2.  PCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.
-
-Although PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.
-
-
-## Pracrical
-In the practical part, our data is from New Delhi, the capital of India. The follows are the primitive landform.
-```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
-    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-3.png')
-```
-And here is the GLCM texture measure from the same imagery – this looks to be highlighting high reflectance areas, especially the red line in the east arean.
-```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
-    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-2.png')
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-1.png')
 ```
 
-Here we generate 21 pc and this is the final principal component from PCA:
-```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
-    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-1.png')
+CART is known for its versatility, as it handles both categorical and continuous data types and automatically selects the most informative features. However, it is sensitive to changes in the data, can overfit if not properly pruned, and its binary splits may not always be the most efficient representation, especially for categorical data with multiple levels.[(Krzywinski, M., Altman, N,2017)](https://www.nature.com/articles/nmeth.4370)
+
+-   **Image classification**: Remote Sensing Classification involves converting every pixel in an image to a pre-defined category through supervised (pattern recognition or machine learning) or unsupervised (clustering) procedures.
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Sumit Singh,2023)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-2.png')
 ```
+
+-   **Support Vector Machine**: SVM is a powerful supervised machine learning algorithm widely used for classification and regression tasks. Developed at AT&T Bell Laboratories by Vladimir Vapnik and colleagues, SVMs operate on the principle of finding the optimal hyperplane that maximizes the margin between different classes in the feature space. This is achieved through a process known as the kernel trick, which allows SVM to perform non-linear classification by implicitly mapping inputs into high-dimensional feature spaces.
+
 ## Application
-Forest Cover and Deforestation Analysis
 
-One practical application of GEE is monitoring forest cover changes and detecting deforestation activities over time. By utilizing Landsat imagery available on GEE, researchers can analyze forest cover changes at global, regional, and local scales. This allows for the identification of deforestation hotspots, facilitating targeted conservation efforts. 
+Remote sensing technologies have significantly advanced agricultural applications, providing critical data for managing crops, assessing soil conditions, and improving overall farm productivity. Here I list some applications in agriculture that leverage remote sensing technologies.
 
-In this area, I find a report from the Conflict and Environment Observatory assesses forest loss in conflict areas using Google Earth Engine. It reviews forest change hotspots during the pandemic, combining global forest loss maps, deforestation alerts, and high-resolution imagery. 
+Remote sensing aids in the accurate mapping of cropland areas and estimating crop acreage. This information is crucial for planning and resource allocation, as well as for monitoring land use changes over time. For instance, the example maps showing satellite-derived phenological indicators.
 
-Key findings indicate an increase in forest loss in 2020 across conflict regions, with factors including weak governance and possibly COVID-19 effects. The report highlights areas like Myanmar and DRC, suggesting increased deforestation rates and the urgent need for in-depth research to understand the conflict-deforestation link better. This showcases GEE's use in monitoring deforestation trends crucial for environmental conservation and conflict analysis.
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="(Source: Shrestha S,2018)"}
-    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/drc.jpg')
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Remote Sens. 2013)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-3.png')
 ```
-And the interface of this application is very clear and powerful.
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="(Source: Shrestha S,2018)"}
-    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/drc_1.jpg')
+
+Meanwhile, the spectral reflectance or emission characteristics of plants change when they undergo stress from diseases or pests. Remote sensing can detect these changes, providing early warnings and allowing for timely intervention to protect crops.
+
+## Further study: Classification on NDVI
+
+**NDVI Visualization**: The first image shows a color-coded NDVI representation where different shades of green likely indicate vegetation health, with darker greens representing healthier or denser vegetation. This visualization can help identify vegetated areas and assess their condition.
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Noel Gorelick, 2018)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi1.png')
 ```
+
+**NDVI Thresholding**: The second image, displaying NDVI thresholds, likely applies a grayscale where the intensity corresponds to NDVI values. An accompanying histogram shows the distribution of these values, which can be used to set thresholds for categorizing land cover into vegetation types or health classes.
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Noel Gorelick, 2018)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi2.png')
+```
+
+**NDVI Gradient**: The third image shows the gradient of NDVI, highlighting areas of significant change between adjacent pixels. This can be used to detect edges and transitions between different land covers, which is particularly useful in defining boundaries in the classification process.
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Noel Gorelick, 2018)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-ndvi3.png')
+```
+
+Together, these images usually form an analytical approach to classify land cover based on vegetation presence and health, utilizing NDVI as a key index for differentiating between vegetation types and conditions.
 
 ## Reflection
-Reflecting on my experience with Google Earth Engine (GEE), I am truly impressed by its efficiency and user-friendliness. The convenience of not having to worry about setup or downloading resources has streamlined my work. However, I've noticed that having to run the entire script again for any change can be time-consuming and occasionally cause the system to hang. Despite this, the ability to build interfaces with JavaScript for GEE applications adds a layer of excitement to the learning process. There's still much to learn, and I'm looking forward to diving deeper into GEE's capabilities and discovering more of its applications in geospatial analysis. The journey ahead with GEE is indeed promising!
+
+This week i learned many interesting concepts on remote sensing data classification technologies. Grasping these concepts has significantly deepened my understanding of how machine learning algorithms can be applied to analyze and interpret complex remote sensing datasets for agricultural applications and beyond.
+
+However, combining these concepts with GEE and machine learning really chanllenges me, espectially SVM and CART. So i read some articles and case study to figure it out. For application, I chose the direction of agriculture out of interest, and learned the application of NDVI deeply, which is a very common index to measure crop yield. I am very interested in this field.
+
+After all, these insights, I believe, will serve me well in my future endeavors in the field of remote sensing and beyond.
 
 ## Reference
-Shrestha S, Shrestha UB, Bawa K. 2018. Socio-economic factors and management regimes as drivers of tree cover change in Nepal. PeerJ 6:e4855 https://doi.org/10.7717/peerj.4855
+
+Int. J. Environ. Res. Public Health 2021, 18(3), 1132; https://doi.org/10.3390/ijerph18031132
+
+Noel Gorelick. EEUS 2018- Image Segmentation and object based methods, 2018. https://youtu.be/2R0aTaMtYTY?si=5YYh0AO32nEeD7ty
+
+How the CART Algorithm Powers Decision Trees in Data Science https://dataaspirant.com/cart-algorithm/
+
+Sumit Singh,2023. Supervised vs. Unsupervised Learning: Choosing the Right Path for Your Data Analysis.
+
+Krzywinski, M., Altman, N. Classification and regression trees. Nat Methods 14, 757--758 (2017). https://doi.org/10.1038/nmeth.4370
+
+Remote Sens. 2013, 5(2), 949-981; https://doi.org/10.3390/rs5020949

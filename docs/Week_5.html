@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diary_hanjiang - 8&nbsp; Week_9 Temperature/SAR</title>
+<title>Diary_hanjiang - 5&nbsp; Week_5 Introduction to GEE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
-<link href="./Week_8.html" rel="prev">
+<link href="./Week_6.html" rel="next">
+<link href="./Week_4.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week_9.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_9 Temperature/SAR</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Week_5.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week_5 Introduction to GEE</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -131,26 +131,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./Week_5.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week_5 Introduction to GEE</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./Week_6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week_6 Introduction to GEE</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_6 Classification 1</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week_7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_7 Classification 1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week_7 Classification 2</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week_8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week_8 Classification 2</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Week_9.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_9 Temperature/SAR</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_8 Temperature/SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -169,14 +169,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#note" id="toc-note" class="nav-link active" data-scroll-target="#note"><span class="header-section-number">8.1</span> NOTE</a>
+  <li><a href="#notebook" id="toc-notebook" class="nav-link active" data-scroll-target="#notebook"><span class="header-section-number">5.1</span> Notebook</a>
   <ul class="collapse">
-  <li><a href="#backscatter-in-sar" id="toc-backscatter-in-sar" class="nav-link" data-scroll-target="#backscatter-in-sar"><span class="header-section-number">8.1.1</span> Backscatter in SAR</a></li>
-  <li><a href="#sar-vs.-lst" id="toc-sar-vs.-lst" class="nav-link" data-scroll-target="#sar-vs.-lst"><span class="header-section-number">8.1.2</span> SAR vs.&nbsp;LST</a></li>
+  <li><a href="#pca" id="toc-pca" class="nav-link" data-scroll-target="#pca"><span class="header-section-number">5.1.1</span> PCA</a></li>
   </ul></li>
-  <li><a href="#workshop-temperaturelst" id="toc-workshop-temperaturelst" class="nav-link" data-scroll-target="#workshop-temperaturelst"><span class="header-section-number">8.2</span> Workshop-Temperature(LST)</a></li>
-  <li><a href="#further-practice-flood-detectionsar" id="toc-further-practice-flood-detectionsar" class="nav-link" data-scroll-target="#further-practice-flood-detectionsar"><span class="header-section-number">8.3</span> Further Practice: Flood-Detection(SAR)</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">8.4</span> Reflection</a></li>
+  <li><a href="#pracrical" id="toc-pracrical" class="nav-link" data-scroll-target="#pracrical"><span class="header-section-number">5.2</span> Pracrical</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">5.3</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">5.4</span> Reflection</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">5.5</span> Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -185,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week_9 Temperature/SAR</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week_5 Introduction to GEE</span></h1>
 </div>
 
 
@@ -200,54 +200,89 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="note" class="level2" data-number="8.1">
-<h2 data-number="8.1" class="anchored" data-anchor-id="note"><span class="header-section-number">8.1</span> NOTE</h2>
-<p>Week 9 focuses on flood detection using remote sensing and GEE. It explores the utilization of MODIS and SAR data to monitor flood events, emphasizing the interpretation of these datasets to assess flood impact. The lecture covers the importance of understanding spectral signatures associated with floods, especially in terms of backscatter in SAR data, which is key in differentiating flooded from non-flooded areas.</p>
-<section id="backscatter-in-sar" class="level3" data-number="8.1.1">
-<h3 data-number="8.1.1" class="anchored" data-anchor-id="backscatter-in-sar"><span class="header-section-number">8.1.1</span> Backscatter in SAR</h3>
-<p><strong>Definition</strong>: Refers to the portion of the radar signal that is reflected back to the SAR satellite from Earth’s surface.</p>
+<section id="notebook" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="notebook"><span class="header-section-number">5.1</span> Notebook</h2>
+<p>This week we begin to learn Google Earth Engine (GEE), a cutting-edge cloud-based platform for planetary-scale environmental data analysis. Comparing to SNAP and QGIS, GEE is really efficieny and helpful cause it doesn’t need download and process images, which is really annoying. ### Introduction Google Earth Engine (GEE) is a cutting-edge cloud-based platform for planetary-scale environmental data analysis. By offering an extensive archive of satellite imagery and geospatial datasets, coupled with powerful computing resources, GEE enables scientists, researchers, and developers to conduct analyses at unprecedented scales.</p>
+<p><strong>GEE Guidance</strong></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/XHH5MBvnSkg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="pca" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="pca"><span class="header-section-number">5.1.1</span> PCA</h3>
+<p><strong>PCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.</strong></p>
 <ol type="1">
-<li><p><strong>Flood Detection</strong>: Utilizes the contrast in backscatter between water and land; water surfaces typically appear dark in SAR imagery due to low backscatter.</p></li>
-<li><p><strong>Surface Interaction</strong>: The intensity of backscatter is influenced by surface roughness and moisture levels; smoother surfaces like water bodies tend to have lower backscatter.</p></li>
-<li><p><strong>Advantages of SAR</strong>:</p>
-<ul>
-<li><p><strong>Cloud Penetration</strong>: Can acquire data in all weather conditions, essential for timely flood monitoring.</p></li>
-<li><p><strong>Illumination Independence</strong>: Capable of data collection during both day and night.</p></li>
-</ul></li>
+<li><p>PCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.</p></li>
+<li><p>PCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.</p></li>
 </ol>
-</section>
-<section id="sar-vs.-lst" class="level3" data-number="8.1.2">
-<h3 data-number="8.1.2" class="anchored" data-anchor-id="sar-vs.-lst"><span class="header-section-number">8.1.2</span> SAR vs.&nbsp;LST</h3>
-<ul>
-<li><p>LST measures the temperature of the Earth’s surface, valuable for studying climate change, urban heat islands, and agriculture.</p></li>
-<li><p>SAR is a form of radar imagery that can penetrate cloud cover and is not dependent on sunlight, making it ideal for monitoring Earth’s surface in any weather and lighting conditions. SAR is particularly useful for detecting structural changes, such as deforestation, floods, and earthquakes, due to its ability to measure surface roughness.</p></li>
-</ul>
-<p>The key difference lies in LST providing thermal information, while SAR offers structural details.</p>
+<p>Although PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data.</p>
 </section>
 </section>
-<section id="workshop-temperaturelst" class="level2" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="workshop-temperaturelst"><span class="header-section-number">8.2</span> Workshop-Temperature(LST)</h2>
-<p>In my exploration of the urban temperature analysis practical on the provided webpage, I’ve engaged with methods for processing temperature data from Landsat and MODIS imagery using Google Earth Engine. This includes converting temperature from Kelvin to Celsius, applying scale factors, and masking out certain values. The complexity of handling large datasets with high temporal resolution, such as MODIS, stands out as a technical challenge. Moreover, ensuring accurate results when merging different data collections and performing time-series analysis adds layers of difficulty.</p>
-<div style="display: flex; justify-content: space-around; align-items: center;">
-<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-tem1.png" width="45%"> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-tem2.png" width="45%"></p>
+<section id="pracrical" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="pracrical"><span class="header-section-number">5.2</span> Pracrical</h2>
+<p>In the practical part, our data is from New Delhi, the capital of India. The follows are the primitive landform.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-3.png" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
 </div>
-<p>The hands-on practice with code provided a practical understanding of these remote sensing techniques, with a focus on analyzing temperature variations over time and across different urban areas. This has been an insightful exercise in managing and interpreting complex spatial data to understand urban climates.</p>
-</section>
-<section id="further-practice-flood-detectionsar" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="further-practice-flood-detectionsar"><span class="header-section-number">8.3</span> Further Practice: Flood-Detection(SAR)</h2>
-<p>According to practical case study(<a href="https://docs.google.com/document/d/1WDxMR5UpxqiTB4GsJcdP9AB0hP-Z8oaX-O9akBg2PZ0/edit#heading=h.tyjcwt">Google Earth Engine: Analyzing Land Surface Temperature Data</a>), which focused on analyzing land surface temperature (LST) data using GEE with MODIS imagery, I’ve learned about the significance of MODIS, which provides images in 36 spectral bands and has been doing so since the year 2000. This tool is essential for understanding LST trends, which can be used for climate change studies and agricultural planning.</p>
-<p>To further study the use of GEE, I analyzed a flood detection algorithm with SAR imagry(<a href="https://github.com/Mahyarona/Flood-Detection-Algorithm-using-GEE/blob/master/README.pdf">Flood-Detection</a>).</p>
-<div style="display: flex; justify-content: space-around; align-items: center;">
-<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood1.png" width="45%"> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood2.png" width="45%"></p>
 </div>
-<p>The visuals display different areas affected by flooding and their impact on populations, with colors indicating the severity. This case study, like the LST one, demonstrates the power of GEE in analyzing environmental phenomena. It’s intriguing to see how satellite data can be used to inform on ground conditions that directly affect people’s lives. While processing and interpreting this data requires careful attention to ensure accuracy, the potential applications in disaster management and planning are profound. The histogram represents backscatter values from SAR imagery, crucial in distinguishing flooded areas.</p>
-<div style="display: flex; justify-content: space-around; align-items: center;">
-<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood3.png" width="45%"><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood4.png" width="45%"></p>
+</div>
+<p>And here is the GLCM texture measure from the same imagery – this looks to be highlighting high reflectance areas, especially the red line in the east arean.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-2.png" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Here we generate 21 pc and this is the final principal component from PCA:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk5-1.png" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
 </div>
 </section>
-<section id="reflection" class="level2" data-number="8.4">
-<h2 data-number="8.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">8.4</span> Reflection</h2>
-<p>This week, I delved into analyzing LST data and SAR imagery for flood detection. I encountered challenges in discerning accurate temperature readings amidst urban heat islands and interpreting backscatter variations in SAR data to identify flood extents. Through this process, I’ve learned the intricacies of remote sensing applications and the value of integrating different data sources for environmental monitoring. Both exercises deepen my understanding of remote sensing’s capabilities in environmental monitoring. It was enlightening to see the contrast between the thermal data provided by LST and the structural details from SAR, enhancing my understanding of how multifaceted Earth observation can be.</p>
+<section id="application" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="application"><span class="header-section-number">5.3</span> Application</h2>
+<p>Forest Cover and Deforestation Analysis</p>
+<p>One practical application of GEE is monitoring forest cover changes and detecting deforestation activities over time. By utilizing Landsat imagery available on GEE, researchers can analyze forest cover changes at global, regional, and local scales. This allows for the identification of deforestation hotspots, facilitating targeted conservation efforts.</p>
+<p>In this area, I find a report from the Conflict and Environment Observatory assesses forest loss in conflict areas using Google Earth Engine. It reviews forest change hotspots during the pandemic, combining global forest loss maps, deforestation alerts, and high-resolution imagery.</p>
+<p>Key findings indicate an increase in forest loss in 2020 across conflict regions, with factors including weak governance and possibly COVID-19 effects. The report highlights areas like Myanmar and DRC, suggesting increased deforestation rates and the urgent need for in-depth research to understand the conflict-deforestation link better. This showcases GEE’s use in monitoring deforestation trends crucial for environmental conservation and conflict analysis.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/drc.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">(Source: Shrestha S,2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>And the interface of this application is very clear and powerful.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/drc_1.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption class="figure-caption">(Source: Shrestha S,2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="reflection" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">5.4</span> Reflection</h2>
+<p>Reflecting on my experience with Google Earth Engine (GEE), I am truly impressed by its efficiency and user-friendliness. The convenience of not having to worry about setup or downloading resources has streamlined my work. However, I’ve noticed that having to run the entire script again for any change can be time-consuming and occasionally cause the system to hang. Despite this, the ability to build interfaces with JavaScript for GEE applications adds a layer of excitement to the learning process. There’s still much to learn, and I’m looking forward to diving deeper into GEE’s capabilities and discovering more of its applications in geospatial analysis. The journey ahead with GEE is indeed promising!</p>
+</section>
+<section id="reference" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="reference"><span class="header-section-number">5.5</span> Reference</h2>
+<p>Shrestha S, Shrestha UB, Bawa K. 2018. Socio-economic factors and management regimes as drivers of tree cover change in Nepal. PeerJ 6:e4855 https://doi.org/10.7717/peerj.4855</p>
 
 
 </section>
@@ -488,13 +523,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Week_8.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week_8 Classification 2</span></span>
+      <a href="./Week_4.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week_4 Policy</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Week_6.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week_6 Classification 1</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
