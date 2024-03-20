@@ -2,7 +2,7 @@
 title: "Week_1 Introduction to Remote Sensing"
 ---
 
-## Lecture Content
+## Summary
 
 ### **Remote Sensing Definition**:
 
@@ -34,7 +34,7 @@ The interaction of electromagnetic waves with Earth's surface and atmosphere is 
 
 -   **Radiometric**: Sensor's ability to differentiate small energy differences, measured in bit depth (e.g., 8-bit, 256 values).
 
-## Practical Applications
+## Applications
 
 ### **Types of Sensors**:
 
@@ -69,3 +69,5 @@ The interaction of electromagnetic waves with Earth's surface and atmosphere is 
 ## Reflection
 
 This week, I have been exposed to a lot of basic knowledge of remote sensing, and I have gained a certain understanding of the principle and operation of remote sensing. Reflection can judge the building surface/surface height/color, an extreme application of image data, which is very interesting. In addition to the technical aspects, Rstudio's production of quarto book also has many details worth exploring. I'm having a lot of problems trying the SNAP software and the Mac doesn't work very well. I will try to fix the SNAP problem in the next week.
+
+## Reference

@@ -3,6 +3,7 @@ title: "Week_4 Policy"
 ---
 
 ## **Project Proposal - UHI problems in HONG KONG**
+
 This project aims to address the growing concern of the Urban Heat Island (UHI) effect in Hong Kong and its contribution to social inequality. By implementing sustainable urban designs and green infrastructure, our goal is to create cooler urban areas, improve air quality, and offer equitable climate resilience across all communities.
 
 ## **Company Overview**
@@ -17,15 +18,14 @@ Our team consists of highly skilled professionals with expertise in habitat rest
 
 ## Urban Heat Island(UHI)
 
-UHI is that urban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas. - 
+UHI is that urban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas. -
 
 ```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
 
 knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/uhi.jpg')
 ```
 
-Representative Concentration Pathway (RCP):
-[SOURCE:Climate change impacts and adaptation: a Canadian perspective](https://ostrnrcan-dostrncan.canada.ca/entities/publication/af4fa3fb-e57b-412b-b88f-cec65fbc52e7) 
+Representative Concentration Pathway (RCP): [SOURCE:Climate change impacts and adaptation: a Canadian perspective](https://ostrnrcan-dostrncan.canada.ca/entities/publication/af4fa3fb-e57b-412b-b88f-cec65fbc52e7)
 
 ### Current Policy: Hongkong Climate Action Blueprint 2050
 
@@ -44,12 +44,10 @@ To follow up and review the design standards related to public infrastructure an
 ::: {style="display: flex; justify-content: space-around; align-items: center;"}
 <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%201.jpg" width="29%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%202.jpg" width="30%"/> <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/Picture%203.jpg" width="29%"/>
 :::
+
 ### Project Objectives
 
-Reduce surface and atmospheric temperatures in densely populated areas.
-Enhance greenery and open spaces using vertical gardens, green roofs, and urban forests.
-Implement reflective materials in construction to reduce heat absorption.
-Increase community awareness and involvement in UHI mitigation strategies.
+Reduce surface and atmospheric temperatures in densely populated areas. Enhance greenery and open spaces using vertical gardens, green roofs, and urban forests. Implement reflective materials in construction to reduce heat absorption. Increase community awareness and involvement in UHI mitigation strategies.
 
 ### Action Map
 
@@ -79,7 +77,6 @@ These strategic measures align with contemporary urban resilience and sustainabi
 
 Then we will collect them and make one **Hazard-Vulnerability Risk** Map.
 
-
 ## Timeline
 
 ```{r echo=FALSE, out.width = "60%", fig.align='center', cache=FALSE}
@@ -87,13 +84,12 @@ Then we will collect them and make one **Hazard-Vulnerability Risk** Map.
 knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/gantt-test.jpg')
 ```
 
-
 ## **Project Management**
 
 We will employ a dedicated project manager to oversee all project activities, 2 Senior Data Analyst, 4 geographic analyst, 1 Hongkong officials and 1 environmental consultant, coordinate with subcontractors, ensure quality control, and adhere to the project schedule. We will use Gantt charts to monitor and manage project progress effectively.
 
+## Application
 
-## Further Study 
 Out of my interests, I read the essay provided by lecturer, *Economic Assessment of the Urban Heat Island Effect*, and try to figure out the issues raised by UHI.[AECON,2012](https://www.melbourne.vic.gov.au/sitecollectiondocuments/eco-assessment-of-urban-heat-island-effect.pdf)
 
 Firstly, the heat island effect has a significant impact on the urban environment, especially the increase in temperature, which not only affects the health and quality of life of urban residents, but also increases energy consumption and related economic costs. From a government perspective, taking steps to mitigate the heat island effect would not only help combat climate change, but could also lead to economic savings, such as energy savings through reduced air conditioning use and
@@ -102,10 +98,10 @@ Firstly, the heat island effect has a significant impact on the urban environmen
 
 knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/UHI-I.jpg')
 ```
+
 [AECON,2012](https://www.melbourne.vic.gov.au/sitecollectiondocuments/eco-assessment-of-urban-heat-island-effect.pdf)
 
 Through this article, we have seen more effects of heat island effect on the economy. By combining policy and economic factors, I can reflect and study heat island effect in a more comprehensive way.
-
 
 ## Reflection
 
@@ -113,3 +109,4 @@ In this week, to better understand how UHI affect cities and i want to figure ou
 
 I was pleasantly surprised to find that the government's approach to global warming from the heat island effect is a win-all strategy. It can not only improve the urban environment and improve the quality of life of residents, but also bring economic savings and benefits, especially in reducing energy consumption, improving public health and promoting green urban planning. Before I came into contact with the direction of environmental protection, I was always confused about the solution to the problem of global warming, because I felt that it was a very general plan, and the government did not know what kind of city-wide measures to improve the greenhouse effect. Therefore, after learning the term UHI, I have more ideas for policy makers and urban planners to incorporate measures to mitigate the heat island effect into urban development and climate change adaptation strategies, start from the comfort of people's lives, and work up and down to solve the greenhouse effect in a more efficient way.
 
+## Reference

@@ -2,7 +2,7 @@
 title: "Week_7 Classification 2"
 ---
 
-## NOTEBOOK
+## Summary
 
 This week we further study the remote sensing classification, including land cover classification methods, sub-pixel analysis, accuracy assessment, and cross-validation techniques.
 
@@ -58,4 +58,4 @@ Hansen, M. C., Potapov, P. V., Moore, R., Hancher, M., Turubanova, S. A., Tyukav
 
 Friedl, M. A., Sulla-Menashe, D., Tan, B., Schneider, A., Ramankutty, N., Sibley, A., & Huang, X. (2010). MODIS Collection 5 Global Land Cover: Algorithm Refinements and Characterization of New Datasets. Remote Sensing of Environment, 114(1), 168-182.
 
-Schmidt, C.; McCullum, A. (2018). *Accuracy Assessment of a Land Cover Classification*. NASA Applied Remote Sensing Training Program (ARSET). <https://appliedsciences.nasa.gov/join-mission/training/english/arset-accuracy-assessment-land-cover-classification>
+Schmidt, C.; McCullum, A. (2018).*Accuracy Assessment of a Land Cover Classification*. NASA Applied Remote Sensing Training Program (ARSET).<https://appliedsciences.nasa.gov/join-mission/training/english/arset-accuracy-assessment-land-cover-classification>

@@ -2,7 +2,7 @@
 title: "Week_6 Classification 1"
 ---
 
-## Introduction
+## Summary
 
 In this week, we delved into how classified data is utilized and the various methods for classifying remotely sensed data.
 
