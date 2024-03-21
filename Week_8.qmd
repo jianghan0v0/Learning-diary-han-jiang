@@ -58,10 +58,19 @@ The visuals display different areas affected by flooding and their impact on pop
 <img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood3.png" width="45%"/><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk9-flood4.png" width="45%"/>
 :::
 <figcaption>Source: Mahyarona, 2019</figcaption>
+In Stefan's essay, I found this image presented appears to be from a study utilizing Synthetic Aperture Radar (SAR) data for flood mapping, specifically concerning the Severn and Avon Rivers area. It showcases the use of SAR imagery in vertical transmit-vertical receive (VV) polarization for detecting and analyzing flood events.
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source:Stefan Schlaffe,2015)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week8-1.jpg')
+```
+
+The application of SAR in flood issues exemplifies how remote sensing technologies can provide critical, timely, and actionable data. The ability to monitor and rapidly assess flooding extends beyond academic research to practical implications, such as informing rescue operations, aiding in the strategic deployment of resources, and planning for long-term flood mitigation measures. This study not only contributes to the field of remote sensing but also demonstrates a concrete example of how data from space can have a significant impact on human safety and environmental management.
 
 ## Reflection
 
 This week, I delved into analyzing LST data and SAR imagery for flood detection. I encountered challenges in discerning accurate temperature readings amidst urban heat islands and interpreting backscatter variations in SAR data to identify flood extents. Through this process, I've learned the intricacies of remote sensing applications and the value of integrating different data sources for environmental monitoring. Both exercises deepen my understanding of remote sensing's capabilities in environmental monitoring. It was enlightening to see the contrast between the thermal data provided by LST and the structural details from SAR, enhancing my understanding of how multifaceted Earth observation can be.
 
 ## Reference
+Lin, & Yun, Sang-Ho & Bhardwaj, Alok & Hill,. (2019). Urban Flood Detection with Sentinel-1 Multi-Temporal Synthetic Aperture Radar (SAR) Observations in a Bayesian Framework: A Case Study for Hurricane Matthew. Remote Sensing. 11. 1778. 10.3390/rs11151778. 
 
+Stefan Schlaffer, Patrick Matgen, Markus Hollaus, Wolfgang Wagner,
+Flood detection from multi-temporal SAR data using harmonic analysis and change detection, International Journal of Applied Earth Observation and Geoinformation, https://doi.org/10.1016/j.jag.2014.12.001.

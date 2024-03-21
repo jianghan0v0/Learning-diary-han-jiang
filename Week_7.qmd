@@ -80,6 +80,7 @@ OBIA is a powerful tool that can adapt to complex environmental data, however, i
 * Secondly, combining data from different sources and resolutions, such as combining high-resolution optical images with radar data, can improve the accuracy and robustness of the analysis. It's inevitable to meet many difficulties in the application of OBIA, 
 
 And for pixel-based analysis, sub-pixel and super-pixel, it's interesting to summarize their peculiarity and application areas together. Subpixel technology is often used in scenes requiring high precision analysis, such as fine classification of remote sensing images. Superpixel technology is suitable for applications where analysis can be performed efficiently on a larger scale, such as object recognition or scene understanding. These all deserve to further study.
+
 ## Reference
 Jati Pratomo, Monika Kuffer, Divyani Kohli & Javier Martinez (2018) Application of the trajectory error matrix for assessing the temporal transferability of OBIA for slum detection, European Journal of Remote Sensing, 51:1, 838-849, DOI: 10.1080/22797254.2018.1496798
 

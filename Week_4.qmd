@@ -47,7 +47,7 @@ To follow up and review the design standards related to public infrastructure an
 
 ### Project Objectives
 
-Reduce surface and atmospheric temperatures in densely populated areas. Enhance greenery and open spaces using vertical gardens, green roofs, and urban forests. Implement reflective materials in construction to reduce heat absorption. Increase community awareness and involvement in UHI mitigation strategies.
+Reduce surface and atmospheric temperatures in densely populated areas. Enhance greenery and open spaces using vertical gardens, green roofs, and urban forests. Implement reflective materials in construction to reduce heat absorption. Increase community awareness and involvement in UHI mitigation strategies.[(Siu, L. W., & Hart, M. A. (2013))](https://www.proquest.com/docview/1322482439?pq-origsite=wos&accountid=14511&sourcetype=Scholarly%20Journals)
 
 ### Action Map
 
@@ -94,7 +94,7 @@ Out of my interests, I read the essay provided by lecturer, *Economic Assessment
 
 Firstly, the heat island effect has a significant impact on the urban environment, especially the increase in temperature, which not only affects the health and quality of life of urban residents, but also increases energy consumption and related economic costs. From a government perspective, taking steps to mitigate the heat island effect would not only help combat climate change, but could also lead to economic savings, such as energy savings through reduced air conditioning use and
 
-```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
+```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE, fig.cap="(AECON,2012)"}
 
 knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/UHI-I.jpg')
 ```
@@ -103,6 +103,14 @@ knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang
 
 Through this article, we have seen more effects of heat island effect on the economy. By combining policy and economic factors, I can reflect and study heat island effect in a more comprehensive way.
 
+In Siu's essay, I found this table that summarize data for a study on urban heat islands in Hong Kong, comparing three different locations: the Hong Kong Observatory, Tsak Yue Wu, and Ta Kwu Ling. Each location has a local climate zone designation, descriptions of local and site features, satellite images representing the area, fish-eye photos indicating the extent of the sky unobstructed by buildings or vegetation, and a numerical Sky View Factor (SVF) that quantifies this obstruction.
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source:Siu, L. W.2013)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week4-1.png')
+```
+
+In the context of a case study on Hong Kong's urban heat island issue, this data would be applied to understand how varying degrees of urbanization and land use influence local climate conditions. The SVF values, in particular, could be crucial in assessing the potential for heat retention in urban areas versus dispersion in more open, rural areas. This is important because areas with lower SVF values tend to trap more heat, contributing to the urban heat island effect. This comparative analysis among different urban and rural stations could provide valuable insights into strategies for mitigating heat through urban planning and the integration of green spaces.
+
 ## Reflection
 
 In this week, to better understand how UHI affect cities and i want to figure out how to deal with that, so here I list several ways toitigate the urban heat island effects.
@@ -110,3 +118,4 @@ In this week, to better understand how UHI affect cities and i want to figure ou
 I was pleasantly surprised to find that the government's approach to global warming from the heat island effect is a win-all strategy. It can not only improve the urban environment and improve the quality of life of residents, but also bring economic savings and benefits, especially in reducing energy consumption, improving public health and promoting green urban planning. Before I came into contact with the direction of environmental protection, I was always confused about the solution to the problem of global warming, because I felt that it was a very general plan, and the government did not know what kind of city-wide measures to improve the greenhouse effect. Therefore, after learning the term UHI, I have more ideas for policy makers and urban planners to incorporate measures to mitigate the heat island effect into urban development and climate change adaptation strategies, start from the comfort of people's lives, and work up and down to solve the greenhouse effect in a more efficient way.
 
 ## Reference
+Siu, L. W., & Hart, M. A. (2013). Quantifying urban heat island intensity in hong kong SAR, china. Environmental Monitoring and Assessment, 185(5), 4383-98. doi:https://doi.org/10.1007/s10661-012-2876-6

@@ -1,6 +1,6 @@
 # Introduction {.unnumbered}
 
--   ![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/profile.jpg)
+![](https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/profile.jpg)
 
 Hello! I'm HAN JIANG. I'm currently pursuing my graduate studies at the Centre for Advanced Spatial Analysis (CASA) at UCL, marking my first foray into postgraduate education. My journey at UCL has been enriching, having completed courses in the Foundations of Spatial Data Science, Geographic Information Systems, Urban Systems Theory, Science, and Quantitative Methods. I'm currently delving into Remote Sensing, Agent-Based Modeling (ABM), Data Science, and Building Spatial Applications with Big Data, which are broadening my perspective and skill set in the spatial sciences.
 
