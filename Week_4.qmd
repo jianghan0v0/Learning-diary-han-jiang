@@ -105,8 +105,8 @@ Through this article, we have seen more effects of heat island effect on the eco
 
 In Siu's essay, I found this table that summarize data for a study on urban heat islands in Hong Kong, comparing three different locations: the Hong Kong Observatory, Tsak Yue Wu, and Ta Kwu Ling. Each location has a local climate zone designation, descriptions of local and site features, satellite images representing the area, fish-eye photos indicating the extent of the sky unobstructed by buildings or vegetation, and a numerical Sky View Factor (SVF) that quantifies this obstruction.
 
-```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source:Siu, L. W.2013)"}
-    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week4-1.png')
+```{r echo=FALSE, out.width = "120%", fig.align='center', cache=FALSE, fig.cap="(Source:Siu, L. W.2013)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk4-1.png')
 ```
 
 In the context of a case study on Hong Kong's urban heat island issue, this data would be applied to understand how varying degrees of urbanization and land use influence local climate conditions. The SVF values, in particular, could be crucial in assessing the potential for heat retention in urban areas versus dispersion in more open, rural areas. This is important because areas with lower SVF values tend to trap more heat, contributing to the urban heat island effect. This comparative analysis among different urban and rural stations could provide valuable insights into strategies for mitigating heat through urban planning and the integration of green spaces.
