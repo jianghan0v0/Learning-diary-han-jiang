@@ -17,17 +17,14 @@ This week we further study the remote sensing classification, including land cov
 
 Accuracy assessment is crucial for evaluating the performance of land cover classification models. It involves comparing the classification output against a reference dataset (ground truth) to compute various accuracy metrics:
 
--   Producer's Accuracy (Recall): Indicates how well the classification matches the reference data from the perspective of the data producer.
-
--   User's Accuracy (Precision): Reflects the reliability of the classification from the user's point of view, showing how often the classified land cover type matches the reference data.
-
--   Overall Accuracy: The fraction of correctly classified pixels across all land cover types.
-
--   Kappa Coefficient: Measures agreement between the classification and the reference data, accounting for chance agreement.
+* Producer's Accuracy (Recall): Indicates how well the classification matches the reference data from the perspective of the data producer.
+* User's Accuracy (Precision): Reflects the reliability of the classification from the user's point of view, showing how often the classified land cover type matches the reference data.
+* Overall Accuracy: The fraction of correctly classified pixels across all land cover types.
+* Kappa Coefficient: Measures agreement between the classification and the reference data, accounting for chance agreement.
 
 ### Cross-validation 
 
--   Cross-validation is a robust method for assessing the generalizability of a classification model by partitioning the data into complementary subsets, training the model on one subset, and validating it on the other. **Spatial cross-validation** addresses the spatial autocorrelation between training and test sets by ensuring that spatially close observations are included in the same fold. This method is particularly relevant for geographic data, where spatial autocorrelation can artificially inflate model performance metrics.
+Cross-validation is a robust method for assessing the generalizability of a classification model by partitioning the data into complementary subsets, training the model on one subset, and validating it on the other. **Spatial cross-validation** addresses the spatial autocorrelation between training and test sets by ensuring that spatially close observations are included in the same fold. This method is particularly relevant for geographic data, where spatial autocorrelation can artificially inflate model performance metrics.
 
 This week emphasizes the importance of considering spatial autocorrelation in model training and validation. Spatially close data points are likely to have similar values, which can influence the model's accuracy assessment if not properly addressed through techniques like spatial cross-validation.
 
@@ -35,15 +32,15 @@ This week emphasizes the importance of considering spatial autocorrelation in mo
 ### OBIA
 Here I read an essay introduce the application of the trajectory error matrix for assessing the temporal transferability of OBIA for slum detection.
 Considering the dynamic nature of urban development and the complexity of defining and identifying slum areas, the paper team chose to apply OBIA to test the slums in different time frames. In three months, the government completed the construction of a road for river inspection.
-```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE, fig.cap="(Source: Jati.P, 2018)"}
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="(Source: Jati.P, 2018)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-5.jpg')
 ```
-```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE, fig.cap="(Source: Jati.P, 2018)"}
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="(Source: Jati.P, 2018)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-4.jpg')
 ```
 
 Notably, this essay make TEM as a tool for assessing the temporal transferability of OBIA, which is innovative and insightful!
-```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE, fig.cap="(Source: Jati.P, 2018)"}
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="(Source: Jati.P, 2018)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-7.jpg')
 ```
 However, the study also reveals that achieving high levels of accuracy and transferability requires careful consideration of local conditions, comprehensive reference data, and potentially, the integration of additional data sources or analytical layers to enhance OBIA's sensitivity to nuanced urban changes. All in all, these essay is a nice caase study for me to understand how OBIA is applied in a project. [(OBIA)](https://doi.org/10.1080/22797254.2018.1496798)
@@ -55,7 +52,7 @@ During background reseach, I found super-sub-pixel and i'm really interested in 
 Weida Yin and Jian Yang[(2016)](https://www.tandfonline.com/doi/figure/10.1080/01431161.2017.1354266?scroll=top&needAccess=true) explores the comparative effectiveness of sub-pixel and super-pixel strategies in mapping urban greenspaces using high-resolution satellite imagery. 
 
 For this figure, we can see from upper to lower the pictures represent multispectral imagery, sub-pixel result, super-pixel result. We can see that in the second row, the sub-pixel detects a mix of different features in one pixel and tries to quantify their respective proportions. The third line, as a superpixel result, shows that the image is split into larger blocks where the pixels within these blocks are similar in some properties and can therefore be processed as a whole.
-```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE, fig.cap="(Source: Weida.Y, 2016)"}
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="(Source: Weida.Y, 2016)"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-8.jpg')
 ```
 

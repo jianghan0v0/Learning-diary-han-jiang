@@ -265,13 +265,37 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="3.3.2" class="anchored" data-anchor-id="texture-analysis"><span class="header-section-number">3.3.2</span> Texture-Analysis</h3>
 <p><strong>Definition and Importance</strong></p>
 <ul>
-<li><p>Texture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.</p></li>
-<li><p>It is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.</p></li>
+<li>Texture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.<a href="https://www.semanticscholar.org/paper/Texture-Analysis-of-Remote-Sensing-Imagery-with-and-Li-Rich/63d450b3c99aa6a9fa2a580bd86b78ce76195c32">(Li,2015)</a> As figure shows, here is the texture patterns identified by the optimized k-means clustering.</li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week3-1.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source:Jiang Li,2015)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li>It is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.</li>
 </ul>
 <p><strong>Techniques and Measures</strong></p>
 <ul>
-<li><p><strong>Gray-Level Co-occurrence Matrix (GLCM)</strong>: A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.</p></li>
-<li><p><strong>Fourier Transform</strong>: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.</p></li>
+<li><strong>Gray-Level Co-occurrence Matrix (GLCM)</strong>: A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.</li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week3-2.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">(Source:Huang X,2014)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li><strong>Fourier Transform</strong>: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.</li>
 </ul>
 <p><strong>Conclusion</strong></p>
 <ul>
@@ -289,6 +313,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="reference" class="level2" data-number="3.5">
 <h2 data-number="3.5" class="anchored" data-anchor-id="reference"><span class="header-section-number">3.5</span> Reference</h2>
+<p>Huang, X.; Liu, X.; Zhang, L. A Multichannel Gray Level Co-Occurrence Matrix for Multi/Hyperspectral Image Texture Representation. Remote Sens. 2014, 6, 8424-8445. https://doi.org/10.3390/rs6098424</p>
+<p>Li, J., Rich, W.B., &amp; Buhl-Brown, D.D. (2015). Texture Analysis of Remote Sensing Imagery with Clustering and Bayesian Inference. International Journal of Image, Graphics and Signal Processing, 7, 1.</p>
 
 
 </section>

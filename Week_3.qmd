@@ -56,14 +56,20 @@ Week 3 focuses on the critical aspects of remote sensing data, including correct
 
 **Definition and Importance**
 
--   Texture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.
+-   Texture analysis in remote sensing refers to the process of quantifying surface variations and patterns within an image, enhancing the understanding and interpretation of spatial distributions and relationships of pixels.[(Li,2015)](https://www.semanticscholar.org/paper/Texture-Analysis-of-Remote-Sensing-Imagery-with-and-Li-Rich/63d450b3c99aa6a9fa2a580bd86b78ce76195c32)
+As figure shows, here is the texture patterns identified by the optimized k-means clustering.
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source:Jiang Li,2015)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week3-1.png')
+```
 
 -   It is crucial for distinguishing features based on surface characteristics, beyond spectral signatures, enabling more accurate land cover classification, urban planning, and environmental monitoring.
 
 **Techniques and Measures**
 
 -   **Gray-Level Co-occurrence Matrix (GLCM)**: A statistical method that analyzes the frequency of pixel pairs at specific spatial relationships, offering insights into texture by calculating metrics like contrast, homogeneity, entropy, and correlation.
-
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source:Huang X,2014)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week3-2.png')
+```
 -   **Fourier Transform**: Analyzes the frequency components of an image to identify repetitive patterns, useful for identifying and classifying textural features in the landscape.
 
 **Conclusion**
@@ -79,3 +85,6 @@ This lecture provides a comprehensive overview of the techniques and challenges 
 This week's delve into the intricate world of remote sensing corrections, particularly geometric correction, has bolstered my comprehension of the significance of precision in spatial analysis. The meticulous task of identifying Ground Control Points and minimizing the RMSE to align distorted images to a geospatial reference resonates deeply with my penchant for detail and accuracy. It's a reminder of the delicate balance between the abstract concepts taught in academia and their concrete applications in real-world scenarios. Jensen's texts offer not only a theoretical framework but also practical solutions that bridge this gap, making the leap from understanding to application less daunting and more attainable. My future endeavors in this field will undoubtedly be influenced by the rich insights gained from this week's focus, urging me to delve further into geometric corrections to elevate the reliability and utility of spatial data analysis.
 
 ## Reference
+Huang, X.; Liu, X.; Zhang, L. A Multichannel Gray Level Co-Occurrence Matrix for Multi/Hyperspectral Image Texture Representation. Remote Sens. 2014, 6, 8424-8445. https://doi.org/10.3390/rs6098424
+
+Li, J., Rich, W.B., & Buhl-Brown, D.D. (2015). Texture Analysis of Remote Sensing Imagery with Clustering and Bayesian Inference. International Journal of Image, Graphics and Signal Processing, 7, 1.

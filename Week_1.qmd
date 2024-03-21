@@ -14,7 +14,7 @@ Here is a video that introduce Remote Sensing.
 
 ### **Data Interaction and Scattering**:
 
-Interaction with Earth's surface and atmospheric scattering (Rayleigh, Mie, Non-selective) affects the data.
+Interaction with Earth's surface and atmospheric scattering [(Rayleigh, Mie, Non-selective)](https://www.researchgate.net/publication/268804484_Free_Space_Optical_Communications_-_Theory_and_Practices) affects the data.
 
 The interaction of electromagnetic waves with Earth's surface and atmosphere is fundamental to many processes, including climate regulation, weather patterns, and the global energy balance. Here are how EM waves interact with Specific Atmospheric Components:
 
@@ -40,11 +40,18 @@ The interaction of electromagnetic waves with Earth's surface and atmosphere is 
 
 **Passive sensors** detect reflected energy from the sun, while **active sensors** emit electromagnetic waves and wait for the reflection.
 
-```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE}
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: NASA(.gov))"}
     knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1-scan.jpg')
 ```
 
-### **Introduction to Tools**:
+### **Remote Sensing Tools**:
+In my studies of the electromagnetic spectrum(as follows figure), I've learned about the expansive range of wavelengths or frequencies used in remote sensing applications. It's fascinating how scientists utilize different parts of this spectrum to gather a diverse array of data, from visible light photographs to thermal images. For instance, photographs from the visible spectrum are commonly used in pavement analysis, something I've seen quite often in remote sensing projects. Meanwhile, I've noted that the infrared region is invaluable for detecting temperature variations, allowing for the identification of pavement defects and cracks.
+
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: NASA)"}
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week1-2.jpg')
+```
+I've also learned that the effectiveness of remote sensing is significantly influenced by the spatial, temporal, and spectral resolutions of the data, which, in turn, are determined by the type of sensors and platforms used. Each sensor, mounted on various platforms, collects electromagnetic radiation either emitted or reflected from the target object or area. This knowledge has greatly expanded my understanding of how remote sensing can be applied in practical, real-world scenarios.
+
 
 **1. Loading Landsat and Sentinel Data**
 
@@ -64,10 +71,19 @@ The interaction of electromagnetic waves with Earth's surface and atmosphere is 
 
 -   **Plotting spectral signatures** involves graphically representing these spectral characteristics, typically showing wavelength (or bands) against reflectance values. This helps in understanding the spectral behavior of different materials, which is vital for applications like material classification, vegetation health analysis, etc.
 
--   **Applications of Remote Sensing**: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis.
+-   **Applications of Remote Sensing**: Covers urban/green space coverage, pollution studies, illegal logging, forest fires, temperature studies, flooding, disaster response, and building footprints analysis.[(David B,1997)](https://doi.org/10.1117/12.266751)
 
 ## Reflection
 
 This week, I have been exposed to a lot of basic knowledge of remote sensing, and I have gained a certain understanding of the principle and operation of remote sensing. Reflection can judge the building surface/surface height/color, an extreme application of image data, which is very interesting. In addition to the technical aspects, Rstudio's production of quarto book also has many details worth exploring. I'm having a lot of problems trying the SNAP software and the Mac doesn't work very well. I will try to fix the SNAP problem in the next week.
 
 ## Reference
+Alkholidi, Abdulsalam(2014). Free Space Optical Communications.Theory and Practices,159,978-953-51-1732-2. DOI: 10.5772/58884
+
+Hansen, M. C., Potapov, P. V., Moore, R., Hancher, M., Turubanova, S. A., Tyukavina, A., Thau, D., Stehman, S. V., Goetz, S. J., Loveland, T. R., Kommareddy, A., Egorov, A., Chini, L., Justice, C. O., & Townshend, J. R. G. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science, 342(6160), 850-853.
+
+David B. Law, Edward M. Carapezza, Christina J. Csanadi, Gerald D. Edwards, Todd M. Hintz, and Ronald M. Tong "Multispectral signature analysis measurements of selected sniper rifles and small arms", Proc. SPIE 2938, Command, Control, Communications, and Intelligence Systems for Law Enforcement, (18 February 1997); https://doi.org/10.1117/12.266751
+
+Friedl, M. A., Sulla-Menashe, D., Tan, B., Schneider, A., Ramankutty, N., Sibley, A., & Huang, X. (2010). MODIS Collection 5 Global Land Cover: Algorithm Refinements and Characterization of New Datasets. Remote Sensing of Environment, 114(1), 168-182.
+
+Schnebele, E., Tanyu, B.F., Cervone, G. et al. Review of remote sensing methodologies for pavement management and assessment. Eur. Transp. Res. Rev. 7, 7 (2015). https://doi.org/10.1007/s12544-015-0156-6
