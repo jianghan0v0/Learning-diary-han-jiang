@@ -179,9 +179,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">7.2</span> Application</a>
   <ul class="collapse">
   <li><a href="#obia" id="toc-obia" class="nav-link" data-scroll-target="#obia"><span class="header-section-number">7.2.1</span> OBIA</a></li>
+  <li><a href="#sub-pixel-vs.-super-pixel-based" id="toc-sub-pixel-vs.-super-pixel-based" class="nav-link" data-scroll-target="#sub-pixel-vs.-super-pixel-based"><span class="header-section-number">7.2.2</span> Sub-Pixel vs.&nbsp;Super-pixel-based</a></li>
   </ul></li>
   <li><a href="#further-study-segmentation" id="toc-further-study-segmentation" class="nav-link" data-scroll-target="#further-study-segmentation"><span class="header-section-number">7.3</span> Further study-Segmentation</a></li>
-  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">7.4</span> Reference</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">7.4</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -231,17 +232,64 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Cross-validation is a robust method for assessing the generalizability of a classification model by partitioning the data into complementary subsets, training the model on one subset, and validating it on the other. <strong>Spatial cross-validation</strong> addresses the spatial autocorrelation between training and test sets by ensuring that spatially close observations are included in the same fold. This method is particularly relevant for geographic data, where spatial autocorrelation can artificially inflate model performance metrics.</li>
 </ul>
-<p>This week emphasizes the importance of considering spatial autocorrelation in model training and validation. Spatially close data points are likely to have similar values, which can influence the model’s accuracy assessment if not properly addressed through techniques like spatial cross-validation​​.</p>
+<p>This week emphasizes the importance of considering spatial autocorrelation in model training and validation. Spatially close data points are likely to have similar values, which can influence the model’s accuracy assessment if not properly addressed through techniques like spatial cross-validation.</p>
 </section>
 </section>
 <section id="application" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="application"><span class="header-section-number">7.2</span> Application</h2>
 <section id="obia" class="level3" data-number="7.2.1">
 <h3 data-number="7.2.1" class="anchored" data-anchor-id="obia"><span class="header-section-number">7.2.1</span> OBIA</h3>
-<ol type="1">
-<li><h3 id="pixel-based-analysis" data-number="7.2.2" class="anchored"><span class="header-section-number">7.2.2</span> Pixel-Based Analysis</h3></li>
-</ol>
-<p><a href="https://appliedsciences.nasa.gov/sites/default/files/s2-final.pdf">Schmidt, C.; McCullum, A. (2018).</a></p>
+<p>Here I read an essay introduce the application of the trajectory error matrix for assessing the temporal transferability of OBIA for slum detection. Considering the dynamic nature of urban development and the complexity of defining and identifying slum areas, the paper team chose to apply OBIA to test the slums in different time frames. In three months, the government completed the construction of a road for river inspection.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-5.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption class="figure-caption">(Source: Jati.P, 2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-4.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption class="figure-caption">(Source: Jati.P, 2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Notably, this essay make TEM as a tool for assessing the temporal transferability of OBIA, which is innovative and insightful!</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-7.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption class="figure-caption">(Source: Jati.P, 2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>However, the study also reveals that achieving high levels of accuracy and transferability requires careful consideration of local conditions, comprehensive reference data, and potentially, the integration of additional data sources or analytical layers to enhance OBIA’s sensitivity to nuanced urban changes. All in all, these essay is a nice caase study for me to understand how OBIA is applied in a project. <a href="https://doi.org/10.1080/22797254.2018.1496798">(OBIA)</a></p>
+</section>
+<section id="sub-pixel-vs.-super-pixel-based" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="sub-pixel-vs.-super-pixel-based"><span class="header-section-number">7.2.2</span> Sub-Pixel vs.&nbsp;Super-pixel-based</h3>
+<p>During background reseach, I found super-sub-pixel and i’m really interested in these two’s differences. So i read the essay that using the Gaofen-2 high spatial resolution imagery to compare sub-pixel and super-pixel strategies for mapping urban and rural greenspaces.</p>
+<p>Weida Yin and Jian Yang<a href="https://www.tandfonline.com/doi/figure/10.1080/01431161.2017.1354266?scroll=top&amp;needAccess=true">(2016)</a> explores the comparative effectiveness of sub-pixel and super-pixel strategies in mapping urban greenspaces using high-resolution satellite imagery.</p>
+<p>For this figure, we can see from upper to lower the pictures represent multispectral imagery, sub-pixel result, super-pixel result. We can see that in the second row, the sub-pixel detects a mix of different features in one pixel and tries to quantify their respective proportions. The third line, as a superpixel result, shows that the image is split into larger blocks where the pixels within these blocks are similar in some properties and can therefore be processed as a whole.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk7-8.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption class="figure-caption">(Source: Weida.Y, 2016)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>From this study, we can summarize their differences. First, in terms of resolution and detail, subpixel analysis can provide details beyond traditional pixel grids, while superpixels focus more on the similarity between pixels and the integrity of the region. Second, in terms of application purpose, subpixel method is more suitable for accurate detection and measurement, such as edge detection or fine feature classification. Superpixels are suitable for image segmentation and structured representation, which helps to improve the efficiency of subsequent analysis.</p>
+<p><a href="https://www.tandfonline.com/doi/epdf/10.1080/19479832.2015.1055834?needAccess=true">Fakhereh.A, 2015</a> <a href="https://www.tandfonline.com/doi/full/10.1080/01431161.2017.1354266">Weida.Y, 2017</a></p>
 </section>
 </section>
 <section id="further-study-segmentation" class="level2" data-number="7.3">
@@ -251,13 +299,16 @@ ul.task-list li input[type="checkbox"] {
 <p>SLIC was the first superpixel segmentation algorithm I came across. It clusters pixels by performing local K-means optimization within a five-dimensional space (color and spatial coordinates). The charm of SLIC is that it is simple and efficient, requiring only two input parameters: the number of superpixels required and the compactness factor that controls the compactness of the superpixels. However, the difficulty of learning SLIC lies in understanding its iterative process and how to select the appropriate parameters to achieve the best segmentation effect. In addition, SLIC requires multiple iterations to converge during processing, which means that time efficiency can be a challenge when working with very large image sets.</p>
 <p>However, SNIC offers a faster and less memory-intensive segmentation method than SLIC. By updating the center of mass directly in a single iteration and explicitly enforcing connectivity from the start, SNIC effectively addresses some of the limitations that exist with SLIC. I think the main difficulty in learning SNIC is to understand how it uses the priority queue to select the next pixel to be added to the cluster, and the process of updating the center of mass online.</p>
 </section>
-<section id="reference" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="reference"><span class="header-section-number">7.4</span> Reference</h2>
+<section id="reflection" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.4</span> Reflection</h2>
+<p>OBIA is a powerful tool that can adapt to complex environmental data, however, it relies heavily on the high accuracy of remote sensing data, which makes it very sensitive to accuracy, which is actually a disadvantage for practical project operations. So, what can be done to make up for this disadvantage? I made the following summary: * First method I recommand is machine deep learning, use advanced machine learning and deep learning algorithms can extract useful information from lower resolution data, improving the accuracy of classification and recognition. * Secondly, combining data from different sources and resolutions, such as combining high-resolution optical images with radar data, can improve the accuracy and robustness of the analysis. It’s inevitable to meet many difficulties in the application of OBIA,</p>
+<p>And for pixel-based analysis, sub-pixel and super-pixel, it’s interesting to summarize their peculiarity and application areas together. Subpixel technology is often used in scenes requiring high precision analysis, such as fine classification of remote sensing images. Superpixel technology is suitable for applications where analysis can be performed efficiently on a larger scale, such as object recognition or scene understanding. These all deserve to further study. ## Reference Jati Pratomo, Monika Kuffer, Divyani Kohli &amp; Javier Martinez (2018) Application of the trajectory error matrix for assessing the temporal transferability of OBIA for slum detection, European Journal of Remote Sensing, 51:1, 838-849, DOI: 10.1080/22797254.2018.1496798</p>
 <p>Duro, D. C., Franklin, S. E., &amp; Dubé, M. G. (2012). Multi-scale Object-Based Image Analysis and Feature Selection of Multi-sensor Earth Observation Imagery Using Random Forests. International Journal of Remote Sensing, 33(14), 4502-4526.</p>
 <p>Wang, F., Wang, M., &amp; Liu, Z. (2015). Wetland Change Detection Using Object-Based Image Analysis and Open-Source Remote Sensing Data in the Niger Delta, Nigeria. Wetlands, 35(1), 11-23.</p>
 <p>Hansen, M. C., Potapov, P. V., Moore, R., Hancher, M., Turubanova, S. A., Tyukavina, A., Thau, D., Stehman, S. V., Goetz, S. J., Loveland, T. R., Kommareddy, A., Egorov, A., Chini, L., Justice, C. O., &amp; Townshend, J. R. G. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science, 342(6160), 850-853.</p>
 <p>Friedl, M. A., Sulla-Menashe, D., Tan, B., Schneider, A., Ramankutty, N., Sibley, A., &amp; Huang, X. (2010). MODIS Collection 5 Global Land Cover: Algorithm Refinements and Characterization of New Datasets. Remote Sensing of Environment, 114(1), 168-182.</p>
-<p>Schmidt, C.; McCullum, A. (2018).<em>Accuracy Assessment of a Land Cover Classification</em>. NASA Applied Remote Sensing Training Program (ARSET).<a href="https://appliedsciences.nasa.gov/join-mission/training/english/arset-accuracy-assessment-land-cover-classification" class="uri">https://appliedsciences.nasa.gov/join-mission/training/english/arset-accuracy-assessment-land-cover-classification</a></p>
+<p>Weida Yin &amp; Jian Yang (2017) Sub-pixel vs.&nbsp;super-pixel-based greenspace mapping along the urban–rural gradient using high spatial resolution Gaofen-2 satellite imagery: a case study of Haidian District, Beijing, China, International Journal of Remote Sensing, 38:22, 6386-6406, DOI: 10.1080/01431161.2017.1354266</p>
+<p>S Gokool, Es Riddell, C Jarmain, Kt Chetty, G Feig &amp; H Thenga. (2020) Evaluating the accuracy of satellite-derived evapotranspiration estimates acquired during conditions of water stress. International Journal of Remote Sensing 41:2, pages 704-724.</p>
 
 
 </section>
