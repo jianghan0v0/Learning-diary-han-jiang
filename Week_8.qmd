@@ -59,8 +59,9 @@ The visuals display different areas affected by flooding and their impact on pop
 :::
 <figcaption>Source: Mahyarona, 2019</figcaption>
 In Stefan's essay, I found this image presented appears to be from a study utilizing Synthetic Aperture Radar (SAR) data for flood mapping, specifically concerning the Severn and Avon Rivers area. It showcases the use of SAR imagery in vertical transmit-vertical receive (VV) polarization for detecting and analyzing flood events.
+
 ```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source:Stefan Schlaffe,2015)"}
-    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/week8-1.jpg')
+    knitr::include_graphics('https://github.com/jianghan0v0/Learning-diary-han-jiang/raw/main/images/wk8-1.jpg')
 ```
 
 The application of SAR in flood issues exemplifies how remote sensing technologies can provide critical, timely, and actionable data. The ability to monitor and rapidly assess flooding extends beyond academic research to practical implications, such as informing rescue operations, aiding in the strategic deployment of resources, and planning for long-term flood mitigation measures. This study not only contributes to the field of remote sensing but also demonstrates a concrete example of how data from space can have a significant impact on human safety and environmental management.
