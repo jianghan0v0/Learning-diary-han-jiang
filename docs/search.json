@@ -572,5 +572,12 @@
     "title": "4  Week_4 Policy",
     "section": "4.8 Reference",
     "text": "4.8 Reference"
+  },
+  {
+    "objectID": "Week_5.html#summary",
+    "href": "Week_5.html#summary",
+    "title": "5  Week_5 Introduction to GEE",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary\nThis week we begin to learn Google Earth Engine (GEE), a cutting-edge cloud-based platform for planetary-scale environmental data analysis. Comparing to SNAP and QGIS, GEE is really efficieny and helpful cause it doesn’t need download and process images, which is really annoying. ### Introduction Google Earth Engine (GEE) is a cutting-edge cloud-based platform for planetary-scale environmental data analysis. By offering an extensive archive of satellite imagery and geospatial datasets, coupled with powerful computing resources, GEE enables scientists, researchers, and developers to conduct analyses at unprecedented scales.\nGEE Guidance\n\n\n5.1.1 PCA\nPCA is a statistical method used to reduce the dimensionality of the data while retaining the most variability.\n\nPCA in GEE: PCA is usually performed in GEE to reduce the dimensionality of remote sensing data and to highlight key information about land cover, change detection, or other environmental features.\nPCA in R: Compared with GEE, the data processing capability of R is limited by local computing resources. While R can handle big data, dealing with particularly large data sets may require optimizing code or using specific packages such as bigmemory or ff to manage memory usage.\n\nAlthough PCA in GEE and R are used for data reduction and feature extraction, GEE is more suitable for processing large-scale remote sensing image data and geospatial analysis, while R provides more flexible data processing and statistical analysis tools, which are suitable for various types of data."
   }
 ]
